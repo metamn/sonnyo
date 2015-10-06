@@ -1,0 +1,7 @@
+@mixin header--menu-off {
+  @include portrait {
+    .menu {
+      display: none;
+    }
+  }
+}

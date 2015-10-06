@@ -1,0 +1,30 @@
+// Header
+//
+// A simple header with a logo and menu.
+// The menu is responsive displaying a trigger&mdash;`hamburger-menu`&mdash;on small screens.
+// If you want to make the header fixed the mixin should be included before any flexbox declaration
+//
+// Styleguide header
+@mixin header {
+  //@include header--fixed;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    @include logo;
+  }
+
+  .hamburger-menu {
+    @include hamburger-menu($text: on);
+  }
+
+  .menu {
+    @include menu;
+  }
+
+  @include header--menu-off;
+  @include header--menu-on;
+}

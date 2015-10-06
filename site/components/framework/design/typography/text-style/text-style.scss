@@ -1,0 +1,128 @@
+
+
+// Text style
+//
+// Typographic settings for different text types.
+// Each text type has set a `font`, a `scale`, a `color` and parameters like letter-spacing, max-width or else.
+// Everything text uses this `text-style` mixin. We don't set `color` or `font` directly for a text.
+//
+// Styleguide text-style
+
+// The width of a text block
+
+$text-block-width: 25em; 
+
+
+
+// The text mixin
+@mixin text-style($variant) {
+  
+  // Default
+  // - The basic settings for a text.
+  @if ($variant == 'default') {
+    @include font(nimbus-sans-regular);
+    @include scale(default);
+    @include colors(black-on-white);
+    
+    letter-spacing: 1.1px;
+    
+    
+  }
+  
+  // Clipping
+  // - Very large text for CSS text clipping
+  @if ($variant == 'clipping') {
+    @include font(nimbus-sans-black);
+    
+    
+    
+    @include mobile {
+      @include scale(large-7);
+      
+      
+    }
+    
+    @include tablet {
+      @include scale(large-9);
+      
+      
+    }
+    
+    @include tablet-and-up {
+      @include scale(large-10);
+      
+      
+    }
+    
+    @include desktop {
+      @include scale(large-11);
+      
+      
+    }
+    
+  }
+  
+  // Body text
+  // - Settings for long text blocks.
+  @if ($variant == 'body-text') {
+    @include p;
+    
+    max-width: 25em;
+    
+    
+  }
+  
+}
+
+
+// Text style classes
+
+.text-style--default {
+  @include font(nimbus-sans-regular);
+  @include scale(default);
+  @include colors(black-on-white);
+  
+  letter-spacing: 1.1px;
+  
+  
+}
+
+.text-style--clipping {
+  @include font(nimbus-sans-black);
+  
+  
+  
+  @include mobile {
+    @include scale(large-7);
+    
+    
+  }
+  
+  @include tablet {
+    @include scale(large-9);
+    
+    
+  }
+  
+  @include tablet-and-up {
+    @include scale(large-10);
+    
+    
+  }
+  
+  @include desktop {
+    @include scale(large-11);
+    
+    
+  }
+  
+}
+
+.text-style--body-text {
+  @include p;
+  
+  max-width: 25em;
+  
+  
+}
+

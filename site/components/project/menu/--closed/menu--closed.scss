@@ -1,0 +1,5 @@
+@mixin menu--closed {
+  .menu__items {
+    display: none;
+  }
+}

@@ -1,0 +1,7 @@
+@mixin slider--landscape {
+  @include landscape {
+    &__slides {
+      @include intrinsic-ratio(16, 9, '.slide');
+    }
+  }
+}

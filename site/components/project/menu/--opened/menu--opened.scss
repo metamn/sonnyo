@@ -1,0 +1,8 @@
+@mixin menu--opened {
+  display: flex !important;
+  flex-basis: 100%;
+
+  .menu__items {
+    display: flex;
+  }
+}

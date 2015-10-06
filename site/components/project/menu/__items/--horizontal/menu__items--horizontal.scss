@@ -1,0 +1,9 @@
+@mixin menu__items--horizontal {
+  display: flex;
+
+  .menu-item {
+    + .menu-item {
+      margin-left: $lem;
+    }
+  }
+}

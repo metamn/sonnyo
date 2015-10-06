@@ -1,0 +1,15 @@
+// UL
+//
+// Unordered lists.
+// No bullets or other decorators.
+//
+// Styleguide ul
+@mixin ul {
+  list-style-type: none;
+
+  li {
+    border-bottom: 1px solid;
+    margin-bottom: $lem / 4;
+    padding-bottom: $lem / 4;
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "text_styles": [
+    {
+      "name": "Default",
+      "description": "The basic settings for a text.",
+      "based_on": "Nimbus Sans",
+      "mixins": [
+        {
+          "name": "font",
+          "value": "nimbus-sans-regular"
+        },
+        {
+          "name": "scale",
+          "value": "default"
+        },
+        {
+          "name": "colors",
+          "value": "black-on-white"
+        }
+      ],
+      "properties": [
+        {
+          "name": "letter-spacing",
+          "value": "1.1px"
+        }
+      ]
+    },
+    {
+      "name": "Clipping",
+      "description": "Very large text for CSS text clipping",
+      "based_on": "Nimbus Sans",
+      "mixins": [
+        {
+          "name": "font",
+          "value": "nimbus-sans-black"
+        }
+      ],
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "mixins": [
+            {
+              "name": "scale",
+              "value": "large-7"
+            }
+          ]
+        },
+        {
+          "breakpoint": "tablet",
+          "mixins": [
+            {
+              "name": "scale",
+              "value": "large-9"
+            }
+          ]
+        },
+        {
+          "breakpoint": "tablet-and-up",
+          "mixins": [
+            {
+              "name": "scale",
+              "value": "large-10"
+            }
+          ]
+        },
+        {
+          "breakpoint": "desktop",
+          "mixins": [
+            {
+              "name": "scale",
+              "value": "large-11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Body text",
+      "description": "Settings for long text blocks.",
+      "based_on": "Nimbus Sans",
+      "properties": [
+        {
+          "name": "max-width",
+          "value": "25em"
+        }
+      ],
+      "mixins": [
+        {
+          "name": "p"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "colors": [
+    {
+      "name": "white",
+      "value": "#fff",
+      "description": "Main color"
+    },
+    {
+      "name": "black",
+      "value": "#000",
+      "description": "Main color"
+    },
+    {
+      "name": "gray",
+      "value": "#999",
+      "description": "Secondary color"
+    },
+    {
+      "name": "lightgray",
+      "value": "#f1f1f1",
+      "description": "Secondary color"
+    }
+  ],
+  "color_pairs": [
+    {
+      "name": "black-on-white",
+      "properties": [
+        {
+          "name": "color",
+          "value": "$black"
+        },
+        {
+          "name": "background-color",
+          "value": "$white"
+        }
+      ]
+    },
+    {
+      "name": "gray-on-white",
+      "properties": [
+        {
+          "name": "color",
+          "value": "$gray"
+        },
+        {
+          "name": "background-color",
+          "value": "$white"
+        }
+      ]
+    },
+    {
+      "name": "white-on-black",
+      "properties": [
+        {
+          "name": "color",
+          "value": "$white"
+        },
+        {
+          "name": "background-color",
+          "value": "$black"
+        }
+      ]
+    },
+    {
+      "name": "gray-on-lightgray",
+      "properties": [
+        {
+          "name": "color",
+          "value": "$gray"
+        },
+        {
+          "name": "background-color",
+          "value": "$lightgray"
+        }
+      ]
+    }
+  ]
+}

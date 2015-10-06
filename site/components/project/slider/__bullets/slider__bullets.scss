@@ -1,0 +1,9 @@
+@mixin slider__bullets {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .bullet {
+    @include bullet;
+  }
+}

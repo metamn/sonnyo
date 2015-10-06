@@ -1,0 +1,328 @@
+{
+  "title": "Home",
+  "images": [
+    {
+      "title": "Logo",
+      "name": "logo"
+    }
+  ],
+  "videos": [
+    {
+      "title": "Video title",
+      "mp4": "mark_romano--nantucket_docks",
+      "params": "autoplay loop",
+      "image": {
+        "title": "Video poster title",
+        "name": "google-earth-view-6055",
+        "extension": ".jpg"
+      }
+    }
+  ],
+
+  "articles": [
+    {
+      "title": "Analysts Detail Claims That Reports on ISIS Were Distorted",
+      "excerpt": "The Pentagon’s inspector general is examining claims that senior military officers manipulated conclusions about progress against the Islamic State.",
+      "date": "2015-09-16",
+      "authors": [
+        {
+          "name": "Mark Mazetti"
+        },
+        {
+          "name": "Matt Apuzzo"
+        }
+      ],
+      "images": [
+        {
+          "title": "Image title",
+          "name": "google-earth-view-1514",
+          "extension": ".jpg",
+          "onesize": "mobile"
+        }
+      ]
+    },
+    {
+      "title": "As Shutdown Nears, Obama to Join Budget Fight",
+      "excerpt": "As Republicans threaten to block a budget deal if it includes financing for Planned Parenthood, President Obama plans to push them to scrap a tax advantage for private equity managers.",
+      "date": "2015-09-17",
+      "authors": [
+        {
+          "name": "DAVID M. HERSZENHORN"
+        },
+        {
+          "name": "JULIE HIRSCHFELD DAVIS"
+        }
+      ],
+      "images": [
+        {
+          "title": "Image title",
+          "name": "google-earth-view-2230",
+          "extension": ".jpg",
+          "onesize": "mobile"
+        }
+      ]
+    },
+    {
+      "title": "Obama Weighing Talks With Putin on Syrian Crisis",
+      "excerpt": "President Obama’s administration is debating whether the two leaders should try to work out their differences. Some fear a meeting would only play into Mr. Putin’s hands. ",
+      "date": "2015-11-17",
+      "authors": [
+        {
+          "name": "PETER BAKER"
+        },
+        {
+          "name": "ANDREW E. KRAMER"
+        }
+      ],
+      "images": [
+        {
+          "title": "Image title",
+          "name": "google-earth-view-2443",
+          "extension": ".jpg",
+          "onesize": "mobile"
+        }
+      ]
+    },
+    {
+      "title": "Closing the Back Door to Europe",
+      "excerpt": "In recent months European nations have worked to block the main route taken by migrants fleeing war and upheaval.",
+      "date": "2015-01-01",
+      "authors": [
+        {
+          "name": "SARAH ALMUKHTAR"
+        },
+        {
+          "name": "DEREK WATKINS"
+        },
+        {
+          "name": "JOSH KELLER"
+        }
+      ],
+      "images": [
+        {
+          "title": "Image title",
+          "name": "google-earth-view-6055",
+          "extension": ".jpg",
+          "onesize": "mobile"
+        }
+      ]
+    },
+    {
+      "title": "Attitudes Shift on Paid Leave: Dads Sue, Too",
+      "excerpt": "More men are filing lawsuits about taking time off work when a baby is born and facing setbacks when they return.",
+      "date": "2015-01-01",
+      "authors": [
+        {
+          "name": "NOAM SCHEIBER"
+        }
+      ],
+      "images": [
+        {
+          "title": "Image title",
+          "name": "google-earth-view-1964",
+          "extension": ".jpg",
+          "onesize": "mobile"
+        }
+      ]
+    },
+    {
+      "title": "Julianne Moore, Beauty and a Beast",
+      "excerpt": "Offscreen, she insists on normality. Onscreen, she lets the monster out.",
+      "date": "2015-06-21",
+      "authors": [
+        {
+          "name": "John Lahr"
+        }
+      ],
+      "images": [
+        {
+          "title": "Image title",
+          "name": "google-earth-view-1829",
+          "extension": ".jpg",
+          "onesize": "mobile"
+        }
+      ]
+    },
+    {
+      "title": "The March Toward Moral Clarity",
+      "excerpt": "Whether or not reform actually follows from Pope Francis’s advocacy, he is pointing to a hopeful future.",
+      "date": "2015-06-21",
+      "authors": [
+        {
+          "name": "John Cassidy"
+        }
+      ],
+      "categories": [
+        "Daily comment"
+      ],
+      "images": [
+        {
+          "title": "Image title",
+          "name": "google-earth-view-1240",
+          "extension": ".jpg",
+          "onesize": "mobile"
+        }
+      ]
+    },
+    {
+      "title": "The Imam’s Curse",
+      "excerpt": "A family accused of financing terrorists.",
+      "date": "2015-04-21",
+      "authors": [
+        {
+          "name": "Evan Osnos"
+        }
+      ],
+      "categories": [
+        "A Reporter at Large"
+      ],
+      "images": [
+        {
+          "title": "Image title",
+          "name": "download-1",
+          "extension": ".jpeg",
+          "onesize": "mobile"
+        }
+      ]
+    },
+    {
+      "title": "Five Things Jeremy Corbyn Has Right",
+      "excerpt": "Whether he can translate his radical beliefs into effective leadership is a fair question to pose.",
+      "date": "2015-02-21",
+      "authors": [
+        {
+          "name": "John Cassidy"
+        }
+      ],
+      "categories": [
+        "John Cassidy"
+      ],
+      "images": [
+        {
+          "title": "Image title",
+          "name": "download-2",
+          "extension": ".jpeg",
+          "onesize": "mobile"
+        }
+      ]
+    },
+    {
+      "title": "Bringing the Refugee Crisis Home",
+      "excerpt": "Many Berliners are part of a growing cultural movement, influenced by simple humanism and an awareness of Germany’s own past.",
+      "date": "2015-02-21",
+      "authors": [
+        {
+          "name": "Sally McGrane"
+        }
+      ],
+      "categories": [
+        "News Desk"
+      ],
+      "images": [
+        {
+          "title": "Image title",
+          "name": "download-3",
+          "extension": ".jpeg",
+          "onesize": "mobile"
+        },
+        {
+          "title": "Image title",
+          "name": "download-4",
+          "extension": ".jpeg",
+          "onesize": "mobile"
+        }
+      ]
+    }
+  ],
+  "parallax": [
+    {
+      "title": "Background layer",
+      "class": "background"
+    },
+    {
+      "title": "Foreground layer",
+      "class": "foreground"
+    }
+  ],
+  "slides": [
+    {
+      "title": "Slide 1",
+      "subtitle": "This is a subtitle for the slider #1",
+      "content": "Your content goes here ..."
+    },
+    {
+      "title": "Slide 2",
+      "subtitle": "This is a subtitle for the slider #2",
+      "content": "Your content goes here ..."
+    },
+    {
+      "title": "Slide 3",
+      "subtitle": "This is a subtitle for the slider #3",
+      "content": "Your content goes here ..."
+    }
+  ],
+  "menu": [
+    {
+      "title": "Home"
+    },
+    {
+      "title": "About"
+    },
+    {
+      "title": "Services"
+    },
+    {
+      "title": "Contact"
+    }
+  ],
+  "heroes": [
+    {
+      "title": "Hero with intrinsic ratio",
+      "subtitle": "Using two images for portrait and landscape.It takes various parts of the screen. Sometimes more than full screen, sometimes just the upper part",
+      "images": [
+        {
+          "title": "Hero",
+          "responsive": [
+            {
+              "breakpoint": "mobile",
+              "name": "placeholder-3-2"
+            },
+            {
+              "breakpoint": "tablet",
+              "name": "placeholder-3-2"
+            },
+            {
+              "breakpoint": "laptop",
+              "name": "placeholder-16-9"
+            },
+            {
+              "breakpoint": "desktop",
+              "name": "placeholder-16-9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Hero with full screen",
+      "subtitle": "Using a single image and set as background.",
+      "images": [
+        {
+          "title": "Hero for full screen",
+          "name": "retina-image-16-9",
+          "extension": ".jpg"
+        }
+      ]
+    },
+    {
+      "title": "Hero with clipping text",
+      "images": [
+        {
+          "title": "Hero with clipping text",
+          "name": "hero",
+          "extension": ".jpeg"
+        }
+      ]
+    }
+  ]
+}

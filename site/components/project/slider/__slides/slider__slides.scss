@@ -1,0 +1,10 @@
+@mixin slider__slides {
+  position: relative;
+  
+  display: flex;
+  height: 100%;
+
+  .slide {
+    @include slide;
+  }
+}

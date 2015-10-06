@@ -1,0 +1,17 @@
+@mixin hamburger-menu__icon--opened {
+  .line {
+    display: flex;
+  }
+
+  .line-1 {
+    transform: rotate(45deg);
+  }
+
+  .line-2 {
+    transform: rotate(-45deg);
+  }
+
+  .line-3 {
+    display: none;
+  }
+}
