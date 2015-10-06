@@ -7,5 +7,9 @@
 @mixin logo {
   .figure {
     @include figure($loading: false);
+
+    .img {
+      max-width: 150px;
+    }
   }
 }

@@ -1,1 +1,6 @@
-@mixin weather {}
+@mixin weather {
+  .openweather {
+    display: flex;
+    align-items: center;
+  }
+}

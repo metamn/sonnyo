@@ -2,7 +2,7 @@ var weather = function(containerID) {
   var container = document.querySelector(containerID);
   var url = container.dataset.url;
 
-  // JS JSON AJAX Call to an API endpoint
+  // JSON AJAX Call to an API endpoint
   // - http://www.w3schools.com/json/json_http.asp
   var xmlhttp = new XMLHttpRequest();
   xmlhttp.open("GET", url, true);
@@ -20,7 +20,7 @@ var weather = function(containerID) {
   function parseResult(result) {
     console.log('result:' + JSON.stringify(result));
     var celsius = container.querySelector('.openweather__celsius .value');
-    celsius.innerHTML = result.main.temp;
+    celsius.innerHTML = Math.round(result.main.temp);
 
     var icon = container.querySelector('.openweather__icon .img');
     icon.src += result.weather[0].icon + ".png";
