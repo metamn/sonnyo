@@ -2,7 +2,7 @@
 {% block content %}
 
   {% set image = images | first %}
-  {% set menu = menu %}
+  {% set weather = weather %}
   {% include '../../project/header/header.html.swig' %}
 
   {% set slides = slides %}

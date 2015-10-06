@@ -17,14 +17,7 @@
     @include logo;
   }
 
-  .hamburger-menu {
-    @include hamburger-menu($text: on);
+  .weather {
+    @include weather;
   }
-
-  .menu {
-    @include menu;
-  }
-
-  @include header--menu-off;
-  @include header--menu-on;
 }

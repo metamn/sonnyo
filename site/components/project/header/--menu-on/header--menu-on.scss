@@ -1,7 +1,0 @@
-@mixin header--menu-on {
-  @include landscape {
-    .hamburger-menu {
-      display: none;
-    }
-  }
-}
