@@ -23,7 +23,7 @@ var js = function(source, filename, dest) {
     .pipe(plumber({errorHandler: onError}))
     .pipe(concat(filename))
     .pipe(rename({ suffix: '.min' }))
-    .pipe(uglify())
+    //.pipe(uglify())
     .pipe(gulp.dest(dest));
 };
 

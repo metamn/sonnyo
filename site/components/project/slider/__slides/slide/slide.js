@@ -1,0 +1,1 @@
+imagesLoading('.slider .slide');
