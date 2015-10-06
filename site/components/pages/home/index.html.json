@@ -3,7 +3,9 @@
   "weather": {
     "api": "&APPID=9964e389ad98f64811222db158f7adb9",
     "city": "?id=673441",
-    "url": "http://api.openweathermap.org/data/2.5/weather"
+    "url": "http://api.openweathermap.org/data/2.5/weather",
+    "units": "&units=metric",
+    "icon": "http://openweathermap.org/img/w/"
   },
   "images": [
     {
