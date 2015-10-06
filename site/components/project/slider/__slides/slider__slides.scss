@@ -1,7 +1,7 @@
 @mixin slider__slides {
   position: relative;
 
-  @include intrinsic-ratio(1, 1, '.slide', '.figure');
+  @include slider__slides--landscape;
 
   .slide {
     @include slide;

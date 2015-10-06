@@ -8,8 +8,9 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 
-  height: 80vh;
+  height: 100%;
 
   &__slides {
     @include slider__slides;

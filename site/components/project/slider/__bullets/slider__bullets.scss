@@ -3,8 +3,8 @@
   justify-content: center;
   align-items: center;
 
-  position: relative;
-  top: -$lem;
+  @include colors(black-on-white);
+  padding: $lem 0;
 
   .bullet {
     @include bullet;
