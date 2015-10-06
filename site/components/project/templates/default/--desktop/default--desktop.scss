@@ -1,0 +1,5 @@
+@mixin default--desktop {
+  @include desktop {
+    @include fixed-width(80vw);
+  }
+}

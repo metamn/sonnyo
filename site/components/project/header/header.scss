@@ -6,8 +6,6 @@
 //
 // Styleguide header
 @mixin header {
-  //@include header--fixed;
-
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -20,4 +18,7 @@
   .weather {
     @include weather;
   }
+
+  @include header--portrait;
+  @include header--landscape;
 }

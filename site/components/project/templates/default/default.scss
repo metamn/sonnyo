@@ -6,6 +6,7 @@ html {
     @include typography-reset;
     @include text-style(default);
 
-    @include fixed-width(1440px);
+    @include default--landscape;
+    @include default--desktop;
   }
 }

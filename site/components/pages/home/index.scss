@@ -1,17 +1,14 @@
 html {
   &.home {
     body {
-      
+
       .header {
         @include header;
       }
 
-
       .slider {
         @include slider;
-        //display: none;
       }
-
 
     }
   }
