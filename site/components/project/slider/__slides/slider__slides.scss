@@ -1,8 +1,7 @@
 @mixin slider__slides {
   position: relative;
-  
-  display: flex;
-  height: 100%;
+
+  @include intrinsic-ratio(1, 1, '.slide', '.figure');
 
   .slide {
     @include slide;
