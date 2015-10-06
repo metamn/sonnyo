@@ -17,17 +17,62 @@
     {
       "title": "Slide 1",
       "subtitle": "This is a subtitle for the slider #1",
-      "content": "Your content goes here ..."
+      "content": "Your content goes here ...",
+      "image": {
+        "title": "By day",
+        "name": "P2",
+        "extension": ".jpg",
+        "responsive": [
+          {
+            "breakpoint": "mobile",
+            "name": "P2-portrait"
+          },
+          {
+            "breakpoint": "tablet",
+            "name": "P2-portrait"
+          }
+        ]
+      }
     },
     {
       "title": "Slide 2",
       "subtitle": "This is a subtitle for the slider #2",
-      "content": "Your content goes here ..."
+      "content": "Your content goes here ...",
+      "image": {
+        "title": "By night",
+        "name": "pano1",
+        "extension": ".jpg",
+        "responsive": [
+          {
+            "breakpoint": "mobile",
+            "name": "pano1-portrait"
+          },
+          {
+            "breakpoint": "tablet",
+            "name": "pano1-portrait"
+          }
+        ]
+      }
     },
     {
       "title": "Slide 3",
       "subtitle": "This is a subtitle for the slider #3",
-      "content": "Your content goes here ..."
+      "content": "Your content goes here ...",
+      "image": {
+        "title": "By night",
+        "name": "P1",
+        "extension": ".jpg",
+        "responsive": [
+          {
+            "breakpoint": "mobile",
+            "name": "P1-portrait"
+          },
+          {
+            "breakpoint": "tablet",
+            "name": "P1-portrait"
+          }
+        ]
+      }
     }
   ]
 }

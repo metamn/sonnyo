@@ -4,4 +4,7 @@
   <p class="slide__subtitle">{{ slide.subtitle }}</p>
 
   <p class="slide__content">{{ slide.content }}</p>
+
+  {% set image = slide.image %}
+  {% include '../../../../framework/structure/figure/figure.html.swig' %}
 </article>
