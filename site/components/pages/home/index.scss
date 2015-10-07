@@ -9,6 +9,9 @@ html {
         @include slider;
       }
 
+      .news {
+        @include news;
+      }
     }
   }
 }

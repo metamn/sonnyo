@@ -18,7 +18,6 @@ var weather = function(containerID) {
 
   // Process result
   function parseResult(result) {
-    console.log('result:' + JSON.stringify(result));
     var celsius = container.querySelector('.openweather__celsius .value');
     celsius.innerHTML = Math.round(result.main.temp);
 

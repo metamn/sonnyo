@@ -8,6 +8,6 @@
   {% set slides = slides %}
   {% include '../../project/slider/slider.html.swig' %}
 
-  <p>footer</p>
+  {% include '../../project/news/news.html.swig' %}
 
 {% endblock %}
