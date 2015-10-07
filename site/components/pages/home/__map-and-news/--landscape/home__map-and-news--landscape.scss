@@ -1,16 +1,13 @@
 @mixin home__map-and-news--landscape {
   @include landscape {
     display: flex;
-    flex-basis: 0;
 
     .news {
-      flex-grow: 1;
-      background: lightblue;
+      flex-basis: 320px;
     }
 
     .map {
       flex-grow: 2;
-      background: lightblue;
     }
   }
 }

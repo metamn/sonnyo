@@ -29,45 +29,23 @@ $text-block-width: 25em;
     
   }
   
-  // Clipping
-  // - Very large text for CSS text clipping
-  @if ($variant == 'clipping') {
-    @include font(nimbus-sans-black);
-    
-    
-    
-    @include mobile {
-      @include scale(large-7);
-      
-      
-    }
-    
-    @include tablet {
-      @include scale(large-9);
-      
-      
-    }
-    
-    @include tablet-and-up {
-      @include scale(large-10);
-      
-      
-    }
-    
-    @include desktop {
-      @include scale(large-11);
-      
-      
-    }
-    
-  }
-  
   // Body text
   // - Settings for long text blocks.
   @if ($variant == 'body-text') {
     @include p;
     
     max-width: 25em;
+    
+    
+  }
+  
+  // Title
+  // - Sextion titles
+  @if ($variant == 'title') {
+    @include font(nimbus-sans-black);
+    @include border;
+    
+    letter-spacing: 1.7px;
     
     
   }
@@ -87,41 +65,19 @@ $text-block-width: 25em;
   
 }
 
-.text-style--clipping {
-  @include font(nimbus-sans-black);
-  
-  
-  
-  @include mobile {
-    @include scale(large-7);
-    
-    
-  }
-  
-  @include tablet {
-    @include scale(large-9);
-    
-    
-  }
-  
-  @include tablet-and-up {
-    @include scale(large-10);
-    
-    
-  }
-  
-  @include desktop {
-    @include scale(large-11);
-    
-    
-  }
-  
-}
-
 .text-style--body-text {
   @include p;
   
   max-width: 25em;
+  
+  
+}
+
+.text-style--title {
+  @include font(nimbus-sans-black);
+  @include border;
+  
+  letter-spacing: 1.7px;
   
   
 }

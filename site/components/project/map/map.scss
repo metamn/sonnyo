@@ -1,5 +1,10 @@
 @mixin map {
+  &__title {
+    display: flex;
+    @include text-style(title);
+  }
+
   .figure {
-    @include figure;
+    @include figure($stretch: stretched);
   }
 }

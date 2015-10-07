@@ -1,4 +1,4 @@
-@mixin news {
+@mixin tickets {
   &__title {
     display: flex;
     @include text-style(title);

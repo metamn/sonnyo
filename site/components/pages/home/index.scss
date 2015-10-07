@@ -12,6 +12,10 @@ html {
       .home__map-and-news {
         @include home__map-and-news;
       }
+
+      .tickets {
+        @include tickets;
+      }
     }
   }
 }
