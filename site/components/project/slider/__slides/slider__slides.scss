@@ -1,7 +1,6 @@
 @mixin slider__slides {
   position: relative;
-
-  @include slider__slides--landscape;
+  height: 100%;
 
   .slide {
     @include slide;
