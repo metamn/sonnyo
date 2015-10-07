@@ -1,1 +1,5 @@
-@mixin map {}
+@mixin map {
+  .figure {
+    @include figure;
+  }
+}

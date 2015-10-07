@@ -1,0 +1,11 @@
+@mixin home__map-and-news {
+  .news {
+    @include news;
+  }
+
+  .map {
+    @include map;
+  }
+
+  @include home__map-and-news--landscape;
+}

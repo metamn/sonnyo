@@ -8,6 +8,8 @@
   {% set slides = slides %}
   {% include '../../project/slider/slider.html.swig' %}
 
-  {% include '../../project/news/news.html.swig' %}
+
+  {% set image = images[1] %}
+  {% include '__map-and-news/home__map-and-news.html.swig' %}
 
 {% endblock %}

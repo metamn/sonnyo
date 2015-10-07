@@ -9,8 +9,8 @@ html {
         @include slider;
       }
 
-      .news {
-        @include news;
+      .home__map-and-news {
+        @include home__map-and-news;
       }
     }
   }

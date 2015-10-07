@@ -352,11 +352,84 @@
 </section>
 
 
-  <section class="news">
+
+  
+  <section class="home__map-and-news">
+  <h3>Map and News</h3>
+
+  <article class="news">
   <h3 class="news__title">News</h3>
 
   <div class="fb-page" data-href="https://www.facebook.com/kissomlyo" data-small-header="true" data-adapt-container-width="false" data-hide-cover="true" data-show-facepile="false" data-show-posts="true">
   </div>
+
+</article>
+
+
+  
+  <article class="map">
+  <h3 class="map__title">Track Map</h3>
+
+  
+
+
+
+
+<figure class="figure">
+  
+
+  <!-- The default extension is .png but other formats are handled too -->
+  
+  
+
+  <!-- If 'onesize' is set all images will have the same size -->
+  
+    <!-- Naming convention for responsive images -->
+    
+    
+    
+    
+    
+    
+    
+    
+  
+
+  <!-- Showing different images for different devices -->
+  
+
+
+  <!-- Figcaption is image title unless is not set explicitely -->
+  
+  
+
+  
+
+
+  <!-- Images are served from /site also for /styleguide -->
+  
+  
+
+
+  <picture class="picture">
+    <!--[if IE 9]><video style="display: none;"><![endif]-->
+    <source media="(min-width: 1600px)" srcset="/assets/images/tracks_desktop.png, /assets/images/tracks_desktop2x.png 2x">
+    <source media="(min-width: 1199px)" srcset="/assets/images/tracks_laptop.png, /assets/images/tracks_laptop2x.png 2x">
+    <source media="(min-width: 600px)" srcset="/assets/images/tracks_tablet.png, /assets/images/tracks_tablet2x.png 2x">
+    <source media="(max-width: 599px)" srcset="/assets/images/tracks_mobile.png, /assets/images/tracks_mobile2x.png 2x">
+    <!--[if IE 9]></video><![endif]-->
+    <!-- to make it work with imagesLoaded the 'srcset' is replaced by a standard fallback 'src' -->
+    <img class="img" src="/assets/images/tracks_laptop.png"  alt="Tracks Map">
+  </picture>
+
+  <figcaption class="figcaption figcaption--from-title">
+    Tracks Map
+  </figcaption>
+
+
+</figure>
+
+</article>
 
 </section>
 
