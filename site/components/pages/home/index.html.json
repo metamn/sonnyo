@@ -11,13 +11,15 @@
     {
       "title": "Logo",
       "name": "kissomlyo-logo-white"
+    },
+    {
+      "title": "Tracks Map",
+      "name": "tracks.png"
     }
   ],
   "slides": [
     {
       "title": "Slide 1",
-      "subtitle": "This is a subtitle for the slider #3",
-      "content": "Your content goes here ...",
       "image": {
         "title": "By night",
         "name": "P1280717-landscape",
@@ -35,8 +37,6 @@
     },
     {
       "title": "Slide 3",
-      "subtitle": "This is a subtitle for the slider #3",
-      "content": "Your content goes here ...",
       "image": {
         "title": "By night",
         "name": "pano-1-landscape",
