@@ -143,6 +143,89 @@
   
     
     <article class="slide">
+  <h3 class="slide__title">Slide 1</h3>
+
+  
+  
+
+
+
+
+<figure class="figure">
+  
+
+  <!-- The default extension is .png but other formats are handled too -->
+  
+  
+
+  <!-- If 'onesize' is set all images will have the same size -->
+  
+    <!-- Naming convention for responsive images -->
+    
+    
+    
+    
+    
+    
+    
+    
+  
+
+  <!-- Showing different images for different devices -->
+  
+    
+    
+    
+    
+      
+      
+    
+  
+    
+    
+    
+      
+      
+    
+    
+  
+
+
+  <!-- Figcaption is image title unless is not set explicitely -->
+  
+  
+
+  
+
+
+  <!-- Images are served from /site also for /styleguide -->
+  
+  
+
+
+  <picture class="picture">
+    <!--[if IE 9]><video style="display: none;"><![endif]-->
+    <source media="(min-width: 1600px)" srcset="/assets/images/P1280717-landscape_desktop.png, /assets/images/P1280717-landscape_desktop2x.png 2x">
+    <source media="(min-width: 1199px)" srcset="/assets/images/P1280717-landscape_laptop.png, /assets/images/P1280717-landscape_laptop2x.png 2x">
+    <source media="(min-width: 600px)" srcset="/assets/images/P1280717-portrait_tablet.png, /assets/images/P1280717-portrait_tablet2x.png 2x">
+    <source media="(max-width: 599px)" srcset="/assets/images/P1280717-portrait_mobile.png, /assets/images/P1280717-portrait_mobile2x.png 2x">
+    <!--[if IE 9]></video><![endif]-->
+    <!-- to make it work with imagesLoaded the 'srcset' is replaced by a standard fallback 'src' -->
+    <img class="img" src="/assets/images/P1280717-landscape_laptop.png"  alt="By night">
+  </picture>
+
+  <figcaption class="figcaption figcaption--from-title">
+    By night
+  </figcaption>
+
+
+</figure>
+
+</article>
+
+  
+    
+    <article class="slide">
   <h3 class="slide__title">Slide 3</h3>
 
   
@@ -239,6 +322,16 @@
 
 
 <div class="bullet active">
+  <span class="inactive">O</span>
+  <span class="active">&bull;</span>
+</div>
+
+  
+    
+
+
+
+<div class="bullet ">
   <span class="inactive">O</span>
   <span class="active">&bull;</span>
 </div>

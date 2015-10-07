@@ -15,6 +15,25 @@
   ],
   "slides": [
     {
+      "title": "Slide 1",
+      "subtitle": "This is a subtitle for the slider #3",
+      "content": "Your content goes here ...",
+      "image": {
+        "title": "By night",
+        "name": "P1280717-landscape",
+        "responsive": [
+          {
+            "breakpoint": "mobile",
+            "name": "P1280717-portrait"
+          },
+          {
+            "breakpoint": "tablet",
+            "name": "P1280717-portrait"
+          }
+        ]
+      }
+    },
+    {
       "title": "Slide 3",
       "subtitle": "This is a subtitle for the slider #3",
       "content": "Your content goes here ...",
