@@ -1,8 +1,6 @@
 @include html-css-reset;
 
 html {
-  height: 100%;
-
   body {
     @include semantic-html5-titles;
     @include typography-reset;
@@ -10,7 +8,5 @@ html {
 
     @include default--landscape;
     @include default--desktop;
-
-    height: 100%;
   }
 }

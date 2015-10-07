@@ -8,7 +8,7 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  height: 80%;
+  height: 80vh;
 
   &__slides {
     @include slider__slides;
