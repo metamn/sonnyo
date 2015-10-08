@@ -4,7 +4,11 @@
     @include text-style(title);
   }
 
-  .pictogram {
-    @include pictogram($lem * 5);
+  &__lap {
+    @include tickets__lap;
+  }
+
+  &__card {
+    @include tickets__card;
   }
 }

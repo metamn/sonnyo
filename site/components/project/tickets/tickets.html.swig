@@ -1,8 +1,6 @@
 <section class="tickets">
   <h3 class="tickets__title">Tickets</h3>
 
-  {% for pictogram in pictograms %}
-    {% include "../../framework/design/decorations/pictogram/pictogram.html.swig" %}
-  {% endfor %}
-
+  {% include '__lap/tickets__lap.html.swig' %}
+  {% include '__card/tickets__card.html.swig' %}
 </section>

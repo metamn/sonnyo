@@ -31,6 +31,12 @@
       "icon": "children"
     },
     {
+      "name": "card",
+      "ro": "card",
+      "hu": "kartya",
+      "icon": "card"
+    },
+    {
       "name": "hrs",
       "ro": "ore",
       "hu": "ora",
@@ -41,52 +47,6 @@
       "ro": "zile",
       "hu": "nap",
       "number": "1"
-    },
-    {
-      "name": "card",
-      "ro": "card",
-      "hu": "kartya",
-      "icon": "card"
-    }
-  ],
-  "tickets": [
-    {
-      "name": {
-        "en": "lap",
-        "ro": "urcare",
-        "hu": "felvonas",
-        "value": "1"
-      },
-      "day": [
-        {
-          "name": "card",
-          "value": "2",
-          "currency": "point"
-        },
-        {
-          "name": "adult",
-          "value": "3"
-        },
-        {
-          "name": "children",
-          "value": "2"
-        }
-      ],
-      "night": [
-        {
-          "name": "card",
-          "value": "3",
-          "currency": "point"
-        },
-        {
-          "name": "adult",
-          "value": "4"
-        },
-        {
-          "name": "children",
-          "value": "3"
-        }
-      ]
     }
   ],
   "images": [

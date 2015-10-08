@@ -11,7 +11,6 @@
   {% set image = images[1] %}
   {% include '__map-and-news/home__map-and-news.html.swig' %}
 
-  {% set tickets = tickets %}
   {% set pictograms = pictograms %}
   {% include '../../project/tickets/tickets.html.swig' %}
 

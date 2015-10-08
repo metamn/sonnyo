@@ -1,0 +1,24 @@
+@mixin tickets__card {
+  display: flex;
+  flex-direction: column;
+
+  $width: $lem * 5;
+  $count: 3;
+  max-width: ($count + 1) * $width;
+
+  .head,
+  .row {
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+  }
+
+  .pictogram {
+    @include pictogram($width);
+  }
+
+  .value,
+  .item {
+    width: $width;
+  }
+}
