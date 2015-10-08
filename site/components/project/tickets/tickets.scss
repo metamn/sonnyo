@@ -1,6 +1,11 @@
 @mixin tickets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
   &__title {
     display: flex;
+    flex-basis: 100%;
     @include text-style(title);
   }
 

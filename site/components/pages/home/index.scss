@@ -7,12 +7,12 @@ html {
 
       .slider {
         @include slider;
-        display: none;
+        //display: none;
       }
 
       .home__map-and-news {
         @include home__map-and-news;
-        display: none !important;
+        //display: none !important;
       }
 
       .tickets {
