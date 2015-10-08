@@ -5,6 +5,6 @@
   }
 
   .pictogram {
-    @include pictogram;
+    @include pictogram($lem * 5);
   }
 }

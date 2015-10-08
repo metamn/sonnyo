@@ -1,6 +1,5 @@
-@mixin pictogram($width: $lem * 3, $height: $lem * 3) {
+@mixin pictogram($width: $lem * 5) {
   width: $width;
-  height: $height;
 
   display: flex;
   align-items: center;
@@ -10,7 +9,7 @@
   }
 
   &__icon {
-    @include pictogram__icon($width / 2, $height / 2);
+    @include pictogram__icon($width / 3);
   }
 
   &__number {

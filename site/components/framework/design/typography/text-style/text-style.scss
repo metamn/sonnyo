@@ -40,12 +40,31 @@ $text-block-width: 25em;
   }
   
   // Title
-  // - Sextion titles
+  // - Section titles
   @if ($variant == 'title') {
     @include font(nimbus-sans-black);
     @include border;
     
     letter-spacing: 1.7px;
+    
+    
+  }
+  
+  // Large
+  // - Large text, like three times the default
+  @if ($variant == 'large') {
+    @include font(nimbus-sans-black);
+    @include scale(large-3);
+    
+    
+    
+  }
+  
+  // Small
+  // - Small text
+  @if ($variant == 'small') {
+    @include scale(small-1);
+    
     
     
   }
@@ -78,6 +97,21 @@ $text-block-width: 25em;
   @include border;
   
   letter-spacing: 1.7px;
+  
+  
+}
+
+.text-style--large {
+  @include font(nimbus-sans-black);
+  @include scale(large-3);
+  
+  
+  
+}
+
+.text-style--small {
+  @include scale(small-1);
+  
   
   
 }

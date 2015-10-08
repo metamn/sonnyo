@@ -43,7 +43,7 @@
     },
     {
       "name": "Title",
-      "description": "Sextion titles",
+      "description": "Section titles",
       "based_on": "Nimbus Sans",
       "mixins": [
         {
@@ -58,6 +58,32 @@
         {
           "name": "letter-spacing",
           "value": "1.7px"
+        }
+      ]
+    },
+    {
+      "name": "Large",
+      "description": "Large text, like three times the default",
+      "based_on": "Nimbus Sans",
+      "mixins": [
+        {
+          "name": "font",
+          "value": "nimbus-sans-black"
+        },
+        {
+          "name": "scale",
+          "value": "large-3"
+        }
+      ]
+    },
+    {
+      "name": "Small",
+      "description": "Small text",
+      "based_on": "Nimbus Sans",
+      "mixins": [
+        {
+          "name": "scale",
+          "value": "small-1"
         }
       ]
     }

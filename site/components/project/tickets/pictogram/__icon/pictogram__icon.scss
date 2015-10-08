@@ -1,5 +1,5 @@
-@mixin pictogram__icon($width, $height) {
+@mixin pictogram__icon($width) {
   .icon {
-    @include icon($width, $height);
+    @include icon($width);
   }
 }

@@ -46,9 +46,9 @@ $lem: 1.48em;
     
   }
 
-  // Larger than default font size with 7 scales
-  @if ($variant == 'large-7') {
-    font-size: 7.478em;
+  // Larger than default font size with 3 scales
+  @if ($variant == 'large-3') {
+    font-size: 3.157em;
     line-height: 1;
     
     
@@ -108,8 +108,8 @@ $lem: 1.48em;
   
 }
 
-.scale--large-7 {
-  font-size: 7.478em;
+.scale--large-3 {
+  font-size: 3.157em;
   line-height: 1;
   
   
