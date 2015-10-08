@@ -1,10 +1,12 @@
 <article class="tickets__lap">
-  <h3>Lap</h3>
+  {% set pictogram = pictograms[0] %}
+  {% set text = pictogram.text | join(' / ') %}
+  {% set title = pictogram.number + ' ' + text %}
+  <h3 class="title">{{ title | capitalize }}</h3>
 
   {# 1 lap,  day, night #}
   <div class="head">
-    {% set pictogram = pictograms[0] %}
-    {% include '../../../framework/design/decorations/pictogram/pictogram.html.swig' %}
+    <div class="empty"></div>
 
     {% set pictogram = pictograms[1] %}
     {% include '../../../framework/design/decorations/pictogram/pictogram.html.swig' %}
@@ -19,11 +21,11 @@
     {% include '../../../framework/design/decorations/pictogram/pictogram.html.swig' %}
 
     <div class="value">
-      <span>3 lei<span>
+      <span>3 lei</span>
     </div>
 
     <div class="value">
-      <span>4 lei<span>
+      <span>4 lei</span>
     </div>
   </div>
 
@@ -33,11 +35,11 @@
     {% include '../../../framework/design/decorations/pictogram/pictogram.html.swig' %}
 
     <div class="value">
-      <span>2 lei<span>
+      <span>2 lei</span>
     </div>
 
     <div class="value">
-      <span>3 lei<span>
+      <span>3 lei</span>
     </div>
   </div>
 
@@ -48,12 +50,12 @@
     {% include '../../../framework/design/decorations/pictogram/pictogram.html.swig' %}
 
     <div class="value">
-      <span>2 pt<span>
+      <span>2 pt</span>
     </div>
 
     <div class="value">
-      <span>3 pt<span>
+      <span>3 pt</span>
     </div>
-  <div>
+  </div>
 
 </article>

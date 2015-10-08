@@ -1,11 +1,9 @@
 <article class="tickets__pass">
-  <h3>Pass</h3>
+  <h3 class="title">Pass / Abonament / Berlet</h3>
 
   {# pass, adult, children #}
   <div class="head">
-    <div class="title">
-      <span>Pass / Abonament / Berlet<span>
-    </div>
+    <div class="empty"></div>
 
     {% set pictogram = pictograms[3] %}
     {% include '../../../framework/design/decorations/pictogram/pictogram.html.swig' %}
@@ -21,11 +19,11 @@
     {% include '../../../framework/design/decorations/pictogram/pictogram.html.swig' %}
 
     <div class="value">
-      <span>30 lei<span>
+      <span>30 lei</span>
     </div>
 
     <div class="value">
-      <span>20 lei<span>
+      <span>20 lei</span>
     </div>
   </div>
 
@@ -35,11 +33,11 @@
     {% include '../../../framework/design/decorations/pictogram/pictogram.html.swig' %}
 
     <div class="value">
-      <span>50 lei<span>
+      <span>50 lei</span>
     </div>
 
     <div class="value">
-      <span>35 lei<span>
+      <span>35 lei</span>
     </div>
   </div>
 
@@ -49,11 +47,11 @@
     {% include '../../../framework/design/decorations/pictogram/pictogram.html.swig' %}
 
     <div class="value">
-      <span>120 lei<span>
+      <span>120 lei</span>
     </div>
 
     <div class="value">
-      <span>100 lei<span>
+      <span>100 lei</span>
     </div>
   </div>
 </article>

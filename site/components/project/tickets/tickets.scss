@@ -4,15 +4,9 @@
     @include text-style(title);
   }
 
-  &__lap {
-    @include tickets__lap;
-  }
-
-  &__card {
-    @include tickets__card;
-  }
-
+  &__card,
+  &__lap,
   &__pass {
-    @include tickets__pass;
+    @include tickets--style($lem * 7, 3);
   }
 }
