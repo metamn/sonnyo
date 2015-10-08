@@ -39,6 +39,10 @@
     {
       "text": ["days on weekend", "zile in weekend", "nap hetvegen"],
       "number": "1"
+    },
+    {
+      "text": ["pt"],
+      "icon": "card"
     }
   ],
   "images": [

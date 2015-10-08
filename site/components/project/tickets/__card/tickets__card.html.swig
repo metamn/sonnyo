@@ -15,9 +15,9 @@
   </div>
 
   <div class="row">
-    <div class="item">
-      <span>20 pt</span>
-    </div>
+    {% set p = pictograms[8] %}
+    {% set pictogram = { text: ["20 " + p.text[0]], icon: p.icon } %}
+    {% include '../../../framework/design/decorations/pictogram/pictogram.html.swig' %}
 
     <div class="value">
       <span>25 lei</span>
@@ -29,9 +29,8 @@
   </div>
 
   <div class="row">
-    <div class="item">
-      <span>40 pt</span>
-    </div>
+    {% set pictogram = { text: ["40 " + p.text[0]], icon: p.icon } %}
+    {% include '../../../framework/design/decorations/pictogram/pictogram.html.swig' %}
 
     <div class="value">
       <span>40 lei</span>
@@ -43,9 +42,8 @@
   </div>
 
   <div class="row">
-    <div class="item">
-      <span>120 pt</span>
-    </div>
+    {% set pictogram = { text: ["120 " + p.text[0]], icon: p.icon } %}
+    {% include '../../../framework/design/decorations/pictogram/pictogram.html.swig' %}
 
     <div class="value">
       <span>105 lei</span>
