@@ -1,0 +1,5 @@
+@mixin pictogram__icon($width, $height) {
+  .icon {
+    @include icon($width, $height);
+  }
+}

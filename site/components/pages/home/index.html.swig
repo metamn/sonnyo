@@ -11,6 +11,8 @@
   {% set image = images[1] %}
   {% include '__map-and-news/home__map-and-news.html.swig' %}
 
+  {% set tickets = tickets %}
+  {% set taxonomy = taxonomy %}
   {% include '../../project/tickets/tickets.html.swig' %}
 
 {% endblock %}

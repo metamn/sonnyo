@@ -7,6 +7,96 @@
     "units": "&units=metric",
     "icon": "http://openweathermap.org/img/w/"
   },
+  "taxonomy": [
+    {
+      "name": "lap",
+      "ro": "urcare",
+      "hu": "felvonas",
+      "number": "1"
+    },
+    {
+      "name": "day",
+      "ro": "ziua",
+      "hu": "nappal",
+      "icon": "day"
+    },
+    {
+      "name": "night",
+      "ro": "seara",
+      "hu": "este",
+      "icon": "night"
+    },
+    {
+      "name": "> 18",
+      "ro": "> 18",
+      "hu": "> 18",
+      "icon": "adult"
+    },
+    {
+      "name": "< 18",
+      "ro": "< 18",
+      "hu": "< 18",
+      "icon": "children"
+    },
+    {
+      "name": "hrs",
+      "ro": "ore",
+      "hu": "ora",
+      "number": "1"
+    },
+    {
+      "name": "days",
+      "ro": "zile",
+      "hu": "nap",
+      "number": "1"
+    },
+    {
+      "name": "card",
+      "ro": "card",
+      "hu": "kartya",
+      "icon": "card"
+    }
+  ],
+  "tickets": [
+    {
+      "name": {
+        "en": "lap",
+        "ro": "urcare",
+        "hu": "felvonas",
+        "value": "1"
+      },
+      "day": [
+        {
+          "name": "card",
+          "value": "2",
+          "currency": "point"
+        },
+        {
+          "name": "adult",
+          "value": "3"
+        },
+        {
+          "name": "children",
+          "value": "2"
+        }
+      ],
+      "night": [
+        {
+          "name": "card",
+          "value": "3",
+          "currency": "point"
+        },
+        {
+          "name": "adult",
+          "value": "4"
+        },
+        {
+          "name": "children",
+          "value": "3"
+        }
+      ]
+    }
+  ],
   "images": [
     {
       "title": "Logo",

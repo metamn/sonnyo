@@ -1,0 +1,19 @@
+@mixin pictogram($width: $lem * 3, $height: $lem * 3) {
+  width: $width;
+  height: $height;
+
+  display: flex;
+  align-items: center;
+
+  &__text {
+    @include pictogram__text;
+  }
+
+  &__icon {
+    @include pictogram__icon($width / 2, $height / 2);
+  }
+
+  &__number {
+    @include pictogram__number;
+  }
+}

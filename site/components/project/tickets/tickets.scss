@@ -3,4 +3,8 @@
     display: flex;
     @include text-style(title);
   }
+
+  .pictogram {
+    @include pictogram;
+  }
 }
