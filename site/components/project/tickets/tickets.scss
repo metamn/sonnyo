@@ -11,4 +11,8 @@
   &__card {
     @include tickets__card;
   }
+
+  &__pass {
+    @include tickets__pass;
+  }
 }

@@ -9,43 +9,35 @@
   },
   "pictograms": [
     {
-      "name": "lap",
-      "ro": "urcare",
-      "hu": "felvonas",
+      "text": ["lap", "urcare", "felvonas"],
       "number": "1"
     },
     {
-      "name": "10.00 - 18.00",
+      "text": ["10.00 - 18.00"],
       "icon": "day"
     },
     {
-      "name": "18.00 - 21.00",
+      "text": ["18.00 - 21.00"],
       "icon": "night"
     },
     {
-      "name": "18+",
+      "text": ["18+"],
       "icon": "adult"
     },
     {
-      "name": "-18",
+      "text": ["18-"],
       "icon": "children"
     },
     {
-      "name": "card",
-      "ro": "card",
-      "hu": "kartya",
+      "text": ["card", "card", "kartya"],
       "icon": "card"
     },
     {
-      "name": "hrs",
-      "ro": "ore",
-      "hu": "ora",
+      "text": ["hrs", "ore", "ora"],
       "number": "1"
     },
     {
-      "name": "days",
-      "ro": "zile",
-      "hu": "nap",
+      "text": ["days", "zile", "nap"],
       "number": "1"
     }
   ],

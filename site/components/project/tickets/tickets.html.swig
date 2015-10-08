@@ -3,4 +3,5 @@
 
   {% include '__lap/tickets__lap.html.swig' %}
   {% include '__card/tickets__card.html.swig' %}
+  {% include '__pass/tickets__pass.html.swig' %}
 </section>
