@@ -7,7 +7,7 @@
     "units": "&units=metric",
     "icon": "http://openweathermap.org/img/w/"
   },
-  "taxonomy": [
+  "pictograms": [
     {
       "name": "lap",
       "ro": "urcare",

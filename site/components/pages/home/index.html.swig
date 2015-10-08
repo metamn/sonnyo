@@ -12,7 +12,7 @@
   {% include '__map-and-news/home__map-and-news.html.swig' %}
 
   {% set tickets = tickets %}
-  {% set taxonomy = taxonomy %}
+  {% set pictograms = pictograms %}
   {% include '../../project/tickets/tickets.html.swig' %}
 
 {% endblock %}
