@@ -27,11 +27,19 @@ var news = function(containerID) {
 
       var message = document.createElement('div');
       message.className = 'item__message';
-      message.innerHTML = data[i].message;
+
+      // Split ro / hu entries into <p>
+      var m = data[i].message;
+      m = m.split("\n\n").join("</p><p>");
+      message.innerHTML = '<p>' + m + '</p>';
+
+
 
       var date = document.createElement('div');
       date.className = 'item__date';
-      date.innerHTML = data[i].created_time;
+
+      var d = new Date(data[i].created_time);
+      date.innerHTML = d.toLocaleDateString();
 
       item.appendChild(date);
       item.appendChild(message);
