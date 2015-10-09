@@ -1,24 +1,5 @@
 var news = function(containerID) {
-  var container = document.querySelector(containerID);
-  var url = container.dataset.url;
-
-  // JSON AJAX Call to an API endpoint
-  // - http://www.w3schools.com/json/json_http.asp
-  var xmlhttp = new XMLHttpRequest();
-  xmlhttp.open("GET", url, true);
-  xmlhttp.send();
-
-  // Process request
-  xmlhttp.onreadystatechange = function() {
-    if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-      console.log('fb:' + xmlhttp.responseText);
-      var result = JSON.parse(xmlhttp.responseText);
-      parseResult(result);
-    }
-  }
-
-  // Process result
-  function parseResult(result) {
+  jsonAPICall(containerID, function(result) {
     var data = result.data;
 
     for (var i = 0; i <= 4; i++) {
@@ -46,9 +27,11 @@ var news = function(containerID) {
       date.appendChild(date2);
       item.appendChild(date);
       item.appendChild(message);
+
+      var container = document.querySelector(containerID);
       container.appendChild(item);
     }
-  }
+  });
 }
 
 news('.news .news__body');
