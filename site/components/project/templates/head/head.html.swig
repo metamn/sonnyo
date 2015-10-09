@@ -18,8 +18,8 @@
 
     <link href="{{ site.url }}assets/styles/site.css" media="screen, projection" rel="stylesheet" type="text/css" />
 
-    <script src="//use.typekit.net/wrb3hlx.js"></script>
-    <script>try{Typekit.load();}catch(e){}</script>
+    <script src="https://use.typekit.net/nvy7idl.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
     {{ scripts | safe }}
 
@@ -28,4 +28,3 @@
 
   <body>
     {% include '__facebook-code/head__facebook-code.html.swig' %}
-    

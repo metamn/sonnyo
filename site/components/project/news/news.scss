@@ -3,4 +3,21 @@
     display: flex;
     @include text-style(title);
   }
+
+  &__body {
+    @include text-style(body-text);
+
+    .item {
+      margin-top: $lem;
+
+      &__date {
+        border-bottom: 1px solid;
+
+        .date {
+          @include colors(white-on-black);
+          padding: $lem / 8 $lem / 4;
+        }
+      }
+    }
+  }
 }

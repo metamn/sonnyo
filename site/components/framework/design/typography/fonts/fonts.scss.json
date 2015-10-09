@@ -4,7 +4,7 @@
       "name": "Nimbus Sans",
       "description": "The default typeface",
       "family": "sans-serif",
-      "character_set": "English, with OpenType Features",
+      "character_set": "Full character set, with OpenType Features",
       "served_from": "Typekit",
       "styles": [
         {

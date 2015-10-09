@@ -34,13 +34,16 @@ var news = function(containerID) {
       message.innerHTML = '<p>' + m + '</p>';
 
 
-
       var date = document.createElement('div');
       date.className = 'item__date';
 
-      var d = new Date(data[i].created_time);
-      date.innerHTML = d.toLocaleDateString();
+      var date2 = document.createElement('span');
+      date2.className = 'date';
 
+      var d = new Date(data[i].created_time);
+      date2.innerHTML = d.toLocaleDateString();
+
+      date.appendChild(date2);
       item.appendChild(date);
       item.appendChild(message);
       container.appendChild(item);
