@@ -21,8 +21,11 @@ var news = function(containerID) {
       var date2 = document.createElement('span');
       date2.className = 'date';
 
-      var d = new Date(data[i].created_time);
-      date2.innerHTML = d.toLocaleDateString();
+      // created_time: 2015-02-26T13:33:25+0000
+      var d = data[i].created_time.split("T");
+      if (d.length > 0) {
+        date2.innerHTML = d[0];
+      }
 
       date.appendChild(date2);
       item.appendChild(date);
