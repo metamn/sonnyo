@@ -1,0 +1,14 @@
+@mixin news-item {
+  margin-top: $lem;
+
+  &__date {
+    border-bottom: 1px solid;
+
+    .date {
+      @include colors(white-on-black);
+      @include text-style(section-title);
+      padding: $lem / 8 $lem / 4;
+      display: inline-flex; // otherwise the line height will be not fixed but varying
+    }
+  }
+}

@@ -1,5 +1,5 @@
 <article class="tickets__pass">
-  <h3 class="title">Pass / Abonament / Berlet</h3>
+  <h3 class="title">Pass / Abonament / Bérlet</h3>
 
   {# pass, adult, children #}
   <div class="head">

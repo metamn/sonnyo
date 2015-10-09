@@ -4,10 +4,10 @@ var news = function(containerID) {
 
     for (var i = 0; i <= 4; i++) {
       var item = document.createElement('div');
-      item.className = 'item';
+      item.className = 'news-item';
 
       var message = document.createElement('div');
-      message.className = 'item__message';
+      message.className = 'news-item__message';
 
       // Split ro / hu entries into <p>
       var m = data[i].message;
@@ -16,7 +16,7 @@ var news = function(containerID) {
 
 
       var date = document.createElement('div');
-      date.className = 'item__date';
+      date.className = 'news-item__date';
 
       var date2 = document.createElement('span');
       date2.className = 'date';
@@ -24,7 +24,7 @@ var news = function(containerID) {
       // created_time: 2015-02-26T13:33:25+0000
       var d = data[i].created_time.split("T");
       if (d.length > 0) {
-        date2.innerHTML = d[0];
+        date2.innerHTML = d[0].replace(/\-/g, " ");
       }
 
       date.appendChild(date2);

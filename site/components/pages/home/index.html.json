@@ -15,7 +15,7 @@
   },
   "pictograms": [
     {
-      "text": ["lap", "urcare", "felvonas"],
+      "text": ["lap", "urcare", "felvonás"],
       "number": "1"
     },
     {
@@ -35,15 +35,15 @@
       "icon": "children"
     },
     {
-      "text": ["card", "card", "kartya"],
+      "text": ["card", "card", "kártya"],
       "icon": "card"
     },
     {
-      "text": ["hrs", "ore", "ora"],
+      "text": ["hrs", "ore", "óra"],
       "number": "1"
     },
     {
-      "text": ["days on weekend", "zile in weekend", "nap hetvegen"],
+      "text": ["days on weekend", "zile in weekend", "nap hétvégén"],
       "number": "1"
     },
     {

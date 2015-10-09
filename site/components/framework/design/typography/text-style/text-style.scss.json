@@ -86,6 +86,25 @@
           "value": "small-1"
         }
       ]
+    },
+    {
+      "name": "Section title",
+      "description": "Small text on inverted colors",
+      "based_on": "Nimbus Sans",
+      "mixins": [
+        {
+          "name": "scale",
+          "value": "small-1"
+        },
+        {
+          "name": "colors",
+          "value": "white-on-black"
+        },
+        {
+          "name": "font",
+          "value": "nimbus-sans-bold"
+        }
+      ]
     }
   ]
 }

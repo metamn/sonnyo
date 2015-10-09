@@ -69,6 +69,17 @@ $text-block-width: 25em;
     
   }
   
+  // Section title
+  // - Small text on inverted colors
+  @if ($variant == 'section-title') {
+    @include scale(small-1);
+    @include colors(white-on-black);
+    @include font(nimbus-sans-bold);
+    
+    
+    
+  }
+  
 }
 
 
@@ -111,6 +122,15 @@ $text-block-width: 25em;
 
 .text-style--small {
   @include scale(small-1);
+  
+  
+  
+}
+
+.text-style--section-title {
+  @include scale(small-1);
+  @include colors(white-on-black);
+  @include font(nimbus-sans-bold);
   
   
   
