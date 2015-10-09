@@ -1,5 +1,13 @@
 {
   "title": "Home",
+  "contact": {
+    "link": {
+      "title": "facebook.com/kissomlyo",
+      "url": "http://facebook.com/kissomlyo",
+      "type": "external"
+    },
+    "phone": "0723 323 001"
+  },
   "weather": {
     "api": "&APPID=9964e389ad98f64811222db158f7adb9",
     "city": "?id=673441",

@@ -15,4 +15,6 @@
   {% set pictograms = pictograms %}
   {% include '../../project/tickets/tickets.html.swig' %}
 
+  {% set contact = contact %}
+  {% include '../../project/contact/contact.html.swig' %}
 {% endblock %}
