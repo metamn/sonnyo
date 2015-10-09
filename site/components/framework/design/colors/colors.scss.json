@@ -19,6 +19,11 @@
       "name": "lightgray",
       "value": "#f1f1f1",
       "description": "Secondary color"
+    },
+    {
+      "name": "blue",
+      "value": "#4916DA",
+      "description": "main color"
     }
   ],
   "color_pairs": [
@@ -28,6 +33,19 @@
         {
           "name": "color",
           "value": "$black"
+        },
+        {
+          "name": "background-color",
+          "value": "$white"
+        }
+      ]
+    },
+    {
+      "name": "blue-on-white",
+      "properties": [
+        {
+          "name": "color",
+          "value": "$blue"
         },
         {
           "name": "background-color",
