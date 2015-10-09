@@ -7,6 +7,12 @@
     "units": "&units=metric",
     "icon": "http://openweathermap.org/img/w/"
   },
+  "fb": {
+    "page-id": "190411127720650",
+    "app-id": "623115991164313",
+    "app-secret": "361a09a90d9c4c36fc75b8f136feadd1",
+    "url": "https://graph.facebook.com/190411127720650/feed?access_token=623115991164313|361a09a90d9c4c36fc75b8f136feadd1"
+  },
   "pictograms": [
     {
       "text": ["lap", "urcare", "felvonas"],

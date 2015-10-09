@@ -14,6 +14,8 @@
     data-show-posts="true">
   </div>
   -->
-  
+
+  <div class="news__body" data-url="{{ fb.url }}"></div>
+
 
 </article>

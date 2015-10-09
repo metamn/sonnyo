@@ -9,6 +9,7 @@
   {% include '../../project/slider/slider.html.swig' %}
 
   {% set image = images[1] %}
+  {% set fb = fb %}
   {% include '__map-and-news/home__map-and-news.html.swig' %}
 
   {% set pictograms = pictograms %}
