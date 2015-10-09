@@ -1,6 +1,7 @@
 <article class="news">
   <h3 class="news__title">News</h3>
 
+  <!--
   <div
     class="fb-page"
     data-href="https://www.facebook.com/kissomlyo"
@@ -12,5 +13,7 @@
     data-show-facepile="false"
     data-show-posts="true">
   </div>
+  -->
+  
 
 </article>
