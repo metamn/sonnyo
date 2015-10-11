@@ -1,3 +1,7 @@
-@mixin border {
+$border-thick: $lem / 4 solid;
+$border-thin: $lem / 8 solid;
+$border-normal: 1px solid;
+
+@mixin border($type, $position) {
   border-bottom: $lem / 4 solid;
 }
