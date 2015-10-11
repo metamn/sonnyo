@@ -17,4 +17,6 @@
   &__bullets {
     @include slider__bullets;
   }
+
+  @include slider--tablet-landscape;
 }

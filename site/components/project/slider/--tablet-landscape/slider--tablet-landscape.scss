@@ -1,0 +1,5 @@
+@mixin slider--tablet-landscape {
+  @include tablet-landscape {
+    height: 70vh;
+  }
+}
