@@ -1,9 +1,7 @@
 @mixin map--mobile {
   @include mobile {
     &__title {
-      padding: $lem / 2;
-      padding-bottom: none;
-      border-bottom: none;
+      margin: $lem / 2;
     }
   }
 }
