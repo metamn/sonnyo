@@ -12,4 +12,6 @@
 
   @include news--mobile;
   @include news--tablet;
+  @include news--landscape;
+  @include news--tablet-landscape;
 }
