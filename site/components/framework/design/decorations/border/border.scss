@@ -1,7 +1,13 @@
-$border-thick: $lem / 4 solid;
-$border-thin: $lem / 8 solid;
-$border-normal: 1px solid;
+@mixin border($type: normal, $position: bottom) {
+  @if ($type == normal) {
+    @include border--normal($position);
+  }
 
-@mixin border($type, $position) {
-  border-bottom: $lem / 4 solid;
+  @if ($type == thin) {
+    @include border--thin($position);
+  }
+
+  @if ($type == thick) {
+    @include border--thick($position);
+  }
 }

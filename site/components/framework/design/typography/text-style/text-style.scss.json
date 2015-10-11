@@ -51,7 +51,27 @@
           "value": "nimbus-sans-black"
         },
         {
-          "name": "border"
+          "name": "border--thick"
+        }
+      ],
+      "properties": [
+        {
+          "name": "letter-spacing",
+          "value": "1.7px"
+        }
+      ]
+    },
+    {
+      "name": "Subtitle",
+      "description": "Section subtitles",
+      "based_on": "Nimbus Sans",
+      "mixins": [
+        {
+          "name": "font",
+          "value": "nimbus-sans-bold"
+        },
+        {
+          "name": "border--thin"
         }
       ],
       "properties": [

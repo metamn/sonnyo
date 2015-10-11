@@ -43,7 +43,18 @@ $text-block-width: 25em;
   // - Section titles
   @if ($variant == 'title') {
     @include font(nimbus-sans-black);
-    @include border;
+    @include border--thick;
+    
+    letter-spacing: 1.7px;
+    
+    
+  }
+  
+  // Subtitle
+  // - Section subtitles
+  @if ($variant == 'subtitle') {
+    @include font(nimbus-sans-bold);
+    @include border--thin;
     
     letter-spacing: 1.7px;
     
@@ -105,7 +116,16 @@ $text-block-width: 25em;
 
 .text-style--title {
   @include font(nimbus-sans-black);
-  @include border;
+  @include border--thick;
+  
+  letter-spacing: 1.7px;
+  
+  
+}
+
+.text-style--subtitle {
+  @include font(nimbus-sans-bold);
+  @include border--thin;
   
   letter-spacing: 1.7px;
   

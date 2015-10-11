@@ -7,7 +7,7 @@
 
   .title {
     display: flex;
-    @include text-style(title);
+    @include text-style(subtitle);
   }
 
   .head,
@@ -18,7 +18,7 @@
     align-items: center;
 
     padding: $lem / 2 0;
-    border-bottom: 1px solid;
+    @include border--normal;
   }
 
   // Half widths
