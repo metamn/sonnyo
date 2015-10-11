@@ -7,7 +7,7 @@
     .date {
       @include colors(white-on-black);
       @include text-style(section-title);
-      padding: $lem / 8 $lem / 4;
+      padding: calc(#{$lem / 8} + 1px) $lem / 4 $lem / 8;
       display: inline-flex; // otherwise the line height will be not fixed but varying
     }
   }
