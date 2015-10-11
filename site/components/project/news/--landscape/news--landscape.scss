@@ -1,5 +1,5 @@
 @mixin news--landscape {
   @include landscape {
-    padding-right: $lem;
+    padding-left: $lem;
   }
 }

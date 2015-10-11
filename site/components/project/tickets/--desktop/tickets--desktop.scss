@@ -1,0 +1,9 @@
+@mixin tickets--desktop {
+  @include desktop {
+    &__card,
+    &__lap,
+    &__pass {
+      @include tickets--style($lem * 8, 3);
+    }
+  }
+}

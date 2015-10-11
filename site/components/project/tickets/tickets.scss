@@ -17,4 +17,6 @@
 
   @include tickets--portrait;
   @include tickets--landscape;
+  @include tickets--tablet-landscape;
+  @include tickets--desktop;
 }
