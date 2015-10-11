@@ -1,5 +1,5 @@
-@mixin map--mobile {
-  @include mobile {
+@mixin map--portrait {
+  @include portrait {
     &__title {
       margin: $lem / 2;
     }

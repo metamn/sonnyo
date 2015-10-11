@@ -15,5 +15,5 @@
     @include tickets--style($lem * 7, 3);
   }
 
-  @include tickets--mobile;
+  @include tickets--portrait;
 }

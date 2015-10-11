@@ -8,5 +8,5 @@
     @include figure($stretch: stretched);
   }
 
-  @include map--mobile;
+  @include map--portrait;
 }
