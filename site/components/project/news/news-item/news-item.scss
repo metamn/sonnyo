@@ -1,4 +1,6 @@
 @mixin news-item {
+  @include text-style(body-text);
+  
   margin-top: $lem;
 
   &__date {

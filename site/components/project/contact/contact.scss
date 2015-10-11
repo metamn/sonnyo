@@ -1,6 +1,6 @@
 @mixin contact {
   padding: $lem 0;
-  border-top: $lem /4 solid;
+  @include border--thick(top);
 
   .ul {
     @include ul;
@@ -9,4 +9,6 @@
   .link {
     @include link(blue-on-white);
   }
+
+  @include contact--mobile;
 }

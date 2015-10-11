@@ -7,4 +7,6 @@
   .figure {
     @include figure($stretch: stretched);
   }
+
+  @include map--mobile;
 }

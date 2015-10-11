@@ -1,0 +1,5 @@
+@mixin news--mobile {
+  @include mobile {
+    padding: $lem / 2;
+  }
+}

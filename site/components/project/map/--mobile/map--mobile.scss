@@ -1,0 +1,7 @@
+@mixin map--mobile {
+  @include mobile {
+    &__title {
+      display: none;
+    }
+  }
+}
