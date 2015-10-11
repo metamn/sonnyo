@@ -1,7 +1,5 @@
 @mixin map--portrait {
   @include portrait {
-    &__title {
-      margin: $lem / 2;
-    }
+    padding: $lem / 2
   }
 }

@@ -77,7 +77,7 @@
   <picture class="picture">
     <!--[if IE 9]><video style="display: none;"><![endif]-->
     <source media="(min-width: 1600px)" srcset="{{ site_url }}assets/images/{{ desktop }}, {{ site_url }}assets/images/{{ desktop2x }} 2x">
-    <source media="(min-width: 1199px)" srcset="{{ site_url }}assets/images/{{ laptop }}, {{ site_url }}assets/images/{{ laptop2x }} 2x">
+    <source media="(min-width: 1024px)" srcset="{{ site_url }}assets/images/{{ laptop }}, {{ site_url }}assets/images/{{ laptop2x }} 2x">
     <source media="(min-width: 600px)" srcset="{{ site_url }}assets/images/{{ tablet }}, {{ site_url }}assets/images/{{ tablet2x }} 2x">
     <source media="(max-width: 599px)" srcset="{{ site_url }}assets/images/{{ mobile }}, {{ site_url }}assets/images/{{ mobile2x }} 2x">
     <!--[if IE 9]></video><![endif]-->

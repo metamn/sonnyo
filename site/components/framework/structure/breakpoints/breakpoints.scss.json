@@ -7,8 +7,8 @@
     },
     {
       "name": "tablet",
-      "value": "1199px",
-      "description": "Screens bigger than 600px and smaller than 1199px"
+      "value": "1024px",
+      "description": "Screens bigger than 600px and smaller than 1024px"
     },
     {
       "name": "desktop",
@@ -30,24 +30,12 @@
       "media_query": "(max-width: $breakpoint-mobile - 0.1)"
     },
     {
-      "name": "mobile-and-up",
-      "media_query": "(min-width: $breakpoint-mobile + 0.1)"
-    },
-    {
       "name": "tablet",
-      "media_query": "(min-width: $breakpoint-mobile) and (max-width: $breakpoint-tablet)"
+      "media_query": "(min-width: $breakpoint-mobile) and (max-width: $breakpoint-tablet - 0.1)"
     },
     {
-      "name": "tablet-landscape",
-      "media_query": "(orientation: landscape) and (min-width: $breakpoint-mobile) and (max-width: $breakpoint-tablet)"
-    },
-    {
-      "name": "tablet-and-below",
-      "media_query": "(max-width: $breakpoint-tablet)"
-    },
-    {
-      "name": "tablet-and-up",
-      "media_query": "(min-width: $breakpoint-tablet + 0.1)"
+      "name": "laptop",
+      "media_query": "(min-width: $breakpoint-tablet) and (max-width: $breakpoint-desktop)"
     },
     {
       "name": "desktop",
