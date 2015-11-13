@@ -2,7 +2,7 @@ var news = function(containerID) {
   jsonAPICall(containerID, function(result) {
     var data = result.data;
 
-    for (var i = 0; i <= 4; i++) {
+    for (var i = 0; i < 4; i++) {
       var item = document.createElement('div');
       item.className = 'news-item';
 
