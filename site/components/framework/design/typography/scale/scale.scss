@@ -54,25 +54,17 @@ $lem: 1.48em;
     
   }
 
-  // Larger than default font size with 9 scales
-  @if ($variant == 'large-9') {
-    font-size: 13.288em;
+  // Larger than default font size with 4 scales
+  @if ($variant == 'large-4') {
+    font-size: 4.209em;
     line-height: 1;
     
     
   }
 
-  // Larger than default font size with 10 scales
-  @if ($variant == 'large-10') {
-    font-size: 17.713em;
-    line-height: 1;
-    
-    
-  }
-
-  // Larger than default font size with 11 scales
-  @if ($variant == 'large-11') {
-    font-size: 23.612em;
+  // Larger than default font size with 5 scales
+  @if ($variant == 'large-5') {
+    font-size: 5.61em;
     line-height: 1;
     
     
@@ -115,22 +107,15 @@ $lem: 1.48em;
   
 }
 
-.scale--large-9 {
-  font-size: 13.288em;
+.scale--large-4 {
+  font-size: 4.209em;
   line-height: 1;
   
   
 }
 
-.scale--large-10 {
-  font-size: 17.713em;
-  line-height: 1;
-  
-  
-}
-
-.scale--large-11 {
-  font-size: 23.612em;
+.scale--large-5 {
+  font-size: 5.61em;
   line-height: 1;
   
   

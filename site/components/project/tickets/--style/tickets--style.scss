@@ -3,11 +3,15 @@
   flex-direction: column;
 
   max-width: $count * $width;
-  padding: $lem 0;
+  margin: $lem 0;
+
+  border: 1px solid;
+  box-shadow: $lem / 4 $lem / 4;
 
   .title {
     display: flex;
     @include text-style(subtitle);
+    padding: $lem / 2;
   }
 
   .head,
@@ -17,8 +21,15 @@
     justify-content: space-between;
     align-items: center;
 
-    padding: $lem / 2 0;
+    padding: $lem / 2;
     @include border--normal;
+  }
+
+  // Row last border
+  .row {
+    &:last-of-type {
+      border: none;
+    }
   }
 
   // Half widths

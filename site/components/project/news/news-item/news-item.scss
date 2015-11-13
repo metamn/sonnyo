@@ -1,13 +1,12 @@
 @mixin news-item {
   @include text-style(body-text);
-  
+
   margin-top: $lem;
 
   &__date {
     border-bottom: 1px solid;
 
     .date {
-      @include colors(white-on-black);
       @include text-style(section-title);
       padding: calc(#{$lem / 8} + 1px) $lem / 4 $lem / 8;
       display: inline-flex; // otherwise the line height will be not fixed but varying

@@ -71,7 +71,8 @@
           "value": "nimbus-sans-bold"
         },
         {
-          "name": "border--thin"
+          "name": "colors",
+          "value": "white-on-black"
         }
       ],
       "properties": [
@@ -92,7 +93,7 @@
         },
         {
           "name": "scale",
-          "value": "large-3"
+          "value": "large-5"
         }
       ]
     },

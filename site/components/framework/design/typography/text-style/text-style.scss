@@ -54,7 +54,7 @@ $text-block-width: 25em;
   // - Section subtitles
   @if ($variant == 'subtitle') {
     @include font(nimbus-sans-bold);
-    @include border--thin;
+    @include colors(white-on-black);
     
     letter-spacing: 1.7px;
     
@@ -65,7 +65,7 @@ $text-block-width: 25em;
   // - Large text, like three times the default
   @if ($variant == 'large') {
     @include font(nimbus-sans-black);
-    @include scale(large-3);
+    @include scale(large-5);
     
     
     
@@ -125,7 +125,7 @@ $text-block-width: 25em;
 
 .text-style--subtitle {
   @include font(nimbus-sans-bold);
-  @include border--thin;
+  @include colors(white-on-black);
   
   letter-spacing: 1.7px;
   
@@ -134,7 +134,7 @@ $text-block-width: 25em;
 
 .text-style--large {
   @include font(nimbus-sans-black);
-  @include scale(large-3);
+  @include scale(large-5);
   
   
   
