@@ -5,13 +5,8 @@
   }
 
   &__body {
-    .news-item {
-      @include news-item;
-    }
+    @include news__body;
   }
 
-  @include news--mobile;
-  @include news--tablet;
-  @include news--landscape;
-  @include news--tablet-landscape;
+  @include news--portrait;
 }

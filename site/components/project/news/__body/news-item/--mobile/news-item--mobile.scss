@@ -1,0 +1,5 @@
+@mixin news-item--mobile {
+  @include mobile {
+    @include news-item--one-column;
+  }
+}

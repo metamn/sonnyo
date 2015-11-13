@@ -1,7 +1,18 @@
 @mixin news-item {
   @include text-style(body-text);
+  @include border--normal(all);
 
+  padding: $lem / 2;
   margin-top: $lem;
+
+  flex-basis: calc(50% - #{$lem + $lem / 2} - 2px);
+
+  &:nth-of-type(2n) {
+    margin-left: $lem;
+  }
+
+  @include news-item--mobile;
+  @include news-item--tablet-landscape;
 
   &__date {
     border-bottom: 1px solid;

@@ -1,0 +1,7 @@
+@mixin news-item--one-column {
+  flex-basis: calc(100% - 2px);
+
+  &:nth-of-type(2n) {
+    margin-left: 0;
+  }
+}
