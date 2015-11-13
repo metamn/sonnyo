@@ -1,8 +1,12 @@
-@mixin pictogram($width: $lem * 5) {
+@mixin pictogram($width: $lem * 5, $centered: false) {
   width: $width;
 
   display: flex;
   align-items: center;
+
+  @if ($centered != false) {
+    justify-content: center;
+  }
 
   &__text {
     @include pictogram__text;

@@ -28,7 +28,7 @@
 
   .head {
     .pictogram {
-      @include pictogram($width / 2);
+      @include pictogram($width / 2, centered);
     }
   }
 
