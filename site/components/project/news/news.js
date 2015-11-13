@@ -24,7 +24,7 @@ var news = function(containerID) {
       // created_time: 2015-02-26T13:33:25+0000
       var d = data[i].created_time.split("T");
       if (d.length > 0) {
-        date2.innerHTML = d[0].replace(/\-/g, " ");
+        date2.innerHTML = d[0].replace(/\-/g, " / ");
       }
 
       date.appendChild(date2);
