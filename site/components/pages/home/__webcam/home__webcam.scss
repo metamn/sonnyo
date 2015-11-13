@@ -1,0 +1,5 @@
+@mixin home__webcam {
+  .webcam {
+    @include webcam;
+  }
+}

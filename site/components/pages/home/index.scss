@@ -5,8 +5,8 @@ html {
         @include header;
       }
 
-      .webcam {
-        @include webcam;
+      .home__webcam {
+        @include home__webcam;
       }
 
       .slider {
