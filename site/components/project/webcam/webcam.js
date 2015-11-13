@@ -1,0 +1,1 @@
+videoResponsivePoster('.webcam');

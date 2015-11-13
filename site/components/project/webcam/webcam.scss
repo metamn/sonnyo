@@ -1,0 +1,11 @@
+@mixin webcam {
+  @include intrinsic-ratio(16, 9, '.video');
+
+  &__video {
+    @include webcam__video;
+  }
+
+  &__image {
+    @include webcam__image;
+  }
+}

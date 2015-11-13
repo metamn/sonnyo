@@ -1,5 +1,15 @@
 {
   "title": "Home",
+  "video": {
+    "title": "Webcam",
+    "mp4": "mark_romano--nantucket_docks",
+    "params": "autoplay loop",
+    "image": {
+      "title": "Webcam image",
+      "name": "google-earth-view-6055",
+      "extension": ".jpg"
+    }
+  },
   "contact": {
     "link": {
       "title": "facebook.com/kissomlyo",

@@ -5,6 +5,9 @@
   {% set weather = weather %}
   {% include '../../project/header/header.html.swig' %}
 
+  {% set video = video %}
+  {% include '../../project/webcam/webcam.html.swig' %}
+
   {% set slides = slides %}
   {% include '../../project/slider/slider.html.swig' %}
 

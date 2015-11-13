@@ -5,6 +5,10 @@ html {
         @include header;
       }
 
+      .webcam {
+        @include webcam;
+      }
+
       .slider {
         @include slider;
         //display: none;

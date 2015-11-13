@@ -135,6 +135,96 @@
 
 
   
+  <section class="webcam">
+  <h3>Webcam</h3>
+
+  
+  <article class="webcam__video">
+  <h3 class="title">Webcam</h3>
+
+  <video class="video" autoplay loop>
+  
+
+  
+    <source src="/assets/videos/mark_romano--nantucket_docks.mp4" type="video/mp4">
+  
+</video>
+
+</article>
+
+
+  
+  <aside class="webcam__image">
+  <h3>Video fallback image</h3>
+
+  
+  
+
+
+
+
+<figure class="figure">
+  
+
+  <!-- The default extension is .png but other formats are handled too -->
+  
+  
+    
+  
+
+  <!-- If 'onesize' is set all images will have the same size -->
+  
+    <!-- Naming convention for responsive images -->
+    
+    
+    
+    
+    
+    
+    
+    
+  
+
+  <!-- Showing different images for different devices -->
+  
+
+
+  <!-- Figcaption is image title unless is not set explicitely -->
+  
+  
+
+  
+
+
+  <!-- Images are served from /site also for /styleguide -->
+  
+  
+
+
+  <picture class="picture">
+    <!--[if IE 9]><video style="display: none;"><![endif]-->
+    <source media="(min-width: 1600px)" srcset="/assets/images/google-earth-view-6055_desktop.jpg, /assets/images/google-earth-view-6055_desktop2x.jpg 2x">
+    <source media="(min-width: 1024px)" srcset="/assets/images/google-earth-view-6055_laptop.jpg, /assets/images/google-earth-view-6055_laptop2x.jpg 2x">
+    <source media="(min-width: 600px)" srcset="/assets/images/google-earth-view-6055_tablet.jpg, /assets/images/google-earth-view-6055_tablet2x.jpg 2x">
+    <source media="(max-width: 599px)" srcset="/assets/images/google-earth-view-6055_mobile.jpg, /assets/images/google-earth-view-6055_mobile2x.jpg 2x">
+    <!--[if IE 9]></video><![endif]-->
+    <!-- to make it work with imagesLoaded the 'srcset' is replaced by a standard fallback 'src' -->
+    <img class="img" src="/assets/images/google-earth-view-6055_laptop.jpg"  alt="Webcam image">
+  </picture>
+
+  <figcaption class="figcaption figcaption--from-title">
+    Webcam image
+  </figcaption>
+
+
+</figure>
+
+</aside>
+
+</section>
+
+
+  
   <section class="slider">
   <h3>Slider</h3>
 
