@@ -1,5 +1,5 @@
 <article class="news">
-  <h3 class="news__title">News</h3>
+  <h3 class="news__title">News / Stiri / Hírek</h3>
 
   <div class="news__body" data-url="{{ fb.url }}"></div>
 </article>
