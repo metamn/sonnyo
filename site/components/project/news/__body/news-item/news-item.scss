@@ -5,6 +5,9 @@
   padding: $lem / 2;
   margin-top: $lem;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   flex-basis: calc(50% - #{$lem + $lem / 2} - 2px);
 
   &:nth-of-type(2n) {
@@ -16,6 +19,7 @@
 
   &__date {
     border-bottom: 1px solid;
+    margin-bottom: $lem / 2;
 
     .date {
       @include text-style(section-title);
