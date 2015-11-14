@@ -3,7 +3,7 @@
   "video": {
     "title": "Webcam",
     "mp4": "mark_romano--nantucket_docks",
-    "params": "autoplay loop controls",
+    "params": "controls",
     "image": {
       "title": "Webcam image",
       "name": "google-earth-view-6055",
@@ -72,7 +72,7 @@
   "images": [
     {
       "title": "Logo",
-      "name": "kissomlyo-logo-white"
+      "name": "kissomlyo-logo"
     },
     {
       "title": "Tracks Map",
