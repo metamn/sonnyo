@@ -2,7 +2,9 @@
   @include home__webcam--laptop;
   @include home__webcam--desktop;
   @include home__webcam--tablet-all;
-  
+  @include home__webcam--mobile;
+  @include home__webcam--mobile-landscape;
+
   .webcam {
     @include webcam;
   }
