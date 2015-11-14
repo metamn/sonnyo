@@ -1,21 +1,21 @@
 <section class="navigation">
   <h3>Navigation</h3>
 
-  <ul>
+  <ul class="ul">
     {% for item in navigation %}
-      <li data-url="#{item.url}">{{ item.en }}</li>
+      <li class="li" data-url="#{item.url}">{{ item.en }}</li>
     {% endfor %}
   </ul>
 
-  <ul>
+  <ul class="ul">
     {% for item in navigation %}
-      <li data-url="#{item.url}">{{ item.ro }}</li>
+      <li class="li" data-url="#{item.url}">{{ item.ro }}</li>
     {% endfor %}
   </ul>
 
-  <ul>
+  <ul class="ul">
     {% for item in navigation %}
-      <li data-url="#{item.url}">{{ item.hu }}</li>
+      <li class="li" data-url="#{item.url}">{{ item.hu }}</li>
     {% endfor %}
   </ul>
 </section>

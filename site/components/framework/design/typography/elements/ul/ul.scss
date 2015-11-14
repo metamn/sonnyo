@@ -4,6 +4,14 @@
 // No bullets or other decorators.
 //
 // Styleguide ul
-@mixin ul {
+@mixin ul($style: none) {
   list-style-type: none;
+
+  @if ($style == underlined) {
+    @include ul--underlined;
+  }
+
+  @if ($style == inline) {
+    @include ul--inline;
+  }
 }

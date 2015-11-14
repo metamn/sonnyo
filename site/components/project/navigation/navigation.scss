@@ -1,1 +1,13 @@
-@mixin navigation {}
+@mixin navigation {
+  display: flex;
+  flex-direction: column;
+
+  .ul {
+    @include ul(inline);
+    padding: $lem / 2 0;
+
+    .li {
+      @include text-style(title);
+    }
+  }
+}
