@@ -62,7 +62,7 @@
     {
       "title": "Slide 1",
       "image": {
-        "title": "By night",
+        "title": "By day",
         "name": "P1280717-landscape",
         "responsive": [
           {
@@ -100,8 +100,7 @@
     "params": "controls",
     "image": {
       "title": "Webcam image",
-      "name": "google-earth-view-6055",
-      "extension": ".jpg"
+      "name": "pano-1-landscape"
     }
   },
   "contact": {

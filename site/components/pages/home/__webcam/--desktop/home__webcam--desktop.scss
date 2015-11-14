@@ -1,0 +1,8 @@
+@mixin home__webcam--desktop {
+  @include desktop {
+    position: absolute;
+    top: 10vh;
+    right: 10vw;
+    z-index: 1;
+  }
+}

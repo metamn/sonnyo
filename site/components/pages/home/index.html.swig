@@ -13,7 +13,7 @@
   {% include '../../project/navigation/navigation.html.swig' %}
 
   {% set video = video %}
-  {# include '__webcam/home__webcam.html.swig' #}
+  {% include '__webcam/home__webcam.html.swig' %}
 
   {% set slides = slides %}
   {% include '../../project/slider/slider.html.swig' %}

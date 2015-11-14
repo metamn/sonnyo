@@ -1,5 +1,6 @@
 // Read the `figure` element's responsive images and breakpoints
-// Set as poster `matchMedia` coming from `Picturefill`
+// Set as poster using `matchMedia` coming from `Picturefill`
+// elementID is the container holding the video and the poster image
 var videoResponsivePoster = function(elementID) {
 
   // Set a responsive poster using `mathcMedia`

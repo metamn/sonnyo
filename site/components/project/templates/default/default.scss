@@ -8,5 +8,7 @@ html {
 
     @include default--landscape;
     @include default--desktop;
+
+    background-image: url("/assets/images/little-pluses.png");
   }
 }

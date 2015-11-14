@@ -1,8 +1,6 @@
 html {
   &.home {
     body {
-      background-image: url("/assets/images/little-pluses.png");
-
       .header {
         @include header;
       }
@@ -15,6 +13,7 @@ html {
         @include navigation;
       }
 
+      position: relative;
       .home__webcam {
         @include home__webcam;
       }

@@ -1,1 +1,1 @@
-//videoResponsivePoster('.webcam');
+videoResponsivePoster('.webcam');

@@ -223,7 +223,99 @@
 
 
   
+  <section class="home__webcam">
+  <h3>Home webcam</h3>
+
+  <div class="webcam-container">
+    <section class="webcam">
+  <h3>Webcam</h3>
+
   
+  <article class="webcam__video">
+  <h3 class="title">Webcam</h3>
+
+  <video class="video" controls>
+  
+
+  
+    <source src="/assets/videos/mark_romano--nantucket_docks.mp4" type="video/mp4">
+  
+</video>
+
+</article>
+
+
+  
+  <aside class="webcam__image">
+  <h3>Video fallback image</h3>
+
+  
+  
+
+
+
+
+<figure class="figure">
+  
+
+  <!-- The default extension is .png but other formats are handled too -->
+  
+  
+
+  <!-- If 'onesize' is set all images will have the same size -->
+  
+    <!-- Naming convention for responsive images -->
+    
+    
+    
+    
+    
+    
+    
+    
+  
+
+  <!-- Showing different images for different devices -->
+  
+
+
+  <!-- Figcaption is image title unless is not set explicitely -->
+  
+  
+
+  
+
+
+  <!-- Images are served from /site also for /styleguide -->
+  
+  
+
+
+  <picture class="picture">
+    <!--[if IE 9]><video style="display: none;"><![endif]-->
+    <source media="(min-width: 1600px)" srcset="/assets/images/pano-1-landscape_desktop.png, /assets/images/pano-1-landscape_desktop2x.png 2x">
+    <source media="(min-width: 1024px)" srcset="/assets/images/pano-1-landscape_laptop.png, /assets/images/pano-1-landscape_laptop2x.png 2x">
+    <source media="(min-width: 600px)" srcset="/assets/images/pano-1-landscape_tablet.png, /assets/images/pano-1-landscape_tablet2x.png 2x">
+    <source media="(max-width: 599px)" srcset="/assets/images/pano-1-landscape_mobile.png, /assets/images/pano-1-landscape_mobile2x.png 2x">
+    <!--[if IE 9]></video><![endif]-->
+    <!-- to make it work with imagesLoaded the 'srcset' is replaced by a standard fallback 'src' -->
+    <img class="img" src="/assets/images/pano-1-landscape_laptop.png"  alt="Webcam image">
+  </picture>
+
+  <figcaption class="figcaption figcaption--from-title">
+    Webcam image
+  </figcaption>
+
+
+</figure>
+
+</aside>
+
+</section>
+
+  </div>
+</section>
+
 
   
   <section class="slider">
@@ -302,11 +394,11 @@
     <source media="(max-width: 599px)" srcset="/assets/images/P1280717-portrait_mobile.png, /assets/images/P1280717-portrait_mobile2x.png 2x">
     <!--[if IE 9]></video><![endif]-->
     <!-- to make it work with imagesLoaded the 'srcset' is replaced by a standard fallback 'src' -->
-    <img class="img" src="/assets/images/P1280717-landscape_laptop.png"  alt="By night">
+    <img class="img" src="/assets/images/P1280717-landscape_laptop.png"  alt="By day">
   </picture>
 
   <figcaption class="figcaption figcaption--from-title">
-    By night
+    By day
   </figcaption>
 
 
