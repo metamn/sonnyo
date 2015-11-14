@@ -5,8 +5,14 @@
   {% set weather = weather %}
   {% include '../../project/header/header.html.swig' %}
 
+  {% set status = status %}
+  {% include '../../project/status/status.html.swig' %}
+
+  {% set navigation = navigation %}
+  {% include '../../project/navigation/navigation.html.swig' %}
+
   {% set video = video %}
-  {% include '__webcam/home__webcam.html.swig' %}
+  {# include '__webcam/home__webcam.html.swig' #}
 
   {% set slides = slides %}
   {% include '../../project/slider/slider.html.swig' %}

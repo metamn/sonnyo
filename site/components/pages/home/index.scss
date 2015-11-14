@@ -5,6 +5,14 @@ html {
         @include header;
       }
 
+      .status {
+        @include status;
+      }
+
+      .navigation {
+        @include navigation;
+      }
+
       .home__webcam {
         @include home__webcam;
       }

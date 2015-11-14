@@ -1,5 +1,94 @@
 {
   "title": "Home",
+  "images": [
+    {
+      "title": "Logo",
+      "name": "kissomlyo-logo"
+    },
+    {
+      "title": "Tracks Map",
+      "name": "tracks"
+    }
+  ],
+  "status": [
+    "We are open",
+    "Partia este deschisa",
+    "Működik a sípálya"
+  ],
+  "navigation": [
+    {
+      "en": "Live",
+      "ro": "Webcam",
+      "hu": "Webkamera",
+      "url": "webcam"
+    },
+    {
+      "en": "News",
+      "ro": "Stiri",
+      "hu": "Hírek",
+      "url": "news"
+    },
+    {
+      "en": "Tickets",
+      "ro": "Bilete",
+      "hu": "Jegyek",
+      "url": "tickets"
+    },
+    {
+      "en": "Map",
+      "ro": "Harta",
+      "hu": "Pályatérkép",
+      "url": "map"
+    },
+    {
+      "en": "Photos",
+      "ro": "Imagini",
+      "hu": "Fotók",
+      "url": "slider"
+    },
+    {
+      "en": "Contact",
+      "ro": "Contact",
+      "hu": "Kapcsolat",
+      "url": "contact"
+    }
+  ],
+  "slides": [
+    {
+      "title": "Slide 1",
+      "image": {
+        "title": "By night",
+        "name": "P1280717-landscape",
+        "responsive": [
+          {
+            "breakpoint": "mobile",
+            "name": "P1280717-portrait"
+          },
+          {
+            "breakpoint": "tablet",
+            "name": "P1280717-portrait"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Slide 3",
+      "image": {
+        "title": "By night",
+        "name": "pano-1-landscape",
+        "responsive": [
+          {
+            "breakpoint": "mobile",
+            "name": "pano-1-portrait"
+          },
+          {
+            "breakpoint": "tablet",
+            "name": "pano-1-portrait"
+          }
+        ]
+      }
+    }
+  ],
   "video": {
     "title": "Webcam",
     "mp4": "mark_romano--nantucket_docks",
@@ -67,52 +156,6 @@
     {
       "text": ["pt"],
       "icon": "card"
-    }
-  ],
-  "images": [
-    {
-      "title": "Logo",
-      "name": "kissomlyo-logo"
-    },
-    {
-      "title": "Tracks Map",
-      "name": "tracks"
-    }
-  ],
-  "slides": [
-    {
-      "title": "Slide 1",
-      "image": {
-        "title": "By night",
-        "name": "P1280717-landscape",
-        "responsive": [
-          {
-            "breakpoint": "mobile",
-            "name": "P1280717-portrait"
-          },
-          {
-            "breakpoint": "tablet",
-            "name": "P1280717-portrait"
-          }
-        ]
-      }
-    },
-    {
-      "title": "Slide 3",
-      "image": {
-        "title": "By night",
-        "name": "pano-1-landscape",
-        "responsive": [
-          {
-            "breakpoint": "mobile",
-            "name": "pano-1-portrait"
-          },
-          {
-            "breakpoint": "tablet",
-            "name": "pano-1-portrait"
-          }
-        ]
-      }
     }
   ]
 }
