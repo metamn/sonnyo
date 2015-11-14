@@ -1,0 +1,26 @@
+@mixin default--mobile-landscape {
+  @include mobile-landscape {
+    width: 100vw;
+    height: 100vh;
+
+    @include transition(opacity);
+    > * {
+      display: none;
+      opacity: 0;
+    }
+
+    .header,
+    .slider,
+    .home__map-and-news,
+    .tickets {
+      // those who still keep their height after the hiding code above
+      display: none !important;
+    }
+
+    .home__webcam {
+      display: flex !important;
+      opacity: 1;
+      max-width: none;
+    }
+  }
+}
