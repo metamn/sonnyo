@@ -1,0 +1,5 @@
+@mixin status--portrait {
+  @include portrait {
+    padding: $lem / 2;
+  }
+}

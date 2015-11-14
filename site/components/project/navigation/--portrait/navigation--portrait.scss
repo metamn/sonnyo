@@ -1,0 +1,5 @@
+@mixin navigation--portrait {
+  @include portrait {
+    padding: $lem / 2;
+  }
+}

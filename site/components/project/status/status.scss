@@ -1,1 +1,3 @@
-@mixin status {}
+@mixin status {
+  @include status--portrait;
+}
