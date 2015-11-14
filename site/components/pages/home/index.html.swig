@@ -9,6 +9,7 @@
   {% include '../../project/status/status.html.swig' %}
 
   {% set navigation = navigation %}
+  {% set navigation_mobile = navigation_mobile %}
   {% include '../../project/navigation/navigation.html.swig' %}
 
   {% set video = video %}

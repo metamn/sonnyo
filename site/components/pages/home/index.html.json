@@ -53,6 +53,11 @@
       "url": "contact"
     }
   ],
+  "navigation_mobile": [
+    "Rotate your mobile for live webcam",
+    "Rotiți telefonul mobil pt. imagini live",
+    "Forditsd el a mobilod élő képekért"
+  ],
   "slides": [
     {
       "title": "Slide 1",

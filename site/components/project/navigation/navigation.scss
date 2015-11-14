@@ -1,15 +1,5 @@
 @mixin navigation {
-  display: flex;
-  flex-direction: column;
-
   @include navigation--portrait;
-
-  .ul {
-    @include ul(inline);
-    padding: $lem / 2 0;
-
-    .li {
-      @include text-style(title);
-    }
-  }
+  @include navigation--mobile;
+  @include navigation--mobile-and-up;
 }

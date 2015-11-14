@@ -5,7 +5,7 @@
 // Styleguide breakpoints
 
 
-// Screens smaller than 600px
+// Screens smaller than 768px
 $breakpoint-mobile: 600px;
 
 // Screens bigger than 600px and smaller than 1024px
@@ -31,6 +31,12 @@ $breakpoint-desktop: 1600px;
 
 @mixin mobile {
   @media only screen and (max-width: $breakpoint-mobile - 0.1) {
+    @content
+  }
+}
+
+@mixin mobile-and-up {
+  @media only screen and (min-width: $breakpoint-mobile) {
     @content
   }
 }
