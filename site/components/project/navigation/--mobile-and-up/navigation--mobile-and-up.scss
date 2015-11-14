@@ -3,13 +3,17 @@
     &--mobile-and-up {
       display: flex;
       flex-direction: column;
+      padding: $lem 0;
 
       .ul {
         @include ul(inline);
-        padding: $lem / 2 0;
 
         .li {
           @include text-style(title);
+        }
+
+        + .ul {
+          margin-top: $lem / 2;
         }
       }
     }
