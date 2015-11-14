@@ -2,7 +2,7 @@
   "breakpoints": [
     {
       "name": "mobile",
-      "value": "600px",
+      "value": "768px",
       "description": "Screens smaller than 768px"
     },
     {
@@ -36,6 +36,10 @@
     {
       "name": "tablet",
       "media_query": "(min-width: $breakpoint-mobile) and (max-width: $breakpoint-tablet - 0.1)"
+    },
+    {
+      "name": "tablet-all",
+      "media_query": "(min-width: $breakpoint-mobile) and (max-width: $breakpoint-tablet)"
     },
     {
       "name": "tablet-landscape",

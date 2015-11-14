@@ -4,5 +4,11 @@
     top: 10vh;
     right: 10vw;
     z-index: 1;
+
+    width: 640px;
+
+    .webcam-container {
+      max-width: 640px;
+    }
   }
 }

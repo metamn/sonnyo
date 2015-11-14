@@ -1,13 +1,8 @@
 @mixin home__webcam {
   @include home__webcam--laptop;
   @include home__webcam--desktop;
-
-  width: 640px;
-
-  .webcam-container {
-    max-width: 640px;
-  }
-
+  @include home__webcam--tablet-all;
+  
   .webcam {
     @include webcam;
   }
