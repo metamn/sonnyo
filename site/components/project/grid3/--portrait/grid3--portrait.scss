@@ -1,11 +1,9 @@
 @mixin grid3--portrait($item) {
   @include portrait {
-    #{$item} {
-      margin-bottom: 0;
+    margin-bottom: 0;
 
-      + #{$item} {
-        margin-left: 0;
-      }
+    + #{$item} {
+      margin-left: $lem;
     }
   }
 }
