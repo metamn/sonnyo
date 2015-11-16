@@ -1,5 +1,6 @@
 @mixin grid--mobile {
   @include mobile {
+    flex-basis: 100%;
     margin-right: 0;
 
     &:last-of-type {

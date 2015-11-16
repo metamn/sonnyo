@@ -1,6 +1,5 @@
 @mixin news__body {
-  display: flex;
-  flex-wrap: wrap;
+  @include grid('.news-item', 0, 30%);
   justify-content: space-between;
 
   .news-item {
