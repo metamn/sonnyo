@@ -1,0 +1,10 @@
+@mixin news-item__date {
+  border-bottom: 1px solid;
+  margin-bottom: $lem / 2;
+
+  .date {
+    @include text-style(section-title);
+    padding: calc(#{$lem / 8} + 1px) $lem / 4 $lem / 8;
+    display: inline-flex; // otherwise the line height will be not fixed but varying
+  }
+}

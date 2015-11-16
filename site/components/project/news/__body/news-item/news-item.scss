@@ -1,18 +1,16 @@
 @mixin news-item {
   @include text-style(body-text);
-  @include border--normal(all);
 
   padding: $lem / 2;
   margin-top: $lem;
 
-  &__date {
-    border-bottom: 1px solid;
-    margin-bottom: $lem / 2;
+  background: url('/assets/images/news-background.png');
 
-    .date {
-      @include text-style(section-title);
-      padding: calc(#{$lem / 8} + 1px) $lem / 4 $lem / 8;
-      display: inline-flex; // otherwise the line height will be not fixed but varying
-    }
+  &__date {
+    @include news-item__date;
+  }
+
+  &__message {
+    @include news-item__message;
   }
 }

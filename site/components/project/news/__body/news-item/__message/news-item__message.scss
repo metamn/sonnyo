@@ -1,0 +1,4 @@
+@mixin news-item__message {
+  @include text-style(default);
+  padding: $lem / 2;
+}
