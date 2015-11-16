@@ -15,9 +15,12 @@
       flex-basis: $basis;
     }
 
-    margin-right: $margin;
+    + #{$item} {
+      margin-left: $margin;
+    }
     margin-bottom: $margin;
 
-    @include grid--mobile;
+
+    @include grid--mobile($item);
   }
 }

@@ -1,0 +1,19 @@
+@mixin grid3($item) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  #{$item} {
+    flex-grow: 1;
+    flex-basis: 28%;
+
+    margin-bottom: $lem;
+
+    + #{$item} {
+      margin-left: $lem * 2;
+    }
+
+    @include grid3--mobile($item);
+    @include grid3--portrait($item);
+  }
+}

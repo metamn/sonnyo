@@ -5,7 +5,7 @@
   padding: $lem / 2;
   margin-top: $lem;
 
-  background: url('/assets/images/news-background.png');
+  background: url('{{ site.url }}{{ site.images }}news-background.png');
 
   &__date {
     @include news-item__date;
@@ -14,6 +14,4 @@
   &__message {
     @include news-item__message;
   }
-
-  @include news-item--tablet-all;
 }

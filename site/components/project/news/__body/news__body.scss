@@ -1,6 +1,5 @@
 @mixin news__body {
-  @include grid('.news-item', 0, 30%);
-  justify-content: space-between;
+  @include grid3('.news-item');
 
   .news-item {
     @include news-item;
