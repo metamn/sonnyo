@@ -19,8 +19,10 @@
   {% include '../../project/slider/slider.html.swig' %}
 
   {% set image = images[1] %}
+  {% include '../../project/map/map.html.swig' %}
+
   {% set fb = fb %}
-  {% include '__map-and-news/home__map-and-news.html.swig' %}
+  {% include '../../project/news/news.html.swig' %}
 
   {% set pictograms = pictograms %}
   {% include '../../project/tickets/tickets.html.swig' %}

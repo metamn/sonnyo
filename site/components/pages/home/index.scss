@@ -23,9 +23,12 @@ html {
         //display: none;
       }
 
-      .home__map-and-news {
-        @include home__map-and-news;
-        //display: none !important;
+      .news {
+        @include news;
+      }
+
+      .map {
+        @include map;
       }
 
       .tickets {

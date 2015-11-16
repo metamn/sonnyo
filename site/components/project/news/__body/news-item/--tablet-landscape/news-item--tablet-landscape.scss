@@ -1,5 +1,0 @@
-@mixin news-item--tablet-landscape {
-  @include tablet-landscape {
-    @include news-item--one-column;
-  }
-}
