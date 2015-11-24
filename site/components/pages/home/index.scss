@@ -1,8 +1,8 @@
 html {
   &.home {
     body {
-      .video-fullscreen {
-        @include video-fullscreen;
+      .background-video {
+        @include background-video;
       }
 
       .header {

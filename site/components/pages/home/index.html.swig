@@ -2,7 +2,7 @@
 {% block content %}
 
   {% set video = video %}
-  {% include '../../framework/structure/video-fullscreen/video-fullscreen.html.swig' %}
+  {% include '../../project/background-video/background-video.html.swig' %}
 
   {% set image = images | first %}
   {% set navigation = navigation %}
