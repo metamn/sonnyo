@@ -1,4 +1,6 @@
 @mixin map {
+  @include colors(black-on-white);
+  
   &__title {
     display: flex;
     @include text-style(title);

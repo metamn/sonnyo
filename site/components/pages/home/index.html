@@ -257,6 +257,77 @@
 
 
 
+  
+  <article class="map">
+  <h3 class="map__title">
+    <span class="span">Map / Harta / Pályatérkép</span>
+  </h3>
+
+  
+
+
+
+
+<figure class="figure">
+  
+
+  <!-- The default extension is .png but other formats are handled too -->
+  
+  
+    
+  
+
+  <!-- If 'onesize' is set all images will have the same size -->
+  
+    <!-- Naming convention for responsive images -->
+    
+    
+    
+    
+    
+    
+    
+    
+  
+
+  <!-- Showing different images for different devices -->
+  
+
+
+  <!-- Figcaption is image title unless is not set explicitely -->
+  
+  
+
+  
+
+
+  <!-- Images are served from /site also for /styleguide -->
+  
+  
+
+
+  <picture class="picture">
+    <!--[if IE 9]><video style="display: none;"><![endif]-->
+    <source media="(min-width: 1600px)" srcset="/assets/images/palyaterkep_desktop.jpg, /assets/images/palyaterkep_desktop2x.jpg 2x">
+    <source media="(min-width: 1024px)" srcset="/assets/images/palyaterkep_laptop.jpg, /assets/images/palyaterkep_laptop2x.jpg 2x">
+    <source media="(min-width: 600px)" srcset="/assets/images/palyaterkep_tablet.jpg, /assets/images/palyaterkep_tablet2x.jpg 2x">
+    <source media="(max-width: 599px)" srcset="/assets/images/palyaterkep_mobile.jpg, /assets/images/palyaterkep_mobile2x.jpg 2x">
+    <!--[if IE 9]></video><![endif]-->
+    <!-- to make it work with imagesLoaded the 'srcset' is replaced by a standard fallback 'src' -->
+    <img class="img" src="/assets/images/palyaterkep_laptop.jpg"  alt="Map">
+  </picture>
+
+  <figcaption class="figcaption figcaption--from-title">
+    Map
+  </figcaption>
+
+
+</figure>
+
+</article>
+
+
+
 
 
 

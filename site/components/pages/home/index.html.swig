@@ -16,4 +16,8 @@
   {% set fb = fb %}
   {% include '../../project/news/news.html.swig' %}
 
+
+  {% set image = images[1] %}
+  {% include '../../project/map/map.html.swig' %}
+
 {% endblock %}

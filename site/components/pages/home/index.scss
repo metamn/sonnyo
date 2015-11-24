@@ -16,6 +16,10 @@ html {
       .news {
         @include news;
       }
+
+      .map {
+        @include map;
+      }
     }
   }
 }
