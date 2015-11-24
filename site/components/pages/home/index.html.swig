@@ -5,4 +5,9 @@
   {% set navigation = navigation %}
   {% include '../../project/header/header.html.swig' %}
 
+  {% set status = status %}
+  {% set snow = snow %}
+  {% set weather = weather %}
+  {% include '__status/home__status.html.swig' %}
+
 {% endblock %}

@@ -2,5 +2,12 @@
   .openweather {
     display: flex;
     align-items: center;
+
+    // Hide the ugliness when the API is not available
+    .openweather__icon {
+      width: $lem * 2;
+      overflow: hidden;
+      color: $white;
+    }
   }
 }

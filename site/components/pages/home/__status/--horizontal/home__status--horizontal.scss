@@ -1,0 +1,6 @@
+@mixin home__status--horizontal {
+  @include mobile-and-up {
+    justify-content: space-between;
+    align-items: center;
+  }
+}

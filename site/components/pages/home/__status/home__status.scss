@@ -1,0 +1,17 @@
+@mixin home__status {
+  display: flex;
+  @include home__status__horizontal;
+  @include home__status__vertical;
+
+  .status {
+    @include status;
+  }
+
+  .snow {
+    @include snow;
+  }
+
+  .weather {
+    @include weather;
+  }
+}

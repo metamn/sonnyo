@@ -5,39 +5,10 @@ html {
         @include header;
       }
 
-      .status {
-        @include status;
+      .home__status {
+        @include home__status;
       }
 
-      .navigation {
-        @include navigation;
-      }
-
-      position: relative;
-      .home__webcam {
-        @include home__webcam;
-      }
-
-      .slider {
-        @include slider;
-        //display: none;
-      }
-
-      .news {
-        @include news;
-      }
-
-      .map {
-        @include map;
-      }
-
-      .tickets {
-        @include tickets;
-      }
-
-      .contact {
-        @include contact;
-      }
     }
   }
 }
