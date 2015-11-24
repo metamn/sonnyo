@@ -1,0 +1,16 @@
+@mixin hamburger-menu__text($text) {
+  @include transition(opacity);
+  margin-right: $lem / 2;
+
+  &--opened {
+    @include hamburger-menu__text--opened;
+  }
+
+  &--closed {
+    @include hamburger-menu__text--closed;
+  }
+
+  @if ($text == off ) {
+    @include hamburger-menu__text--off;
+  }
+}

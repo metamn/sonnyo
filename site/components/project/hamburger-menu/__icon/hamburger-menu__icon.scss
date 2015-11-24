@@ -1,0 +1,19 @@
+@mixin hamburger-menu__icon($width, $height) {
+  @include transition(transform);
+
+  width: $width;
+  display: flex;
+  flex-direction: column;
+
+  .line {
+    border-bottom: 1px solid;
+  }
+
+  &--closed {
+    @include hamburger-menu__icon--closed($height);
+  }
+
+  &--opened {
+    @include hamburger-menu__icon--opened;
+  }
+}

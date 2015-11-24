@@ -1,0 +1,11 @@
+@mixin hamburger-menu__text--closed {
+  .opened {
+    display: none;
+    opacity: 0;
+  }
+
+  .closed {
+    display: flex;
+    opacity: 1;
+  }
+}

@@ -5,7 +5,7 @@
   padding: $lem / 2;
   margin-top: $lem;
 
-  background: url('http://metamn.io/sonnyo-demo/assets/images/news-background.png');
+  background: url('/assets/images/news-background.png');
 
   &__date {
     @include news-item__date;

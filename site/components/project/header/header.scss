@@ -6,6 +6,8 @@
 //
 // Styleguide header
 @mixin header {
+  //@include header--fixed;
+
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -15,10 +17,12 @@
     @include logo;
   }
 
-  .weather {
-    @include weather;
+  .hamburger-menu {
+    @include hamburger-menu($text: off);
   }
 
-  @include header--portrait;
-  @include header--landscape;
+  .menu {
+    @include menu;
+    display: none;
+  }
 }
