@@ -55,11 +55,6 @@
       "url": "contact"
     }
   ],
-  "navigation_mobile": [
-    "Rotate your mobile for live webcam",
-    "Rotiți telefonul mobil pt. imagini live",
-    "Forditsd el a mobilod élő képekért"
-  ],
   "slides": [
     {
       "title": "Slide 1",
@@ -100,10 +95,7 @@
     "title": "Webcam",
     "mp4": "mark_romano--nantucket_docks",
     "params": "controls",
-    "image": {
-      "title": "Webcam image",
-      "name": "pano-1-landscape"
-    }
+    "image": "P1280717-landscape_laptop.png"
   },
   "contact": {
     "link": {

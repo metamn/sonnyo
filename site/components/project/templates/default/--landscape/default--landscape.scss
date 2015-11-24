@@ -1,5 +1,0 @@
-@mixin default--landscape {
-  @include landscape {
-    @include fixed-width(90vw);
-  }
-}

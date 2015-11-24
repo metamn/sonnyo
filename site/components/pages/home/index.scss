@@ -1,6 +1,10 @@
 html {
   &.home {
     body {
+      .video-fullscreen {
+        @include video-fullscreen;
+      }
+
       .header {
         @include header;
       }
