@@ -13,4 +13,7 @@
   {% set weather = weather %}
   {% include '__status/home__status.html.swig' %}
 
+  {% set fb = fb %}
+  {% include '../../project/news/news.html.swig' %}
+
 {% endblock %}

@@ -13,6 +13,9 @@ html {
         @include home__status;
       }
 
+      .news {
+        @include news;
+      }
     }
   }
 }

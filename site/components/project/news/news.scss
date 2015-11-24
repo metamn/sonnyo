@@ -1,4 +1,7 @@
 @mixin news {
+  @include colors(black-on-white);
+  margin-top: 100vh;
+
   &__title {
     display: flex;
     @include text-style(title);
