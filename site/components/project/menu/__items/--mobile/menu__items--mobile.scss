@@ -2,9 +2,10 @@
   @include mobile {
     margin: $lem / 2 0;
 
-    width: calc(100% - #{$lem / 2});
-    @include colors(black-on-white);
-    @include border(thin, all);
+    width: calc(100% - #{$lem + $lem / 4});
+    @include text-style(subtitle);
+    @include text-style(foreground-text);
+    @include box-shadow;
 
     .ul {
       @include ul(underlined);

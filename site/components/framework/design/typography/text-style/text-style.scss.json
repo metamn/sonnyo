@@ -155,7 +155,7 @@
         },
         {
           "name": "opacity",
-          "value": ".5"
+          "value": ".9 !important"
         }
       ]
     }

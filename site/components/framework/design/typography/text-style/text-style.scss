@@ -106,7 +106,7 @@ $text-block-width: 25em;
     @include colors(black-on-white);
     
     padding: $lem / 2;
-    opacity: .5;
+    opacity: .9 !important;
     
     
   }
@@ -187,7 +187,7 @@ $text-block-width: 25em;
   @include colors(black-on-white);
   
   padding: $lem / 2;
-  opacity: .5;
+  opacity: .9 !important;
   
   
 }
