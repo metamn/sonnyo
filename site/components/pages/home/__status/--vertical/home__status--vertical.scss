@@ -1,5 +1,7 @@
 @mixin home__status--vertical {
   @include mobile {
     flex-direction: column;
+    justify-content: flex-end;
+    height: 100vh;
   }
 }

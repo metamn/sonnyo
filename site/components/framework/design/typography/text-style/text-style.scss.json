@@ -126,6 +126,27 @@
           "value": "nimbus-sans-bold"
         }
       ]
+    },
+    {
+      "name": "Foreground text",
+      "description": "Text on a background image or video",
+      "based_on": "Nimbus Sans",
+      "mixins": [
+        {
+          "name": "colors",
+          "value": "black-on-white"
+        }
+      ],
+      "properties": [
+        {
+          "name": "padding",
+          "value": "$lem / 2"
+        },
+        {
+          "name": "opacity",
+          "value": ".5"
+        }
+      ]
     }
   ]
 }

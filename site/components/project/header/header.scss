@@ -19,7 +19,7 @@
   }
 
   .hamburger-menu {
-    @include hamburger-menu($text: off);
+    @include hamburger-menu($lem * 1.5, $lem * 1.5, $text: off);
   }
 
   .menu {

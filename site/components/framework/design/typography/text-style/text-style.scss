@@ -91,6 +91,17 @@ $text-block-width: 25em;
     
   }
   
+  // Foreground text
+  // - Text on a background image or video
+  @if ($variant == 'foreground-text') {
+    @include colors(black-on-white);
+    
+    padding: $lem / 2;
+    opacity: .5;
+    
+    
+  }
+  
 }
 
 
@@ -152,6 +163,15 @@ $text-block-width: 25em;
   @include colors(white-on-black);
   @include font(nimbus-sans-bold);
   
+  
+  
+}
+
+.text-style--foreground-text {
+  @include colors(black-on-white);
+  
+  padding: $lem / 2;
+  opacity: .5;
   
   
 }

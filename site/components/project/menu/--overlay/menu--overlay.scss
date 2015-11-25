@@ -1,0 +1,8 @@
+// Instead of pushing down the elements below the menu, when opened it will overlay the current element
+@mixin menu--overlay {
+  position: relative;
+
+  &__items {
+    position: absolute;
+  }
+}

@@ -6,6 +6,8 @@
 @mixin menu {
   display: flex;
 
+  @include menu--overlay;
+
   &__items {
     @include menu__items;
   }

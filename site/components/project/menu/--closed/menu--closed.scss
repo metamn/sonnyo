@@ -1,5 +1,9 @@
 @mixin menu--closed {
+  @include transition(all);
+
   .menu__items {
+    @include transition(all);
     display: none;
+    opacity: 0;
   }
 }

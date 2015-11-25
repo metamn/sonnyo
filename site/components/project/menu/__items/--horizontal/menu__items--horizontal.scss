@@ -1,7 +1,4 @@
 @mixin menu__items--horizontal {
   justify-content: space-between;
-  
-  .ul {
-    width: 30%;
-  }
+  padding-top: $lem;
 }
