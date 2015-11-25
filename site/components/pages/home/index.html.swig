@@ -2,7 +2,10 @@
 {% block content %}
 
   {% set video = video %}
-  {% include '../../project/background-video/background-video.html.swig' %}
+  {# include '../../project/background-video/background-video.html.swig' #}
+
+  {% set slide = slides[0] %}
+  {% include '../../project/background-image/background-image.html.swig' %}
 
   {% set image = images | first %}
   {% set navigation = navigation %}
@@ -14,10 +17,15 @@
   {% include '__status/home__status.html.swig' %}
 
   {% set fb = fb %}
-  {% include '../../project/news/news.html.swig' %}
-
+  {# include '../../project/news/news.html.swig' #}
 
   {% set image = images[1] %}
-  {% include '../../project/map/map.html.swig' %}
+  {# include '../../project/map/map.html.swig' #}
+
+  {% set map = map %}
+  {# include '../../project/directions/directions.html.swig' #}
+
+  {% set slides = slides %}
+  {# include '../../project/slider/slider.html.swig' #}
 
 {% endblock %}

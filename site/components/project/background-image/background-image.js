@@ -1,0 +1,1 @@
+imagesLoading('.background-image');

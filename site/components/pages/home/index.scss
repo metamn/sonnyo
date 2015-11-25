@@ -5,6 +5,15 @@ html {
         @include background-video;
       }
 
+      .background-image {
+        @include background-image;
+      }
+
+
+      .slider {
+        @include slider;
+      }
+
       .header {
         @include header;
       }
@@ -19,6 +28,10 @@ html {
 
       .map {
         @include map;
+      }
+
+      .directions {
+        @include directions;
       }
     }
   }

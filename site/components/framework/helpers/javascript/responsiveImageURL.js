@@ -2,6 +2,8 @@
 // - the data gathered is passed to a callback function
 var responsiveImageURL = function(elementID, callback) {
   var element = document.querySelector(elementID);
+  if (!element) return;
+  
   var picture = element.querySelector('.picture');
 
   // Collect images and breakpoints from `picture`

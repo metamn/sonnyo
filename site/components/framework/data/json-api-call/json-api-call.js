@@ -3,6 +3,8 @@
 // - the response is sent back via a callback function
 var jsonAPICall = function(containerID, callback) {
   var container = document.querySelector(containerID);
+  if (!container) return;
+  
   var url = container.dataset.url;
 
   // JSON AJAX Call to an API endpoint

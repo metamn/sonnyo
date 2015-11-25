@@ -1,0 +1,7 @@
+@mixin background-image {
+  @include full-page;
+
+  .figure {
+    @include figure($stretch: stretched);
+  }
+}
