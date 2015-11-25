@@ -3,7 +3,7 @@
   flex-basis: 100%;
 
   .ul {
-    @include ul(underlined);
+    @include ul(inline);
   }
 
   @include landscape {

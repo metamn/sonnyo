@@ -7,6 +7,7 @@
 // Styleguide header
 @mixin header {
   @include section-padding;
+  padding-top: $lem / 2;
 
   display: flex;
   flex-wrap: wrap;

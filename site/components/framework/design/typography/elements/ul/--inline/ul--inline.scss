@@ -1,5 +1,6 @@
 @mixin ul--inline {
   display: flex;
+  flex-wrap: wrap;
 
   .li {
     &:after {

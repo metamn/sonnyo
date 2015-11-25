@@ -6,7 +6,7 @@
   flex-direction: column;
 
   .line {
-    border-bottom: 1px solid;
+    @include border--thin;
   }
 
   &--closed {
