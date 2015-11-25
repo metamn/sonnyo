@@ -4,6 +4,7 @@
   display: inline-flex;
 
   .snow-and-weather {
+    @include colors(black-on-white);
     display: flex;
     justify-content: space-between;
   }
