@@ -1,4 +1,7 @@
 @mixin tickets {
+  @include section-padding;
+  margin-bottom: $lem;
+  
   @include grid3('article');
 
   &__title {
@@ -12,6 +15,4 @@
   &__pass {
     @include tickets--style($lem * 7, 3);
   }
-
-  @include tickets--portrait;
 }

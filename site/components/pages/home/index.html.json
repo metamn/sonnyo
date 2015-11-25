@@ -21,6 +21,10 @@
     {
       "name": "snowflake",
       "title": "Snow level / Zapada / Ho"
+    },
+    {
+      "name": "direction",
+      "title": "Google Map"
     }
   ],
   "navigation": [

@@ -1,4 +1,7 @@
 @mixin contact {
+  @include section-padding;
+  margin-bottom: $lem;
+
   padding: $lem 0;
   @include border--thick(top);
 
@@ -10,5 +13,12 @@
     @include link(blue-on-white);
   }
 
-  @include contact--portrait;
+  .directions {
+    display: flex;
+
+    .icon {
+      @include icon($lem);
+      order: 2;
+    }
+  }
 }

@@ -1,6 +1,7 @@
 @mixin news {
   @include colors(black-on-white);
   @include section-padding;
+  margin-bottom: $lem;
 
   &__title {
     display: flex;

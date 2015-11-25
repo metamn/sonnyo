@@ -1,17 +1,8 @@
 html {
   &.home {
     body {
-      .background-video {
-        @include background-video;
-      }
-
       .background-image {
         @include background-image;
-      }
-
-
-      .slider {
-        @include slider;
       }
 
       .header {
@@ -30,8 +21,12 @@ html {
         @include map;
       }
 
-      .directions {
-        @include directions;
+      .tickets {
+        @include tickets;
+      }
+
+      .contact {
+        @include contact;
       }
     }
   }

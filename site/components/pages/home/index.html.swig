@@ -21,12 +21,13 @@
   {% include '../../project/news/news.html.swig' %}
 
   {% set image = images[1] %}
-  {# include '../../project/map/map.html.swig' #}
+  {% include '../../project/map/map.html.swig' %}
 
-  {% set map = map %}
-  {# include '../../project/directions/directions.html.swig' #}
+  {% set pictograms = pictograms %}
+  {% include '../../project/tickets/tickets.html.swig' %}
 
-  {% set slides = slides %}
-  {# include '../../project/slider/slider.html.swig' #}
+  {% set contact = contact %}
+  {% set icon = icons[1] %}
+  {% include '../../project/contact/contact.html.swig' %}
 
 {% endblock %}
