@@ -1,5 +1,6 @@
 <aside class="snow">
   <h3>Snow level</h3>
 
-  <p>{{ snow }}cm</p>
+  {% include '../../framework/structure/icon/icon.html.swig' %}
+  <span class="cm">{{ snow }}cm</span>
 </aside>

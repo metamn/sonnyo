@@ -17,6 +17,12 @@
     "Működik a sípálya"
   ],
   "snow": "123",
+  "icons": [
+    {
+      "name": "snowflake",
+      "title": "Snow level / Zapada / Ho"
+    }
+  ],
   "navigation": [
     {
       "en": "Live",

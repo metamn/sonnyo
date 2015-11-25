@@ -279,6 +279,7 @@
   
   
   
+  
   <section class="home__status">
   <h3>Status, weather, snow data</h3>
 
@@ -294,13 +295,18 @@
   
 </aside>
 
-  <aside class="snow">
+  <div class="snow-and-weather">
+    <aside class="snow">
   <h3>Snow level</h3>
 
-  <p>123cm</p>
+  <div class="icon">
+  <img src="/assets/images/icon-snowflake.svg" alt="Snow level / Zapada / Ho"> 
+</div>
+
+  <span class="cm">123cm</span>
 </aside>
 
-  <aside class="weather">
+    <aside class="weather">
   <h3>Weather</h3>
 
   <div class="openweather" data-url="http://api.openweathermap.org/data/2.5/weather?id=673441&amp;APPID=9964e389ad98f64811222db158f7adb9&amp;units=metric">
@@ -315,6 +321,7 @@
   </div>
 </aside>
 
+  </div>
 </section>
 
 

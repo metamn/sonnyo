@@ -3,8 +3,17 @@
   margin-bottom: $lem;
   display: inline-flex;
 
-  @include home__status__horizontal;
-  @include home__status__vertical;
+  .snow-and-weather {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .status,
+  .snow,
+  .weather {
+    @include colors(black-on-white);
+    padding: $lem / 2;
+  }
 
   .status {
     @include status;
@@ -17,4 +26,7 @@
   .weather {
     @include weather;
   }
+
+  @include home__status__horizontal;
+  @include home__status__vertical;
 }

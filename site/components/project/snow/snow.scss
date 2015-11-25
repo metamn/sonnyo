@@ -1,1 +1,12 @@
-@mixin snow {}
+@mixin snow {
+  display: flex;
+  align-items: center;
+
+  .icon {
+    @include icon(50px);
+  }
+
+  .cm {
+    margin-left: $lem / 4;
+  }
+}

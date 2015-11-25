@@ -14,6 +14,7 @@
   {% set status = status %}
   {% set snow = snow %}
   {% set weather = weather %}
+  {% set icon = icons[0] %}
   {% include '__status/home__status.html.swig' %}
 
   {% set fb = fb %}
