@@ -1,4 +1,5 @@
 @mixin home__status {
+  @include section-padding;
   display: flex;
   height: 95vh;
 

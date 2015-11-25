@@ -6,7 +6,7 @@
 //
 // Styleguide header
 @mixin header {
-  //@include header--fixed;
+  @include section-padding;
 
   display: flex;
   flex-wrap: wrap;

@@ -17,7 +17,7 @@
   {% include '__status/home__status.html.swig' %}
 
   {% set fb = fb %}
-  {# include '../../project/news/news.html.swig' #}
+  {% include '../../project/news/news.html.swig' %}
 
   {% set image = images[1] %}
   {# include '../../project/map/map.html.swig' #}

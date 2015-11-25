@@ -1,0 +1,13 @@
+@mixin section-padding {
+  padding: 0 $lem / 2;
+
+  @include laptop {
+    padding: 0;
+    margin: 0 5%;
+  }
+
+  @include desktop {
+    padding: 0;
+    margin: 0 10%;
+  }
+}

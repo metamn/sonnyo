@@ -1,5 +1,6 @@
 @mixin news {
   @include colors(black-on-white);
+  @include section-padding;
 
   &__title {
     display: flex;
@@ -9,6 +10,4 @@
   &__body {
     @include news__body;
   }
-
-  @include news--portrait;
 }
