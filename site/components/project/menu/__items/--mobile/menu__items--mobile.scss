@@ -1,17 +1,13 @@
 @mixin menu__items--mobile {
   @include mobile {
-    @include colors(white-on-black);
-    padding: $lem;
     margin: $lem / 2 0;
+    width: 100%;
+    @include colors(white-on-black);
 
     .ul {
-      .li {
-        @include text-style(large-1);
-      }
-
-      + .ul {
-        margin-top: $lem * 2;
-      }
+      @include ul(underlined);
+      padding: 0 $lem / 2;
+      margin: $lem 0;
     }
   }
 }

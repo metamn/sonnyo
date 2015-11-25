@@ -2,11 +2,6 @@
   display: flex;
   flex-direction: column;
   
-
   @include menu__items--mobile;
   @include menu__items--mobile-and-up;
-
-  .ul {
-    @include ul(inline);
-  }
 }
