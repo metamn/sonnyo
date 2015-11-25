@@ -15,5 +15,6 @@
 
     @include grid3--portrait($item);
     @include grid3--mobile($item);
+    @include grid3--tablet-all($item);
   }
 }
