@@ -1,0 +1,7 @@
+@mixin grid3--tablet($item) {
+  @include tablet {
+    + #{$item} {
+      margin-left: $lem / 4;
+    }
+  }
+}
