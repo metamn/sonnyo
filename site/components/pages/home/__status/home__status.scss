@@ -1,5 +1,7 @@
 @mixin home__status {
   display: flex;
+  height: 95vh;
+
   @include home__status__horizontal;
   @include home__status__vertical;
 
