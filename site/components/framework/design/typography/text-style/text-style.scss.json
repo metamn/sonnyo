@@ -83,8 +83,19 @@
       ]
     },
     {
+      "name": "Large 1",
+      "description": "Large text, like one times the default",
+      "based_on": "Nimbus Sans",
+      "mixins": [
+        {
+          "name": "scale",
+          "value": "large-1"
+        }
+      ]
+    },
+    {
       "name": "Large",
-      "description": "Large text, like three times the default",
+      "description": "Large text, like five times the default",
       "based_on": "Nimbus Sans",
       "mixins": [
         {

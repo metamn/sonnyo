@@ -61,8 +61,17 @@ $text-block-width: 25em;
     
   }
   
+  // Large 1
+  // - Large text, like one times the default
+  @if ($variant == 'large-1') {
+    @include scale(large-1);
+    
+    
+    
+  }
+  
   // Large
-  // - Large text, like three times the default
+  // - Large text, like five times the default
   @if ($variant == 'large') {
     @include font(nimbus-sans-black);
     @include scale(large-5);
@@ -139,6 +148,13 @@ $text-block-width: 25em;
   @include colors(white-on-black);
   
   letter-spacing: 1.7px;
+  
+  
+}
+
+.text-style--large-1 {
+  @include scale(large-1);
+  
   
   
 }

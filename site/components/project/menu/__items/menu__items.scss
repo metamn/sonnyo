@@ -1,15 +1,12 @@
 @mixin menu__items {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  flex-basis: 100%;
-  width: 100%;
+  
+
+  @include menu__items--mobile;
+  @include menu__items--mobile-and-up;
 
   .ul {
-    justify-content: flex-end;
     @include ul(inline);
-    @include colors(white-on-black);
-    padding: $lem / 4;
-    @include border--thin;
   }
 }

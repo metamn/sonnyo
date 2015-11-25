@@ -1,0 +1,14 @@
+@mixin menu__items--mobile-and-up {
+  @include mobile-and-up {
+    align-items: flex-end;
+    flex-basis: 100%;
+    width: 100%;
+    
+    .ul {
+      justify-content: flex-end;
+      @include colors(white-on-black);
+      padding: $lem / 4;
+      @include border--thin;
+    }
+  }
+}

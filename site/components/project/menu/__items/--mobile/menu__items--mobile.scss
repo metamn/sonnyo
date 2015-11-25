@@ -1,0 +1,17 @@
+@mixin menu__items--mobile {
+  @include mobile {
+    @include colors(white-on-black);
+    padding: $lem;
+    margin: $lem / 2 0;
+
+    .ul {
+      .li {
+        @include text-style(large-1);
+      }
+
+      + .ul {
+        margin-top: $lem * 2;
+      }
+    }
+  }
+}
