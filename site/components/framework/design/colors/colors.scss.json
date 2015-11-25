@@ -24,6 +24,11 @@
       "name": "blue",
       "value": "#4916DA",
       "description": "main color"
+    },
+    {
+      "name": "green",
+      "value": "rgb(165,184,74)",
+      "description": "main color"
     }
   ],
   "color_pairs": [
@@ -76,6 +81,19 @@
         {
           "name": "background-color",
           "value": "$black"
+        }
+      ]
+    },
+    {
+      "name": "black-on-green",
+      "properties": [
+        {
+          "name": "color",
+          "value": "$black"
+        },
+        {
+          "name": "background-color",
+          "value": "$green"
         }
       ]
     },

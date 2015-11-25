@@ -21,6 +21,9 @@ $lightgray: #f1f1f1;
 // main color
 $blue: #4916DA;
 
+// main color
+$green: rgb(165,184,74);
+
 
 // Color combinations. Colors are not used standalone but in pairs
 @mixin colors($name) {
@@ -46,6 +49,12 @@ $blue: #4916DA;
   @if ($name == 'white-on-black') {
     color: $white;
     background-color: $black;
+    
+  }
+
+  @if ($name == 'black-on-green') {
+    color: $black;
+    background-color: $green;
     
   }
 
@@ -79,6 +88,10 @@ $blue: #4916DA;
   background: #4916DA;
 };
 
+.green {
+  background: rgb(165,184,74);
+};
+
 
 // Color pair classes
 
@@ -103,6 +116,12 @@ $blue: #4916DA;
 .white-on-black {
   color: $white;
   background-color: $black;
+  
+}
+
+.black-on-green {
+  color: $black;
+  background-color: $green;
   
 }
 
