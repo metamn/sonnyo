@@ -7,7 +7,7 @@ var menuItemClick = function(itemID) {
 
   function click() {
     var menu = document.querySelector('.hamburger-menu');
-    //menu.click();
+    menu.click();
 
     var url = this.dataset.url;
     var destination = document.querySelector('.' + url);
