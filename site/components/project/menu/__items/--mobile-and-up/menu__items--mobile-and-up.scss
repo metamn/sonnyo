@@ -1,17 +1,13 @@
 @mixin menu__items--mobile-and-up {
   @include mobile-and-up {
-    align-items: flex-end;
-    flex-basis: 100%;
-    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 20vh;
+    opacity: .7 !important;
 
     .ul {
-      justify-content: flex-end;
-
-      @include ul(inline);
-
-      @include colors(white-on-black);
-      @include border--thin;
-      padding: $lem / 4;
+      width: 25%;
     }
   }
 }
