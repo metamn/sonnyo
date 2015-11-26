@@ -18,16 +18,20 @@
   {% include '__status/home__status.html.swig' %}
 
   {% set fb = fb %}
+  {% set title = navigation[1] %}
   {% include '../../project/news/news.html.swig' %}
 
   {% set image = images[1] %}
+  {% set title = navigation[2] %}
   {% include '../../project/map/map.html.swig' %}
 
   {% set pictograms = pictograms %}
+  {% set title = navigation[3] %}
   {% include '../../project/tickets/tickets.html.swig' %}
 
   {% set contact = contact %}
   {% set icon = icons[1] %}
+  {% set title = navigation | last %}
   {% include '../../project/contact/contact.html.swig' %}
 
 {% endblock %}

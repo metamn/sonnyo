@@ -30,7 +30,7 @@
   "navigation": [
     {
       "en": "Live",
-      "ro": "Webcam",
+      "ro": "Camera web",
       "hu": "Webkamera",
       "url": "webcam"
     },
@@ -41,16 +41,16 @@
       "url": "news"
     },
     {
-      "en": "Tickets",
-      "ro": "Bilete",
-      "hu": "Jegyek",
-      "url": "tickets"
-    },
-    {
       "en": "Map",
       "ro": "Harta",
       "hu": "Pályatérkép",
       "url": "map"
+    },
+    {
+      "en": "Tickets",
+      "ro": "Bilete",
+      "hu": "Jegyek",
+      "url": "tickets"
     },
     {
       "en": "Photos",
