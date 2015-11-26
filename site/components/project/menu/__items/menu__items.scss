@@ -13,6 +13,16 @@
     @include ul(underlined);
     padding: 0 $lem / 2;
     margin: $lem 0;
+
+    .li {
+      cursor: pointer;
+
+      &:hover,
+      &:active,
+      &:focus {
+        @include colors(blue-on-white);
+      }
+    }
   }
 
 
