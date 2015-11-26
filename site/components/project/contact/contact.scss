@@ -13,12 +13,5 @@
     @include link(blue-on-white);
   }
 
-  .directions {
-    display: flex;
-
-    .icon {
-      @include icon($lem);
-      order: 2;
-    }
-  }
+  @include contact--portrait;
 }

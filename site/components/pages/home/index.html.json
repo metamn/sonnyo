@@ -21,10 +21,6 @@
     {
       "name": "snowflake",
       "title": "Snow level / Zapada / Ho"
-    },
-    {
-      "name": "direction",
-      "title": "Google Map"
     }
   ],
   "navigation": [
@@ -108,11 +104,18 @@
     "image": "P1280717-landscape_laptop.png"
   },
   "contact": {
-    "link": {
-      "title": "facebook.com/kissomlyo",
-      "url": "http://facebook.com/kissomlyo",
-      "type": "external"
-    },
+    "links": [
+      {
+        "title": "facebook.com/kissomlyo",
+        "url": "http://facebook.com/kissomlyo",
+        "type": "external"
+      },
+      {
+        "title": "google.com/map",
+        "url": "https://www.google.ro/maps/dir//Domeniul+Schiabil+KisSomlyo,+Cs%C3%ADksomly%C3%B3+k%C3%B6r%C3%BAt,+Romania/@46.3794694,25.7963701,13z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x474ad5931807d6d5:0xbb6ddcaf88749503!2m2!1d25.8313894!2d46.3794155!3e0?hl=en",
+        "type": "external"
+      }
+    ],
     "phone": "0723 323 001"
   },
   "weather": {
