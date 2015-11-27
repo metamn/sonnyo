@@ -3,6 +3,8 @@
     flex-direction: column;
     justify-content: flex-end;
     height: 100vh;
-    width: calc(100% - #{$lem});
+
+    width: 100%;
+    transform: skew(0deg, 5deg);
   }
 }

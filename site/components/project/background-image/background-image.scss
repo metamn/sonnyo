@@ -1,5 +1,9 @@
 @mixin background-image {
-  @include full-page;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
 
   &__container {
     @include landscape {

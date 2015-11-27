@@ -1,7 +1,7 @@
 @mixin home__status {
-  @include section-padding;
   margin-bottom: $lem;
   display: inline-flex;
+  height: 95vh;
 
   .snow-and-weather {
     @include colors(black-on-green);

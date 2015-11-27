@@ -1,5 +1,6 @@
 @mixin home__status--tablet-landscape {
   @include tablet-landscape {
+    @include section-padding;
     height: 72.5vh;
   }
 }
