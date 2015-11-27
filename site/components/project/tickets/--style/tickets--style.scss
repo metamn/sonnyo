@@ -4,7 +4,7 @@
   margin: $lem 0;
 
   @include box-shadow;
-  
+
   .title {
     display: flex;
     @include text-style(subtitle);
@@ -51,5 +51,4 @@
   .item, {
     width: $width;
   }
-
 }

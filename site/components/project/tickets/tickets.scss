@@ -1,7 +1,7 @@
 @mixin tickets {
   @include section-padding;
   margin-bottom: $lem;
-  
+
   @include grid3('article');
 
   &__title {
@@ -15,4 +15,14 @@
   &__pass {
     @include tickets--style($lem * 7, 3);
   }
+
+  // Same height card titles on tablets
+  @include tablet {
+    .tickets__card {
+      .title {
+        min-height: $lem * 2;
+      }
+    }
+  }
+
 }
