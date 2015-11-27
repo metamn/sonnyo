@@ -94,7 +94,7 @@
       }
     },
     {
-      "title": "Slide 1",
+      "title": "Slide 2",
       "image": {
         "title": "By day",
         "name": "P1280729-landscape",
@@ -106,6 +106,23 @@
           {
             "breakpoint": "tablet",
             "name": "P1280729-portrait"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Slide 3",
+      "image": {
+        "title": "By day",
+        "name": "P1280776-landscape",
+        "responsive": [
+          {
+            "breakpoint": "mobile",
+            "name": "P1280776-portrait"
+          },
+          {
+            "breakpoint": "tablet",
+            "name": "P1280776-portrait"
           }
         ]
       }
