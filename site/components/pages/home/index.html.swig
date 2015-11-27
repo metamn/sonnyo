@@ -29,6 +29,13 @@
   {% set title = navigation[3] %}
   {% include '../../project/tickets/tickets.html.swig' %}
 
+  {% set slides = slides %}
+  {% set title = navigation[4] %}
+  {% include '../../project/slider/slider.html.swig' %}
+
+  {% set bullets = slides %}
+  {% include '../../project/slider/__bullets/slider__bullets.html.swig' %}
+
   {% set contact = contact %}
   {% set icon = icons[1] %}
   {% set title = navigation | last %}

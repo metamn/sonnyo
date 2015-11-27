@@ -3,6 +3,9 @@
   height: 100%;
   overflow: hidden;
 
+  //@include slider__slides--portrait;
+  //@include slider__slides--landscape;
+
   .slide {
     @include slide;
   }

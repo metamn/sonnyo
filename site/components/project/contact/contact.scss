@@ -1,6 +1,7 @@
 @mixin contact {
   @include section-padding;
   margin-bottom: $lem;
+  margin-top: $lem;
 
   padding: $lem 0;
   @include border--thick(top);

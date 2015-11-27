@@ -25,6 +25,14 @@ html {
         @include tickets;
       }
 
+      .slider {
+        @include slider;
+      }
+
+      .slider__bullets {
+        @include slider__bullets;
+      }
+
       .contact {
         @include contact;
       }

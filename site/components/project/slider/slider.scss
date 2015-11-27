@@ -8,7 +8,9 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  height: 80vh;
+
+  @include slider--portrait;
+  @include slider--landscape;
 
   &__slides {
     @include slider__slides;
@@ -17,6 +19,4 @@
   &__bullets {
     @include slider__bullets;
   }
-
-  @include slider--tablet-landscape;
 }

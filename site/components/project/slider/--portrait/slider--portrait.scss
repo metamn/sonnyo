@@ -1,0 +1,5 @@
+@mixin slider--portrait {
+  @include portrait {
+    @include intrinsic-ratio(3, 4, '.slider__slides', '.slide');
+  }
+}
