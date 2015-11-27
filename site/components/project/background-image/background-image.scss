@@ -1,7 +1,17 @@
 @mixin background-image {
   @include full-page;
 
-  .figure {
-    @include figure($stretch: stretched);
+  &__container {
+    @include landscape {
+      @include intrinsic-ratio(16, 9, '.figure', '.img');
+    }
+
+    @include portrait {
+      @include intrinsic-ratio(3, 4, '.figure', '.img');
+    }
+
+    .figure {
+      @include figure($stretch: stretched);
+    }
   }
 }
