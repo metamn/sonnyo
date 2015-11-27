@@ -1,7 +1,0 @@
-@mixin home__status--tablet {
-  @include tablet {
-    @include section-padding;
-    height: 72.5vh;
-    perspective: 150em;
-  }
-}

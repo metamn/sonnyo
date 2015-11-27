@@ -9,6 +9,9 @@
   @include section-padding;
   padding-top: $lem / 2;
 
+  position: absolute;
+  z-index: 1;
+
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

@@ -1,20 +1,14 @@
 @mixin home__status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   margin-bottom: $lem;
-  display: inline-flex;
-  height: 95vh;
 
-  .snow-and-weather {
-    @include colors(black-on-green);
-    display: flex;
-    justify-content: space-between;
-  }
+  @include colors(black-on-green);
 
-  .status,
-  .snow,
-  .weather {
-    @include colors(black-on-green);
-    padding: $lem;
-  }
+  @include home__status--mobile;
+  @include home__status--mobile-and-up;
 
   .status {
     @include status;
@@ -27,9 +21,4 @@
   .weather {
     @include weather;
   }
-
-  @include home__status--horizontal;
-  @include home__status--vertical;
-  @include home__status--tablet-landscape;
-  @include home__status--tablet;
 }

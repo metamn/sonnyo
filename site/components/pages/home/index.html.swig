@@ -4,12 +4,12 @@
   {% set video = video %}
   {# include '../../project/background-video/background-video.html.swig' #}
 
-  {% set image = images[2] %}
-  {% include '../../project/background-image/background-image.html.swig' %}
-
   {% set image = images | first %}
   {% set navigation = navigation %}
   {% include '../../project/header/header.html.swig' %}
+
+  {% set image = images[2] %}
+  {% include '../../project/background-image/background-image.html.swig' %}
 
   {% set status = status %}
   {% set snow = snow %}

@@ -1,0 +1,6 @@
+@mixin home__status--mobile-and-up {
+  @include mobile-and-up {
+    @include section-padding;
+    padding: $lem * 2 $lem / 2;
+  }
+}

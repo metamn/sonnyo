@@ -1,10 +1,4 @@
 @mixin background-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: -1;
-
   &__container {
     @include landscape {
       @include intrinsic-ratio(16, 9, '.figure', '.img');

@@ -1,0 +1,12 @@
+@mixin home__status--mobile {
+  @include mobile {
+    flex-wrap: wrap;
+
+    padding: $lem;
+
+    .status {
+      flex-basis: 100%;
+      margin-bottom: $lem;
+    }
+  }
+}
