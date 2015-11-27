@@ -4,7 +4,7 @@
   {% set video = video %}
   {# include '../../project/background-video/background-video.html.swig' #}
 
-  {% set slide = slides[0] %}
+  {% set image = images[2] %}
   {% include '../../project/background-image/background-image.html.swig' %}
 
   {% set image = images | first %}

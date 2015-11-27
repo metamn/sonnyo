@@ -9,6 +9,20 @@
       "title": "Map",
       "name": "palyaterkep",
       "extension": ".jpg"
+    },
+    {
+      "title": "Hero",
+      "name": "P1280717-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "P1280717-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "P1280717-portrait"
+        }
+      ]
     }
   ],
   "status": [
