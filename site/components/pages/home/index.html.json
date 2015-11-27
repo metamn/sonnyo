@@ -94,6 +94,23 @@
       }
     },
     {
+      "title": "Slide 1",
+      "image": {
+        "title": "By day",
+        "name": "P1280729-landscape",
+        "responsive": [
+          {
+            "breakpoint": "mobile",
+            "name": "P1280729-portrait"
+          },
+          {
+            "breakpoint": "tablet",
+            "name": "P1280729-portrait"
+          }
+        ]
+      }
+    },
+    {
       "title": "Slide 3",
       "image": {
         "title": "By night",

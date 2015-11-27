@@ -1,0 +1,12 @@
+{
+  "image_sizes": [
+    {
+      "name": "laptop",
+      "width": "1440"
+    },
+    {
+      "name": "desktop",
+      "width": "1440"
+    }
+  ]
+}
