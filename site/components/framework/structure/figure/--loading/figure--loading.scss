@@ -1,7 +1,7 @@
-@mixin figure--loading {
+@mixin figure--loading($placeholder-color) {
   background-position: center center;
   background-repeat: no-repeat;
-  background-color: #000;
+  background-color: $placeholder-color;
   background-image: url("/assets/images/spinner.svg");
 
   &--loaded {

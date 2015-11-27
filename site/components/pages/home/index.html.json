@@ -94,6 +94,23 @@
       }
     },
     {
+      "title": "Slide 1",
+      "image": {
+        "title": "By day",
+        "name": "DSC_3830-landscape",
+        "responsive": [
+          {
+            "breakpoint": "mobile",
+            "name": "DSC_3830-portrait"
+          },
+          {
+            "breakpoint": "tablet",
+            "name": "DSC_3830-portrait"
+          }
+        ]
+      }
+    },
+    {
       "title": "Slide 2",
       "image": {
         "title": "By day",
@@ -123,6 +140,23 @@
           {
             "breakpoint": "tablet",
             "name": "P1280776-portrait"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Slide 3",
+      "image": {
+        "title": "By day",
+        "name": "P1280904-landscape",
+        "responsive": [
+          {
+            "breakpoint": "mobile",
+            "name": "P1280904-portrait"
+          },
+          {
+            "breakpoint": "tablet",
+            "name": "P1280904-portrait"
           }
         ]
       }

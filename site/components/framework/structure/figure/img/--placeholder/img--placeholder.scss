@@ -1,3 +1,3 @@
-@mixin img--placeholder($placeholder) {
-  background: $placeholder;
+@mixin img--placeholder($placeholder-color) {
+  background: $placeholder-color;
 }

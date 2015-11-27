@@ -1,4 +1,4 @@
-@mixin img($stretch, $loading, $placeholder) {
+@mixin img($stretch, $loading, $placeholder-color) {
   @if ($stretch == fluid) {
     @include img--fluid;
   }
@@ -7,8 +7,8 @@
     @include img--stretched;
   }
 
-  @if ($placeholder != false) {
-    @include img--placeholder($placeholder);
+  @if ($placeholder-color != false) {
+    @include img--placeholder($placeholder-color);
   }
 
   @if ($loading != false) {

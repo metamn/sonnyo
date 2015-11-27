@@ -11,3 +11,4 @@ var weather = function(containerID) {
 }
 
 weather('.weather .openweather');
+imagesLoading('.openweather__icon');

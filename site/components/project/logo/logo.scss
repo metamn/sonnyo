@@ -6,6 +6,6 @@
 // Styleguide logo
 @mixin logo {
   .figure {
-    @include figure($loading: false);
+    @include figure($loading: true, $placeholder-color: $white);
   }
 }

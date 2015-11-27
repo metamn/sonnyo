@@ -3,7 +3,9 @@
 
   <div class="openweather" data-url="{{ weather.url }}{{ weather.city }}{{ weather.api }}{{ weather.units }}">
     <div class="openweather__icon">
-      <img src="{{ weather.icon }}" alt="Openweather icon" class="img">
+      <figure class="figure">
+        <img class="img" src="{{ weather.icon }}" alt="Openweather icon">
+      </figure>
     </div>
 
     <div class="openweather__celsius">

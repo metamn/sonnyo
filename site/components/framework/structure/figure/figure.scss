@@ -4,13 +4,13 @@
 // using the [Picturefill library](http://scottjehl.github.io/picturefill/).
 //
 // Styleguide figure
-@mixin figure($figcaption: off, $stretch: fluid, $loading: true, $placeholder: false) {
+@mixin figure($figcaption: off, $stretch: fluid, $loading: true, $placeholder-color: false) {
   .figcaption {
     @include figure__figcaption($figcaption);
   }
 
   .img {
-    @include img($stretch, $loading, $placeholder);
+    @include img($stretch, $loading, $placeholder-color);
   }
 
   @if ($stretch == stretched) {
@@ -18,6 +18,6 @@
   }
 
   @if ($loading == true) {
-    @include figure--loading;
+    @include figure--loading($placeholder-color);
   }
 }

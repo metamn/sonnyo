@@ -11,6 +11,10 @@
       width: $lem * 2;
       overflow: hidden;
       color: $white;
+
+      .img {
+        @include img(not-stretched, loading, $white);
+      }
     }
 
     &__celsius {
