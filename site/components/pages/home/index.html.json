@@ -80,15 +80,15 @@
       "title": "Slide 1",
       "image": {
         "title": "By day",
-        "name": "P1280717-landscape",
+        "name": "DSC_3893-landscape",
         "responsive": [
           {
             "breakpoint": "mobile",
-            "name": "P1280717-portrait"
+            "name": "DSC_3893-portrait"
           },
           {
             "breakpoint": "tablet",
-            "name": "P1280717-portrait"
+            "name": "DSC_3893-portrait"
           }
         ]
       }
