@@ -25,6 +25,7 @@ var slider = function(slide, bullets) {
   window.addEventListener('resize', setTransform);
 
 
+  // Swipe navigation
   // Add swipe to each slide
   for (var i = 0; i < slides.length; i++) {
     var hammer = new Hammer(slides[i]);
@@ -49,7 +50,7 @@ var slider = function(slide, bullets) {
 
 
 
-  // Bullets
+  // Bullets navigation
   var bullets = document.querySelectorAll(bullets);
 
   // - add click event to bullets
@@ -80,6 +81,32 @@ var slider = function(slide, bullets) {
     }
   }
 
+
+
+  // Click navigation
+  // - add click event on slide
+  for (var i = 0; i < bullets.length; i++) {
+    slides[i].addEventListener('click', clickSlide, false);
+  }
+
+  // - click on a slide
+  function clickSlide(event) {
+    if (direction == 'prev') {
+      previousSlide(1);
+    } else {
+      nextSlide(1);
+    }
+
+    if (pos == -(slideCount - 1)) {
+      direction = 'next';
+    }
+    if (pos == 0) {
+      direction = 'prev';
+    }
+
+    removeActiveBulletClass();
+    setActiveBulletClass();
+  }
 
 
   // Helpers
