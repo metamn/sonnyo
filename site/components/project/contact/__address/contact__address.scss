@@ -1,6 +1,8 @@
 @mixin contact__address {
+  @include text-style(default);
+  @include text-style(body-text);
+
   .p {
-    @include text-style(default);
     @include text-style(small);
   }
 }
