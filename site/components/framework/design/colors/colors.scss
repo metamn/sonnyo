@@ -19,7 +19,7 @@ $gray: #999;
 $lightgray: #f1f1f1;
 
 // main color
-$blue: #4916DA;
+$blue: #3361AF;
 
 // main color
 $green: rgb(165,184,74);
@@ -46,9 +46,21 @@ $green: rgb(165,184,74);
     
   }
 
+  @if ($name == 'white-on-blue') {
+    color: $white;
+    background-color: $blue;
+    
+  }
+
   @if ($name == 'white-on-black') {
     color: $white;
     background-color: $black;
+    
+  }
+
+  @if ($name == 'white-on-transparent') {
+    color: $white;
+    background-color: transparent;
     
   }
 
@@ -85,7 +97,7 @@ $green: rgb(165,184,74);
 };
 
 .blue {
-  background: #4916DA;
+  background: #3361AF;
 };
 
 .green {
@@ -113,9 +125,21 @@ $green: rgb(165,184,74);
   
 }
 
+.white-on-blue {
+  color: $white;
+  background-color: $blue;
+  
+}
+
 .white-on-black {
   color: $white;
   background-color: $black;
+  
+}
+
+.white-on-transparent {
+  color: $white;
+  background-color: transparent;
   
 }
 

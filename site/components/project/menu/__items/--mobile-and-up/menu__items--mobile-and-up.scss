@@ -3,8 +3,13 @@
     flex-direction: row;
     justify-content: space-between;
 
-    margin-top: 20vh;
-    opacity: .7 !important;
+    margin-top: $lem;
+    padding-top: $lem;
+    padding-bottom: $lem;
+    height: 60vh;
+    align-items: center;
+
+    @include colors(white-on-transparent);
 
     .ul {
       width: 25%;

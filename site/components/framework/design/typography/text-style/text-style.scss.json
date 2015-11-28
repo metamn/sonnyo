@@ -52,12 +52,10 @@
         },
         {
           "name": "border--thick"
-        }
-      ],
-      "properties": [
+        },
         {
-          "name": "letter-spacing",
-          "value": "1.7px"
+          "name": "uppercase",
+          "value": "$lem / 8"
         }
       ]
     },
@@ -79,6 +77,28 @@
         {
           "name": "letter-spacing",
           "value": "1.7px"
+        }
+      ]
+    },
+    {
+      "name": "Menu",
+      "description": "Navigation",
+      "based_on": "Nimbus Sans",
+      "mixins": [
+        {
+          "name": "font",
+          "value": "nimbus-sans-black"
+        },
+        {
+          "name": "border--thick"
+        },
+        {
+          "name": "uppercase",
+          "value": "$lem / 8"
+        },
+        {
+          "name": "scale",
+          "value": "large-1"
         }
       ]
     },

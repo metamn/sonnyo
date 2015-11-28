@@ -4,9 +4,8 @@
 
   margin: $lem / 2 0;
 
-  width: calc(100% - #{$lem + $lem / 4});
-  @include text-style(subtitle);
-  @include text-style(foreground-text);
+  width: calc(100% - #{$lem / 2});
+  @include colors(white-on-blue);
   @include box-shadow;
 
   .ul {
@@ -16,15 +15,15 @@
 
     .li {
       cursor: pointer;
+      @include text-style(menu);
 
       &:hover,
       &:active,
       &:focus {
-        @include colors(blue-on-white);
+        @include colors(black-on-white);
       }
     }
   }
-
 
   @include menu__items--mobile-and-up;
 }

@@ -22,7 +22,7 @@
     },
     {
       "name": "blue",
-      "value": "#4916DA",
+      "value": "#3361AF",
       "description": "main color"
     },
     {
@@ -72,6 +72,19 @@
       ]
     },
     {
+      "name": "white-on-blue",
+      "properties": [
+        {
+          "name": "color",
+          "value": "$white"
+        },
+        {
+          "name": "background-color",
+          "value": "$blue"
+        }
+      ]
+    },
+    {
       "name": "white-on-black",
       "properties": [
         {
@@ -81,6 +94,19 @@
         {
           "name": "background-color",
           "value": "$black"
+        }
+      ]
+    },
+    {
+      "name": "white-on-transparent",
+      "properties": [
+        {
+          "name": "color",
+          "value": "$white"
+        },
+        {
+          "name": "background-color",
+          "value": "transparent"
         }
       ]
     },
