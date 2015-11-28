@@ -1,19 +1,28 @@
 @mixin contact {
   @include section-padding;
 
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  &__links,
+  &__address {
+    flex-basis: 50%;
+  }
+
+  @include contact--mobile;
+
   margin-bottom: $lem;
   margin-top: $lem;
   padding-top: $lem;
   padding-bottom: $lem;
   @include border--thick(top);
 
-  .ul {
-    @include ul;
+  &__links {
+    @include contact__links;
   }
 
-  .link {
-    @include link(blue-on-white);
+  &__address {
+    @include contact__address;
   }
-
-  @include contact--portrait;
 }

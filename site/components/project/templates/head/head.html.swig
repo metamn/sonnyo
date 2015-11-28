@@ -23,7 +23,7 @@
 
     {{ scripts | safe }}
 
-    {% include '__favicon/head__favicon.html.swig' #}
+    {% include '__favicon/head__favicon.html.swig' %}
   </head>
 
   <body>

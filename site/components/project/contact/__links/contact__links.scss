@@ -1,0 +1,17 @@
+@mixin contact__links {
+  .ul {
+    @include ul;
+
+    .li {
+      .link {
+        @include link(blue-on-white);
+      }
+
+      &.phone {
+        margin-top: $lem;
+      }
+    }
+  }
+
+  @include contact__links--portrait;
+}

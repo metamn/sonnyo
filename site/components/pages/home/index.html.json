@@ -198,7 +198,14 @@
         "type": "external"
       }
     ],
-    "phone": "0723 323 001"
+    "phone": "0749 995 187",
+    "address": "SC. UltraNet Communications SRL 500398 Brasov, Bd. Alexandru Vlahuta, Nr. 59 RO 6264354; J08/2311/1994 IBAN: RO21 INGB 0000 9999 0247 3451; ING BANK BRASOV - AG. ZIZINULUI",
+    "copyright": "© Toate drepturile rezervate.",
+    "protectia": {
+      "title": "Protectia Consumatorilor",
+      "url": "http://www.anpc.gov.ro/",
+      "type": "external"
+    }
   },
   "weather": {
     "api": "&APPID=9964e389ad98f64811222db158f7adb9",
