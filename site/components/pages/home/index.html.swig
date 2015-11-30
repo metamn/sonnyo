@@ -18,6 +18,8 @@
   {% include '__status/home__status.html.swig' %}
 
   {% set fb = fb %}
+  {% set nofbnews = nofbnews %}
+  {% set link = contact.links[0] %}
   {% set title = navigation[1] %}
   {% include '../../project/news/news.html.swig' %}
 

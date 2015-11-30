@@ -4,4 +4,8 @@
   .news-item {
     @include news-item;
   }
+
+  .news-item--error {
+    @include news-item--error;
+  }
 }

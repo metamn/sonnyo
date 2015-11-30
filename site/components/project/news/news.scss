@@ -3,6 +3,10 @@
   @include section-padding;
   margin-bottom: $lem;
 
+  .link {
+    @include link(black-on-white, underline);
+  }
+
   &__title {
     display: flex;
     @include text-style(title);

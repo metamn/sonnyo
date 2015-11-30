@@ -1,0 +1,5 @@
+@mixin news-item--error {
+  &.hidden {
+    display: none;
+  }
+}
