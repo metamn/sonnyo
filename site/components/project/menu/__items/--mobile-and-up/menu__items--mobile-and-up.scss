@@ -9,10 +9,13 @@
     height: 60vh;
     align-items: center;
 
-    @include colors(white-on-transparent);
-
     .ul {
       width: 25%;
+
+      &:nth-of-type(2),
+      &:nth-of-type(3) {
+        display: block;
+      }
     }
   }
 }

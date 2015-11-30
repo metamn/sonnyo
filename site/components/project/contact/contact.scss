@@ -19,7 +19,7 @@
   @include border--thick(top);
 
   .link {
-    @include link(blue-on-white);
+    @include link(black-on-white, underline);
   }
 
   &__links {

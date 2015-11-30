@@ -3,10 +3,10 @@
   flex-direction: column;
 
   margin: $lem / 2 0;
-
   width: calc(100% - #{$lem / 2});
-  @include colors(white-on-blue);
-  @include box-shadow;
+
+  @include colors(white-on-transparent);
+
 
   .ul {
     @include ul(underlined);
@@ -22,6 +22,11 @@
       &:focus {
         @include colors(black-on-white);
       }
+    }
+
+    &:nth-of-type(2),
+    &:nth-of-type(3) {
+      display: none;
     }
   }
 

@@ -65,11 +65,21 @@ $text-block-width: 25em;
   // - Navigation
   @if ($variant == 'menu') {
     @include font(nimbus-sans-black);
-    @include border--thick;
     @include uppercase($lem / 8);
-    @include scale(large-1);
     
     
+    
+    @include mobile {
+      
+      font-size: larger;
+      
+    }
+    
+    @include mobile-and-up {
+      @include scale(large-1);
+      
+      
+    }
     
   }
   
@@ -108,17 +118,6 @@ $text-block-width: 25em;
     @include colors(white-on-black);
     @include font(nimbus-sans-bold);
     
-    
-    
-  }
-  
-  // Foreground text
-  // - Text on a background image or video
-  @if ($variant == 'foreground-text') {
-    @include colors(black-on-white);
-    
-    padding: $lem / 2;
-    opacity: .9 !important;
     
     
   }
@@ -166,11 +165,21 @@ $text-block-width: 25em;
 
 .text-style--menu {
   @include font(nimbus-sans-black);
-  @include border--thick;
   @include uppercase($lem / 8);
-  @include scale(large-1);
   
   
+  
+  @include mobile {
+    
+    font-size: larger;
+    
+  }
+  
+  @include mobile-and-up {
+    @include scale(large-1);
+    
+    
+  }
   
 }
 
@@ -201,15 +210,6 @@ $text-block-width: 25em;
   @include colors(white-on-black);
   @include font(nimbus-sans-bold);
   
-  
-  
-}
-
-.text-style--foreground-text {
-  @include colors(black-on-white);
-  
-  padding: $lem / 2;
-  opacity: .9 !important;
   
   
 }

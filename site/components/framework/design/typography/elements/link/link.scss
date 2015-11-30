@@ -10,4 +10,8 @@
   @if ($color-scheme != none) {
     @include colors($color-scheme);
   }
+
+  @if ($type == underline) {
+    @include link--underline;
+  }
 }

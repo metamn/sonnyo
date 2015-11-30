@@ -90,15 +90,28 @@
           "value": "nimbus-sans-black"
         },
         {
-          "name": "border--thick"
-        },
-        {
           "name": "uppercase",
           "value": "$lem / 8"
+        }
+      ],
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "properties": [
+            {
+              "name": "font-size",
+              "value": "larger"
+            }
+          ]
         },
         {
-          "name": "scale",
-          "value": "large-1"
+          "breakpoint": "mobile-and-up",
+          "mixins": [
+            {
+              "name": "scale",
+              "value": "large-1"
+            }
+          ]
         }
       ]
     },
@@ -155,27 +168,6 @@
         {
           "name": "font",
           "value": "nimbus-sans-bold"
-        }
-      ]
-    },
-    {
-      "name": "Foreground text",
-      "description": "Text on a background image or video",
-      "based_on": "Nimbus Sans",
-      "mixins": [
-        {
-          "name": "colors",
-          "value": "black-on-white"
-        }
-      ],
-      "properties": [
-        {
-          "name": "padding",
-          "value": "$lem / 2"
-        },
-        {
-          "name": "opacity",
-          "value": ".9 !important"
         }
       ]
     }
