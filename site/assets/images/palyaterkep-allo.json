@@ -1,0 +1,12 @@
+{
+  "image_sizes": [
+    {
+      "name": "mobile",
+      "width": "320"
+    },
+    {
+      "name": "tablet",
+      "width": "768"
+    }
+  ]
+}

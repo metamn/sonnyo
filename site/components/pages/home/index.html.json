@@ -7,8 +7,17 @@
     },
     {
       "title": "Map",
-      "name": "palyaterkep",
-      "extension": ".jpg"
+      "name": "palyaterkep-fekvo2",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "palyaterkep-allo"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "palyaterkep-allo"
+        }
+      ]
     },
     {
       "title": "Hero",
