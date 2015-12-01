@@ -1,7 +1,8 @@
-@mixin grid3--tablet-all($item) {
+@mixin grid3--tablet-all {
   @include tablet-all {
-    + #{$item} {
+    &:nth-of-type(3n + 2) {
       margin-left: $lem / 2;
+      margin-right: $lem / 2;
     }
   }
 }

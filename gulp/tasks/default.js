@@ -27,3 +27,4 @@ gulp.task('default', function(cb) {
     cb
   );
 });
+console.timeEnd("Loading plugins"); //end measuring

@@ -1,3 +1,6 @@
+console.time("Loading plugins"); //start measuring
+
+
 // Loading all tasks
 var fs = require('fs');
 var tasks = fs.readdirSync('./gulp/tasks/');

@@ -9,12 +9,13 @@
 
     margin-bottom: $lem;
 
-    + #{$item} {
+    &:nth-of-type(3n + 2) {
       margin-left: $lem * 2;
+      margin-right: $lem * 2;
     }
 
-    @include grid3--portrait($item);
-    @include grid3--mobile($item);
-    @include grid3--tablet-all($item);
+    @include grid3--portrait;
+    @include grid3--mobile;
+    @include grid3--tablet-all;
   }
 }
