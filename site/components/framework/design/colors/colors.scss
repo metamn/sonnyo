@@ -12,6 +12,9 @@ $white: #fffafa;
 // Main color
 $black: #000;
 
+// Highlight color
+$green: rgb(34,95,33);
+
 
 // Color combinations. Colors are not used standalone but in pairs
 @mixin colors($name) {
@@ -34,6 +37,12 @@ $black: #000;
     
   }
 
+  @if ($name == 'green-on-white') {
+    color: $green;
+    background-color: $white;
+    
+  }
+
 }
 
 // Color classes
@@ -44,6 +53,10 @@ $black: #000;
 
 .black {
   background: #000;
+};
+
+.green {
+  background: rgb(34,95,33);
 };
 
 
@@ -64,6 +77,12 @@ $black: #000;
 .white-on-transparent {
   color: $white;
   background-color: transparent;
+  
+}
+
+.green-on-white {
+  color: $green;
+  background-color: $white;
   
 }
 

@@ -1,3 +1,7 @@
 @mixin status {
-  
+  .p {
+    &:first-of-type {
+      @include colors(green-on-white);
+    }
+  }
 }
