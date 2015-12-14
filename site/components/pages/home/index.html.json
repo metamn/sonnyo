@@ -21,11 +21,11 @@
     },
     {
       "title": "Hero",
-      "name": "P1280717-landscape",
+      "name": "hero-landscape",
       "responsive": [
         {
           "breakpoint": "mobile",
-          "name": "P1280717-portrait"
+          "name": "hero-portrait"
         },
         {
           "breakpoint": "tablet",
