@@ -7,4 +7,12 @@
   .webcam__play {
     display: none;
   }
+
+  @include mobile {
+    .webcam__close {
+      position: relative;
+      bottom: 10vh;
+      padding: $lem / 4;
+    }
+  }
 }

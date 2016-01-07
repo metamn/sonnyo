@@ -1,0 +1,8 @@
+@mixin webcam__iframe--portrait {
+  @include portrait {
+    .iframe {
+      width: 90vw;
+      height: 80vh;
+    }
+  }
+}

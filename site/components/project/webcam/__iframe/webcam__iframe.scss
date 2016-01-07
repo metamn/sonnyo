@@ -4,5 +4,9 @@
   .iframe {
     width: 80vw;
     height: 80vh;
+    @include colors(white-on-black);
   }
+
+  @include webcam__iframe--portrait;
+  @include webcam__iframe--mobile;
 }

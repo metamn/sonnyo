@@ -15,6 +15,7 @@ var webcam = function(containerID, triggerID, videoContainerID, closerID) {
     var iframe = document.createElement('iframe');
     iframe.className = 'iframe';
     iframe.setAttribute('src', url);
+    iframe.setAttribute('frameborder', '0');
 
     videoContainer.appendChild(iframe);
   }
@@ -22,8 +23,8 @@ var webcam = function(containerID, triggerID, videoContainerID, closerID) {
   function closeVideo() {
     container.classList.remove('webcam--active');
 
-    var iframe = videContainer.querySelector('.iframe');
-    videoContainer.remove(iframe);
+    var iframe = videoContainer.querySelector('.iframe');
+    videoContainer.removeChild(iframe);
   }
 }
 

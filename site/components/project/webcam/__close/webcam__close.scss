@@ -1,9 +1,9 @@
 @mixin webcam__close {
   display: none;
-
   cursor: pointer;
 
   .title {
+    @include colors(white-on-black);
     display: flex;
   }
 }
