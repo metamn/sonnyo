@@ -62,12 +62,6 @@
   ],
   "navigation": [
     {
-      "en": "Webcam",
-      "ro": "Camera web",
-      "hu": "Webkamera",
-      "url": "webcam"
-    },
-    {
       "en": "News",
       "ro": "Stiri",
       "hu": "Hírek",
