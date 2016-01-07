@@ -1,12 +1,16 @@
 html {
   &.home {
     body {
-      .background-image {
-        @include background-image;
-      }
-
       .header {
         @include header;
+      }
+
+      .webcam {
+        @include webcam;
+      }
+      
+      .background-image {
+        @include background-image;
       }
 
       .home__status {

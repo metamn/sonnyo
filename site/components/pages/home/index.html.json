@@ -54,6 +54,10 @@
     {
       "name": "snowflake",
       "title": "Snow level / Zapada / Ho"
+    },
+    {
+      "name": "play",
+      "title": "Play"
     }
   ],
   "navigation": [
@@ -198,12 +202,7 @@
       }
     }
   ],
-  "video": {
-    "title": "Webcam",
-    "mp4": "mark_romano--nantucket_docks",
-    "params": "controls",
-    "image": "P1280717-landscape_laptop.png"
-  },
+  "video": "http://ipcamlive.com/player/player.php?alias=sumuleu&autoplay=1&mute=1",
   "contact": {
     "links": [
       {
@@ -218,7 +217,7 @@
       }
     ],
     "phone": "0749 995 187",
-    "address": "SC KIS-SKI FUN SRL-D 530101 Municipiul MIERCUREA CIUC, Str KORASI CSOMA SANDOR Nr 4, Ap 2 Cod Unic de Inregistrare: RO29928362 Nr. de inregistrare la ORC: J19/107/19.03.2012",
+    "address": "SC KIS-SKI FUN SRL-D 530101 Municipiul MIERCUREA CIUC, Str KOROSI CSOMA SANDOR Nr 4, Ap 2 Cod Unic de Inregistrare: RO29928362 Nr. de inregistrare la ORC: J19/107/19.03.2012",
     "copyright": "© Toate drepturile rezervate.",
     "protectia": {
       "title": "Protectia Consumatorilor",

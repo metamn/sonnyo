@@ -1,0 +1,8 @@
+@mixin webcam__play {
+  cursor: pointer;
+  
+  .icon {
+    @include icon(25vw);
+    max-width: $lem * 5;
+  }
+}

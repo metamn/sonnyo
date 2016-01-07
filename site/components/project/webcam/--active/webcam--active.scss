@@ -1,0 +1,10 @@
+@mixin webcam--active {
+  .webcam__close,
+  .webcam__iframe {
+    display: flex;
+  }
+
+  .webcam__play {
+    display: none;
+  }
+}

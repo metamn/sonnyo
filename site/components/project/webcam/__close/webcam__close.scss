@@ -1,0 +1,9 @@
+@mixin webcam__close {
+  display: none;
+
+  cursor: pointer;
+
+  .title {
+    display: flex;
+  }
+}

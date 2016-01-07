@@ -1,0 +1,8 @@
+@mixin webcam__iframe {
+  display: none;
+
+  .iframe {
+    width: 80vw;
+    height: 80vh;
+  }
+}

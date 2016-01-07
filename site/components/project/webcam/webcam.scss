@@ -1,11 +1,25 @@
 @mixin webcam {
-  @include intrinsic-ratio(16, 9, '.video');
+  @include full-page;
+  z-index: 1;
 
-  &__video {
-    @include webcam__video;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  &__play {
+    @include webcam__play;
   }
 
-  &__image {
-    @include webcam__image;
+  &__iframe {
+    @include webcam__iframe;
+  }
+
+  &__close {
+    @include webcam__close;
+  }
+
+  &--active {
+    @include webcam--active;
   }
 }
