@@ -21,19 +21,19 @@
   {% set fb = fb %}
   {% set nofbnews = nofbnews %}
   {% set link = contact.links[0] %}
-  {% set title = navigation[1] %}
+  {% set title = navigation[0] %}
   {% include '../../project/news/news.html.swig' %}
 
   {% set image = images[1] %}
-  {% set title = navigation[2] %}
+  {% set title = navigation[1] %}
   {% include '../../project/map/map.html.swig' %}
 
   {% set pictograms = pictograms %}
-  {% set title = navigation[3] %}
+  {% set title = navigation[2] %}
   {% include '../../project/tickets/tickets.html.swig' %}
 
   {% set slides = slides %}
-  {% set title = navigation[4] %}
+  {% set title = navigation[3] %}
   {% include '../../project/slider/slider.html.swig' %}
 
   {% set bullets = slides %}
