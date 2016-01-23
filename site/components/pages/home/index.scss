@@ -3,47 +3,38 @@ html {
     body {
       .header {
         @include header;
-        display: none;
       }
 
       .webcam {
         @include webcam;
-        display: none;
       }
 
       .background-image {
         @include background-image;
-        display: none;
       }
 
       .home__status {
         @include home__status;
-        display: none;
       }
 
       .news {
         @include news;
-        display: none;
       }
 
       .map {
         @include map;
-        display: none;
       }
 
       .tickets {
         @include tickets;
-        display: none;
       }
 
       .slider {
         @include slider;
-        display: none;
       }
 
       .slider__bullets {
         @include slider__bullets;
-        display: none;
       }
 
       .contact {

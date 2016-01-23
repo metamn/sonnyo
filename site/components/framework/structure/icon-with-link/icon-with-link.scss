@@ -1,10 +1,13 @@
 @mixin icon-with-link($width, $color-scheme: none, $type: none) {
   display: flex;
   flex-wrap: no-wrap;
-  align-items: center;
 
-  .link {
-    @include link($color-scheme, $type);
+  &__link {
+    margin-top: $width / 7.5;
+
+    .link {
+      @include link($color-scheme, $type);
+    }
   }
 
   .icon {
