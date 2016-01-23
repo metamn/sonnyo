@@ -40,7 +40,7 @@
   {% include '../../project/slider/__bullets/slider__bullets.html.swig' %}
 
   {% set contact = contact %}
-  {% set icon = icons[1] %}
+  {% set icons = icons %}
   {% set title = navigation | last %}
   {% set image = images[3] %}
   {% include '../../project/contact/contact.html.swig' %}

@@ -3,15 +3,11 @@
     @include ul;
 
     .li {
-      .link {
-        @include link(black-on-white);
-      }
+      margin: $lem / 2 0;
 
-      &.phone {
-        margin-top: $lem;
+      .icon-with-link {
+        @include icon-with-link(25px, black-on-white);
       }
     }
   }
-
-  @include contact__links--portrait;
 }

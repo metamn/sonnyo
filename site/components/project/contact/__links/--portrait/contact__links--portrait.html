@@ -1,1 +1,0 @@
-< class="contact__links--portrait">
