@@ -35,21 +35,21 @@
     }
   ],
   "status": [
-    "We are open",
-    "Partia este deschisa",
-    "Működik a sípálya"
-  ],
-  "status": [
     "Closed",
     "Partia nu functioneaza",
     "Nem működik a sípálya"
   ],
+  "status": [
+    "We are open",
+    "Partia este deschisa",
+    "Működik a sípálya"
+  ],
+  "snow": "15.5",
   "nofbnews": [
     "Cannot get the Facebook news feed. Please read the news live at ",
     "Stirile de pe Facebook nu sunt accesibile momentan. Va rugam cititi stirile direct pe ",
     "Nem sikerult leolvasni a hireket a Facebook-rol. Megkerjuk olvassa a hireken eloben "
   ],
-  "snow": "0",
   "icons": [
     {
       "name": "snowflake",
