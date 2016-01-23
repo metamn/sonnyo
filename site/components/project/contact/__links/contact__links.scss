@@ -3,6 +3,10 @@
     @include ul;
 
     .li {
+      .link {
+        @include link(black-on-white);
+      }
+
       &.phone {
         margin-top: $lem;
       }

@@ -32,6 +32,10 @@
           "name": "P1280717-portrait"
         }
       ]
+    },
+    {
+      "title": "Google Map Directions",
+      "name": "directions"
     }
   ],
   "status": [
@@ -200,19 +204,21 @@
   "contact": {
     "links": [
       {
-        "title": "facebook.com/kissomlyo",
+        "title": "Facebook",
         "url": "http://facebook.com/kissomlyo",
-        "type": "external"
+        "type": "external",
+        "klass": "facebook"
       },
       {
-        "title": "google.com/map",
+        "title": "Google Map",
         "url": "https://www.google.ro/maps/dir//Domeniul+Schiabil+KisSomlyo,+Cs%C3%ADksomly%C3%B3+k%C3%B6r%C3%BAt,+Romania/@46.3794694,25.7963701,13z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x474ad5931807d6d5:0xbb6ddcaf88749503!2m2!1d25.8313894!2d46.3794155!3e0?hl=en",
-        "type": "external"
+        "type": "external",
+        "klass": "google-map"
       }
     ],
     "phone": "0749 995 187",
     "address": "SC KIS-SKI FUN SRL-D 530101 Municipiul MIERCUREA CIUC, Str KOROSI CSOMA SANDOR Nr 4, Ap 2 Cod Unic de Inregistrare: RO29928362 Nr. de inregistrare la ORC: J19/107/19.03.2012",
-    "copyright": "© Toate drepturile rezervate.",
+    "copyright": "© <span class='company__name'>KIS-SKI FUN</span> Toate drepturile rezervate.",
     "protectia": {
       "title": "Protectia Consumatorilor",
       "url": "http://www.anpc.gov.ro/",

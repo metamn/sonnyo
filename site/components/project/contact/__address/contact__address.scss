@@ -4,5 +4,11 @@
 
   .p {
     @include text-style(small);
+
+    .link {
+      @include link(black-on-white, underline);
+    }
   }
+
+  @include contact__address--portrait;
 }

@@ -42,6 +42,7 @@
   {% set contact = contact %}
   {% set icon = icons[1] %}
   {% set title = navigation | last %}
+  {% set image = images[3] %}
   {% include '../../project/contact/contact.html.swig' %}
 
 {% endblock %}

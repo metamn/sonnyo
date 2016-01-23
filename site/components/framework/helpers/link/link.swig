@@ -31,5 +31,5 @@ description: Generate link url and title
     {% set base_url = '' %}
   {% endif %}
 
-  <a class="link" href="{{ base_url }}{{ url }}" title="{{ title }}">
+  <a class="link {{ link.klass }}" href="{{ base_url }}{{ url }}" title="{{ title }}">
 {%- endmacro %}

@@ -1,0 +1,7 @@
+@mixin contact__directions {
+  flex-basis: 100%;
+  
+  .figure {
+    @include figure($stretch: stretched);
+  }
+}

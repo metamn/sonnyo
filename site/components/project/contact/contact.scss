@@ -18,15 +18,15 @@
   padding-bottom: $lem;
   @include border--thick(top);
 
-  .link {
-    @include link(black-on-white, underline);
-  }
-
   &__links {
     @include contact__links;
   }
 
   &__address {
     @include contact__address;
+  }
+
+  &__directions {
+    @include contact__directions;
   }
 }
