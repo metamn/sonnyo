@@ -97,19 +97,10 @@
       "responsive": [
         {
           "breakpoint": "mobile",
-          "properties": [
-            {
-              "name": "font-size",
-              "value": "larger"
-            }
-          ]
-        },
-        {
-          "breakpoint": "mobile-and-up",
           "mixins": [
             {
               "name": "scale",
-              "value": "large-1"
+              "value": "small-1"
             }
           ]
         }

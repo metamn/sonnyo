@@ -1,8 +1,16 @@
 @mixin webcam__play {
   cursor: pointer;
-  
+
   .icon {
     @include icon(25vw);
     max-width: $lem * 5;
+
+    opacity: .5;
+    @include transition(opacity);
+
+    &:hover,
+    &:active {
+      opacity: 1;
+    }
   }
 }

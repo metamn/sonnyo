@@ -70,13 +70,7 @@ $text-block-width: 25em;
     
     
     @include mobile {
-      
-      font-size: larger;
-      
-    }
-    
-    @include mobile-and-up {
-      @include scale(large-1);
+      @include scale(small-1);
       
       
     }
@@ -170,13 +164,7 @@ $text-block-width: 25em;
   
   
   @include mobile {
-    
-    font-size: larger;
-    
-  }
-  
-  @include mobile-and-up {
-    @include scale(large-1);
+    @include scale(small-1);
     
     
   }
