@@ -5,18 +5,18 @@
   justify-content: space-between;
   flex-wrap: wrap;
 
-  &__links,
-  &__address {
-    flex-basis: 50%;
-  }
-
-  @include contact--mobile;
-
   margin-bottom: $lem;
   margin-top: $lem;
   padding-top: $lem;
   padding-bottom: $lem;
   @include border--thick(top);
+
+  @include contact--portrait;
+
+  &__links,
+  &__address {
+    flex-basis: 50%;
+  }
 
   &__links {
     @include contact__links;

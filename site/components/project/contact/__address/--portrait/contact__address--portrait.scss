@@ -1,30 +1,10 @@
 @mixin contact__address--portrait {
   @include portrait {
-    display: flex;
-    flex-direction: column;
-    margin-top: 0;
+    flex-basis: 100%;
+    padding: $lem / 4;
 
     .address {
-      order: 2;
-      margin: $lem 0;
-
       display: none;
-      opacity: 0;
-      @include transition(opacity);
-
-      &--active {
-        display: flex;
-        opacity: 1;
-      }
-    }
-
-    .copyright {
-      order: 1;
-
-      .company__name {
-        @include link($type: underline);
-        cursor: pointer;
-      }
     }
   }
 }

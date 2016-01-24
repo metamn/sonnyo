@@ -5,9 +5,9 @@
     <li class="li phone">
       {{ contact.phone }}
     </li>
-    
+
     {% for link in contact.links %}
-      <li class="li">
+      <li class="li {{ link.klass }}">
         {% set icon = icons[loop.index0 + 2] %}
         {% set icon.link = link %}
         {% include '../../../framework/structure/icon-with-link/icon-with-link.html.swig' %}

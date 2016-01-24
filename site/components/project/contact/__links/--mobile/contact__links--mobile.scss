@@ -1,0 +1,14 @@
+@mixin contact__links--mobile {
+  @include mobile {
+    .ul {
+      flex-direction: column;
+
+      .li {
+        &.phone {
+          position: absolute;
+          right: 0;
+        }
+      }
+    }
+  }
+}

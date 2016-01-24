@@ -1,5 +1,7 @@
 @mixin contact--portrait {
   @include portrait {
-    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    width: 100%;
   }
 }

@@ -10,8 +10,11 @@
       }
 
       &.phone {
-        margin-left: 7px;
+        margin-left: $lem / 4;
       }
     }
   }
+
+  @include contact__links--portrait;
+  @include contact__links--mobile;
 }

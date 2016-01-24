@@ -1,8 +1,0 @@
-@mixin contact--mobile {
-  @include mobile {
-    &__address {
-      margin-top: $lem;
-      flex-basis: 100%;
-    }
-  }
-}

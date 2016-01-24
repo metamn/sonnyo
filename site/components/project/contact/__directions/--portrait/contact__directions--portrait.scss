@@ -1,7 +1,8 @@
 @mixin contact__directions--portrait {
   @include portrait {
-    .figure {
-      display: flex;
-    }
+    @include background-image2($white);
+    display: flex;
+    flex-basis: 100%;
+    height: 90vh;
   }
 }
