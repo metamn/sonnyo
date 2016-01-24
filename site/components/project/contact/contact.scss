@@ -6,7 +6,7 @@
   flex-wrap: wrap;
 
   margin-bottom: $lem;
-  margin-top: $lem;
+  margin-top: $lem / 2;
   padding-top: $lem;
   padding-bottom: $lem;
   @include border--thick(top);

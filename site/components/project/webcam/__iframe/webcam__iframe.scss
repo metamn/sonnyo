@@ -4,6 +4,11 @@
   .iframe {
     width: 100vw;
     height: 100vh;
+
+    // To make the close button to work
+    position: relative;
+    z-index: 1;
+
     @include colors(white-on-black);
   }
 }

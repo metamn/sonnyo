@@ -3,12 +3,16 @@
   cursor: pointer;
 
   position: absolute;
+
+  // to make the close button to work
+  z-index: 30;
+
   top: $lem + $lem / 4;
   right: $lem;
-  @include colors(white-on-black);
-
   width: $lem * 1.5;
   height: $lem * 1.5;
+
+  @include colors(white-on-black);
 
   .hamburger-menu__icon {
     @include hamburger-menu__icon($lem * 1.5, $lem * 1.5);
