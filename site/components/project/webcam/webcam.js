@@ -18,6 +18,10 @@ var webcam = function(containerID, triggerID, videoContainerID, closerID) {
     iframe.setAttribute('frameborder', '0');
 
     videoContainer.appendChild(iframe);
+
+    // header must be hidden otherwise the close icon is not working
+    // tried to fix with z-index but was not working
+    document.querySelector('.header').style.display = "none";
   }
 
   function closeVideo() {
@@ -25,6 +29,9 @@ var webcam = function(containerID, triggerID, videoContainerID, closerID) {
 
     var iframe = videoContainer.querySelector('.iframe');
     videoContainer.removeChild(iframe);
+
+    // re-show header
+    document.querySelector('.header').style.display = "flex";
   }
 }
 

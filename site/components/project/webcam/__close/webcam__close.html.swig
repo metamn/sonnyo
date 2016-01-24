@@ -1,3 +1,3 @@
-<aside class="webcam__close">
-  <h3 class="title">Close / Inchide / Bezár</h3>
-</aside>
+<div class="webcam__close">
+  {% include '../../hamburger-menu/__icon/hamburger-menu__icon.html.swig' %}
+</div>
