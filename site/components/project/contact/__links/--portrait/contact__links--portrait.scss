@@ -5,15 +5,10 @@
     .ul {
       display: flex;
       flex-wrap: wrap;
+      align-items: center;
 
       .li {
         margin: $lem / 4 $lem / 4 0;
-
-        .icon-with-link {
-          &__link {
-            margin-top: 0;
-          }
-        }
 
         &.facebook {
           order: 3;
