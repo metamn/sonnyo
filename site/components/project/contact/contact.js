@@ -1,1 +1,0 @@
-setBackgroundImage('.contact__directions');

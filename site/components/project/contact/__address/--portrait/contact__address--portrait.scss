@@ -1,10 +1,5 @@
 @mixin contact__address--portrait {
   @include portrait {
-    flex-basis: 100%;
-    padding: $lem / 4;
-
-    .address {
-      display: none;
-    }
+    display: none;
   }
 }
