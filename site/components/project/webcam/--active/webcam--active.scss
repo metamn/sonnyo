@@ -1,4 +1,6 @@
 @mixin webcam--active {
+  @include colors(white-on-black);
+  
   .webcam__close,
   .webcam__iframe {
     display: flex;
