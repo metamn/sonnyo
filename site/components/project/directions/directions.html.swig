@@ -1,5 +1,0 @@
-<section class="directions">
-  <h3>Map and directions</h3>
-
-  <iframe class="directions__map" src="{{ map.url }}" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-</section>
