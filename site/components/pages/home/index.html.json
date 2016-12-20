@@ -43,12 +43,12 @@
     "Partia nu functioneaza",
     "Nem működik a sípálya"
   ],
-  "status": [
+  "statusc": [
     "We are open",
     "Partia este deschisa",
     "Működik a sípálya"
   ],
-  "snow": "35",
+  "snow": "5",
   "nofbnews": [
     "Cannot get the Facebook news feed. Please read the news live at ",
     "Stirile de pe Facebook nu sunt accesibile momentan. Va rugam cititi stirile direct pe ",
@@ -208,7 +208,7 @@
       }
     }
   ],
-  "video": "http://ipcamlive.com/player/player.php?alias=sumuleu&autoplay=1&mute=1",
+  "video": "http://ipcamlive.com/player/player.php?alias=58592aad5d01b",
   "contact": {
     "links": [
       {
