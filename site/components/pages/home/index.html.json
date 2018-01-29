@@ -38,12 +38,12 @@
       "name": "directions"
     }
   ],
-  "status": [
+  "statusc": [
     "Closed",
     "Partia nu functioneaza",
     "Nem működik a sípálya"
   ],
-  "statusc": [
+  "statuso": [
     "We are open",
     "Partia este deschisa",
     "Működik a sípálya"
