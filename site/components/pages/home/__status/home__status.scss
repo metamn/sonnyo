@@ -1,12 +1,6 @@
 @mixin home__status {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  margin-bottom: $lem;
-
-  @include home__status--mobile;
-  @include home__status--mobile-and-up;
+  @include section-padding;
+  margin-top: $lem;
 
   .status {
     @include status;
@@ -18,5 +12,27 @@
 
   .weather {
     @include weather;
+  }
+
+  @include mobile {
+    @include grid(2, $lem, $lem);
+
+    .status {
+      width: 100%;
+      margin-right: 0;
+    }
+
+    .snow {
+      margin-right: $lem;
+    }
+  }
+
+  @include mobile-and-up {
+    @include grid(3, $lem, $lem);
+
+    .snow,
+    .weather {
+      justify-content: center;
+    }
   }
 }
