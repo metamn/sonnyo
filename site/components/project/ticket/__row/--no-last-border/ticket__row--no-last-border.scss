@@ -1,0 +1,5 @@
+@mixin ticket__row--no-last-border {
+  &:last-of-type {
+    border: none;
+  }
+}

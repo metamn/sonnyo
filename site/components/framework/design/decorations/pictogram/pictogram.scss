@@ -1,22 +1,16 @@
-@mixin pictogram($width: $lem * 5, $centered: false) {
-  width: $width;
-
+@mixin pictogram($icon-width: $lem * 3, $text-size: default, $number-size: default) {
   display: flex;
   align-items: center;
 
-  @if ($centered != false) {
-    justify-content: center;
-  }
-
   &__text {
-    @include pictogram__text;
+    @include pictogram__text($text-size);
   }
 
   &__icon {
-    @include pictogram__icon($width / 3);
+    @include pictogram__icon($icon-width);
   }
 
   &__number {
-    @include pictogram__number;
+    @include pictogram__number($number-size);
   }
 }

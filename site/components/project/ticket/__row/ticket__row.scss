@@ -1,0 +1,16 @@
+@mixin ticket__row($icon-width: $lem * 3, $text-size: small-1, $number-size: large-3, $value-size: default, $padding: $lem / 2) {
+  @include grid(3, $lem, 0px, $grid-title: false);
+  @include border--normal;
+
+  align-items: center;
+
+  .pictogram {
+    @include pictogram($icon-width, $text-size, $number-size);
+    padding: $padding;
+  }
+
+  .value {
+    @include scale($value-size);
+    padding: $padding;
+  }
+}

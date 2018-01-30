@@ -1,5 +1,10 @@
-@mixin pictogram__number {
+@mixin pictogram__number($scale) {
   .number {
     @include text-style(large);
+    @include scale($scale);
+  }
+
+  + .pictogram__text {
+    margin-left: $lem / 2;
   }
 }

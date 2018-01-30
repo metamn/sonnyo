@@ -1,0 +1,9 @@
+@mixin ticket--large {
+  .ticket__head {
+    @include ticket__head($icon-width: $lem * 2, $text-size: large-1, $padding: $lem);
+  }
+
+  .ticket__row {
+    @include ticket__row($text-size: default, $number-size: large-4, $value-size: large-1, $padding: $lem);
+  }
+}

@@ -1,0 +1,9 @@
+@mixin ticket__head($icon-width: $lem * 1.5, $text-size: default, $padding: $lem / 2) {
+  @include grid(3, $lem, 0px, $grid-title: false);
+  @include border--normal;
+
+  .pictogram {
+    @include pictogram($icon-width, $text-size);
+    padding: $padding 0;
+  }
+}

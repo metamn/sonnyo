@@ -1,61 +1,30 @@
-@mixin ticket($width: $lem * 7) {
+@mixin ticket {
   display: flex;
   flex-direction: column;
 
   @include box-shadow;
 
-  .title {
+  &__title {
     display: flex;
+
     @include text-style(subtitle);
     padding: $lem / 2;
   }
 
-  .head,
-  .row {
-    display: flex;
-    flex-wrap: no-wrap;
-    justify-content: space-between;
-    align-items: center;
-
-    margin: $lem / 2;
-    @include border--normal;
+  &__head {
+    @include ticket__head;
   }
 
-  // Row last border
-  .row {
-    &:last-of-type {
-      border: none;
-    }
-
-    // Half widths
-    .value {
-      .text {
-        @include scale(large-2);
-      }
-    }
+  &__row {
+    @include ticket__row;
+    @include ticket__row--no-last-border;
   }
 
-  .head {
-    .pictogram {
-      @include pictogram($width, centered);
-
-      &__text {
-        .text {
-          @include scale(large-2);
-        }
-      }
-    }
+  @include landscape {
+    @include ticket--large;
   }
 
-  // Full widths
-  .row {
-    .pictogram {
-      @include pictogram($width);
-    }
-  }
-
-  .empty,
-  .item, {
-    width: $width;
+  @include desktop {
+    @include ticket--large-desktop;
   }
 }
