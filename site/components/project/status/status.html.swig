@@ -1,8 +1,16 @@
 <aside class="status">
   <h3>Status</h3>
 
+  {% for status in statuses %}
+    {% set klass = '' %}
+    {% if loop.first %}
+      {% set klass = 'status__message--visible' %}
+    {% endif %}
 
-  {% for s in status %}
-    <p class="p">{{ s }}</p>
+    <div class="status__message status__message--{{ status.name }} {{ klass }}">
+      {% for message in status.messages %}
+        <p class="p">{{ message }}</p>
+      {% endfor %}
+    </div>
   {% endfor %}
 </aside>

@@ -1,7 +1,21 @@
 @mixin status {
-  .p {
-    &:first-of-type {
-      @include colors(green-on-white);
+  &__message {
+    .p {
+      &:first-of-type {
+        @include colors(green-on-white);
+      }
+    }
+
+    // defaults
+    display: none;
+
+    &--visible{
+      display: flex;
+      flex-direction: column;
+    }
+
+    &--hidden {
+      display: none;
     }
   }
 }

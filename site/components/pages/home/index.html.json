@@ -38,15 +38,23 @@
       "name": "directions"
     }
   ],
-  "statusc": [
-    "Closed",
-    "Partia nu functioneaza",
-    "Nem működik a sípálya"
-  ],
-  "statuso": [
-    "We are open",
-    "Partia este deschisa",
-    "Működik a sípálya"
+  "statuses": [
+    {
+      "name": "closed",
+      "messages": [
+        "Closed",
+        "Partia nu functioneaza",
+        "Nem működik a sípálya"
+      ]
+    },
+    {
+      "name": "open",
+      "messages": [
+        "We are open",
+        "Partia este deschisa",
+        "Működik a sípálya"
+      ]
+    }
   ],
   "snow": "5",
   "nofbnews": [
