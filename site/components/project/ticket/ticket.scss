@@ -1,0 +1,61 @@
+@mixin ticket($width: $lem * 7) {
+  display: flex;
+  flex-direction: column;
+
+  @include box-shadow;
+
+  .title {
+    display: flex;
+    @include text-style(subtitle);
+    padding: $lem / 2;
+  }
+
+  .head,
+  .row {
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: $lem / 2;
+    @include border--normal;
+  }
+
+  // Row last border
+  .row {
+    &:last-of-type {
+      border: none;
+    }
+
+    // Half widths
+    .value {
+      .text {
+        @include scale(large-2);
+      }
+    }
+  }
+
+  .head {
+    .pictogram {
+      @include pictogram($width, centered);
+
+      &__text {
+        .text {
+          @include scale(large-2);
+        }
+      }
+    }
+  }
+
+  // Full widths
+  .row {
+    .pictogram {
+      @include pictogram($width);
+    }
+  }
+
+  .empty,
+  .item, {
+    width: $width;
+  }
+}

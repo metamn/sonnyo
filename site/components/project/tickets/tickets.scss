@@ -1,28 +1,23 @@
 @mixin tickets {
   @include section-padding;
-  margin-bottom: $lem;
 
-  @include grid3('article');
+  @include mobile {
+    @include grid(1, 0px, $lem);
+  }
+
+  @include mobile-and-up {
+    @include grid(2, $lem * 2, $lem);
+  }
 
   &__title {
     display: flex;
     flex-basis: 100%;
+    margin-bottom: $lem;
+    margin-right: 0;
     @include text-style(title);
   }
 
-  &__card,
-  &__lap,
-  &__pass {
-    @include tickets--style($lem * 7, 3);
+  .ticket {
+    @include ticket;
   }
-
-  // Same height card titles on tablets
-  @include tablet {
-    .tickets__card {
-      .title {
-        min-height: $lem * 2;
-      }
-    }
-  }
-
 }

@@ -85,4 +85,4 @@ var setTickets = function(ID) {
   });
 }
 
-setTickets('.tickets');
+// setTickets('.tickets');

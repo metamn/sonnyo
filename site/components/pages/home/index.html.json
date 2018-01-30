@@ -310,5 +310,15 @@
   },
   "map": {
     "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2752.4943626601967!2d25.829200716027355!3d46.37941917992761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474ad5931807d6d5%3A0xbb6ddcaf88749503!2sDomeniul+Schiabil+KisSomlyo!5e0!3m2!1sen!2sro!4v1448437805607"
-  }
+  },
+  "pictograms": [
+    {
+      "text": ["18-"],
+      "icon": "children"
+    },
+    {
+      "text": ["18+"],
+      "icon": "adult"
+    }
+  ]
 }
