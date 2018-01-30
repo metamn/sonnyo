@@ -1,8 +1,11 @@
-var getStatus = function(containerID) {
-  jsonAPICall(containerID, function(result) {
-    console.log(result)
+var setStatus = function() {
+  var ref = firebase.database().ref('/status');
+  console.log('ref:' + ref);
+
+  ref.once("value").then(function(snapshot) {
+    var key = JSON.stringify(snapshot);
+    console.log('status:' + key);
   });
 }
 
-getStatus('.jsonstatus');
-imagesLoading('.openweather__icon');
+setStatus();

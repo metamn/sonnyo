@@ -19,6 +19,9 @@
         "file": "hammer.min.js"
       },
       {
+        "file": "firebase.4.9.0.js"
+      },
+      {
         "file": "site.min.js"
       }
     ]
