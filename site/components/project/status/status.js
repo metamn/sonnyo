@@ -9,7 +9,7 @@ var setProgramForStatus = function(ID) {
       var end = snapshot.val();
 
       var message = document.querySelector(ID);
-      message.innerHTML += " (" + start + " - " + end + ")";
+      message.innerHTML += " " + start + " - " + end;
     });
   });
 }
@@ -23,7 +23,7 @@ var setStatus = function(ID, klassname) {
     var klass = klassname + '--' + key;
 
     if (key == "open") {
-      setProgramForStatus('.status .status__message:nth-of-type(2) .p:first-of-type');
+      setProgramForStatus('.status .status__message:nth-of-type(3) .p:last-of-type');
     }
 
     var messages = document.querySelectorAll(ID);
