@@ -3,7 +3,6 @@ var setSnow = function(ID) {
 
   ref.once("value").then(function(snapshot) {
     var val = snapshot.val();
-    console.log('snow:' + val);
 
     var snow = document.querySelector(ID);
     if (snow) {
