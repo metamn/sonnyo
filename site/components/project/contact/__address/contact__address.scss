@@ -8,7 +8,12 @@
     .link {
       @include link(black-on-white, underline);
     }
+
+    &.address {
+      @include portrait {
+        display: none;
+      }
+    }
   }
 
-  @include contact__address--portrait;
 }

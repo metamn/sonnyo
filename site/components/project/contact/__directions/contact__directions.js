@@ -1,1 +1,0 @@
-imagesLoading('.contact__directions');
