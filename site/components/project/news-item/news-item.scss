@@ -1,8 +1,10 @@
 @mixin news-item {
   @include text-style(body-text);
   max-width: none;
-  
+
   padding: $lem / 2;
+  padding-bottom: $lem;
+
   background: url('/assets/images/news-background.png');
 
   &__date {

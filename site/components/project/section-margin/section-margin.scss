@@ -1,0 +1,17 @@
+@mixin section-margin {
+  margin-left: $lem / 2;
+  margin-right: $lem / 2;
+  width: calc(100% - #{$lem});
+
+  @include laptop {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: calc(100% - 10%);
+  }
+
+  @include desktop {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: calc(100% - 20%);
+  }
+}

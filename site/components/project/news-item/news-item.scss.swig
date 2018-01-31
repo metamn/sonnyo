@@ -4,7 +4,6 @@
 
   padding: $lem / 2;
   padding-bottom: $lem;
-  margin-top: $lem;
 
   background: url('{{ site.url }}{{ site.images }}news-background.png');
 

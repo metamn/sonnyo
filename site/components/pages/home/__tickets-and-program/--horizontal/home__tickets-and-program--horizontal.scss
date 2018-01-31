@@ -1,0 +1,19 @@
+@mixin home__tickets-and-program--horizontal {
+  display: flex;
+  flex-wrap: nowrap;
+
+  @include section-margin;
+  @include border(thick, all);
+  padding: $lem;
+  margin-bottom: $lem;
+  box-sizing: border-box;
+
+  .tickets {
+    order: 2;
+  }
+
+  .program {
+    @include program--large;
+    @include program--vertical;
+  }
+}

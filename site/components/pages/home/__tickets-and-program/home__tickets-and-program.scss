@@ -1,1 +1,19 @@
-@mixin home__tickets-and-program {}
+@mixin home__tickets-and-program {
+  @include section-padding;
+
+  .tickets {
+    @include tickets;
+  }
+
+  .program {
+    @include program;
+  }
+
+  @include portrait {
+    @include home__tickets-and-program--vertical;
+  }
+
+  @include landscape {
+    @include home__tickets-and-program--horizontal;
+  }
+}

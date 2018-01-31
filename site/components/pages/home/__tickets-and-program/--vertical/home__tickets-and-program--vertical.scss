@@ -1,0 +1,9 @@
+@mixin home__tickets-and-program--vertical {
+  .program {
+    @include program--centered;
+    @include program--with-box-shadow;
+
+    margin-bottom: $lem;
+    padding: $lem / 2;
+  }
+}
