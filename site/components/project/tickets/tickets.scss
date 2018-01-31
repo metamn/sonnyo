@@ -1,18 +1,24 @@
 @mixin tickets {
-  @include mobile {
-    @include grid(1, 0px, $lem);
-  }
-
-  @include mobile-and-up {
-    @include grid(2, $lem, $lem);
-  }
-
   &__title {
     display: flex;
     flex-basis: 100%;
     margin-bottom: $lem;
     margin-right: 0;
     @include text-style(title);
+  }
+
+  &__list {
+    @include mobile {
+      @include grid(1, 0px, $lem, $grid-title: false);
+    }
+
+    @include mobile-and-up {
+      @include grid(2, $lem, $lem, $grid-title: false);
+    }
+
+    @include landscape {
+      @include grid(2, $lem * 2, $lem, $grid-title: false);
+    }
   }
 
   .ticket {

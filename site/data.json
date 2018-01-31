@@ -1,0 +1,43 @@
+{
+	"program": {
+    "start": "10:00",
+    "end": "21:00"
+  },
+	"snow": "20",
+	"status": "open",
+	"tickets": [{
+			"title": "Laps / Urcari / Felvonás",
+			"items": [{
+					"quantity": "1",
+					"prices": ["2.5", "3.5"]
+				},
+				{
+					"quantity": "10",
+					"prices": ["20", "30"]
+				},
+				{
+					"quantity": "20",
+					"prices": ["35", "50"]
+				},
+				{
+					"quantity": "60",
+					"prices": ["90", "120"]
+				}
+			]
+		},
+		{
+			"title": "Pass / Abonament / Bérlet",
+			"items": [{
+					"quantity": "4",
+					"text": ["hours", "ore", "óra"],
+					"prices": ["25", "35"]
+				},
+				{
+					"quantity": "8",
+					"text": ["hours", "ore", "óra"],
+					"prices": ["40", "55"]
+				}
+			]
+		}
+	]
+}

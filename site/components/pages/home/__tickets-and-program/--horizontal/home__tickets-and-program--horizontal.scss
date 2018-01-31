@@ -1,6 +1,7 @@
 @mixin home__tickets-and-program--horizontal {
   display: flex;
   flex-wrap: nowrap;
+  justify-content: space-around;
 
   @include section-margin;
   @include border(thick, all);
