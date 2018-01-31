@@ -2,7 +2,7 @@
   <div class="news-item__message">
     <p>
       {{ error }}
-      {% include '../../../../../framework/design/typography/elements/link/link.html.swig' %}
+      {% include '../../../framework/design/typography/elements/link/link.html.swig' %}
     </p>
   </div>
 </div>

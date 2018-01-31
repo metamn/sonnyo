@@ -3,7 +3,7 @@
 
   <div class="news__body" data-url="{{ fb.url }}">
     {% for error in nofbnews %}
-      {% include '__body/news-item/--error/news-item--error.html.swig' %}
+      {% include '../news-item/--error/news-item--error.html.swig' %}
     {% endfor %}
   </div>
 </article>

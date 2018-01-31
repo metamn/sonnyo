@@ -1,11 +1,17 @@
 @mixin news__body {
-  @include grid3('.news-item');
-
   .news-item {
     @include news-item;
   }
 
   .news-item--error {
     @include news-item--error;
+  }
+
+  @include portrait {
+    @include grid(1, 0px, $lem, $grid-title: false);
+  }
+
+  @include landscape {
+    @include grid(3, $lem, $lem, $grid-title: false);
   }
 }
