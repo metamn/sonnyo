@@ -28,9 +28,7 @@
   {% set title = navigation[1] %}
   {% include '../../project/map/map.html.swig' %}
 
-  {% set pictograms = pictograms %}
-  {% set title = navigation[2] %}
-  {% include '../../project/tickets/tickets.html.swig' %}
+  {% include '__tickets-and-program/home__tickets-and-program.html.swig' %}
 
   {% set slides = slides %}
   {% set title = navigation[3] %}

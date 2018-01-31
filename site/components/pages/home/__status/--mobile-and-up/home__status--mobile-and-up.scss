@@ -2,6 +2,12 @@
   @include mobile-and-up {
     @include grid(3, $lem, $lem);
 
+    .status,
+    .snow,
+    .weather {
+      @include text-style(large-1);
+    }
+
     .snow,
     .weather {
       justify-content: center;

@@ -12,5 +12,9 @@
         <p class="p">{{ message }}</p>
       {% endfor %}
     </div>
+
+    {% if (status.name == "open") %}
+      {% include '../program/program.html.swig' %}
+    {% endif %}
   {% endfor %}
 </aside>

@@ -7,7 +7,7 @@
 // Styleguide header
 @mixin header {
   @include section-padding;
-  padding-top: $lem / 2;
+  padding-top: $lem;
 
   position: absolute;
   z-index: 10;
