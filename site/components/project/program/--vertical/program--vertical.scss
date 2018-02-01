@@ -7,4 +7,11 @@
   .text {
     writing-mode: sideways-lr;
   }
+
+  // when there is no writing mode support (like iPad)
+  max-width: 15%;
+
+  .text {
+    word-wrap: break-word;
+  }
 }
