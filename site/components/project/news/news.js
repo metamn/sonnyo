@@ -15,12 +15,11 @@ var news = function(containerID) {
   });
 
   if (success) {
-    var errors = container.querySelectorAll('.news-item--error');
+    var errors = container.querySelectorAll(".news-item--error");
     for (var j = 0; j < errors.length; j++) {
-      errors[j].classList.add('hidden');
+      errors[j].classList.add("hidden");
     }
   }
-
 
   // Get the news
   // - not all data received are news
@@ -30,27 +29,29 @@ var news = function(containerID) {
     var news = 0;
 
     for (var j = 0; j < 20; j++) {
-      if (news === 3) { break; }
+      if (news === 3) {
+        break;
+      }
 
       var m = data[j].message;
       if (m) {
         news++;
 
-        var item = document.createElement('div');
-        item.className = 'news-item';
+        var item = document.createElement("div");
+        item.className = "news-item";
 
-        var message = document.createElement('div');
-        message.className = 'news-item__message';
+        var message = document.createElement("div");
+        message.className = "news-item__message";
 
         // Split ro / hu entries into <p>
         m = m.split("\n\n").join("</p><p>");
-        message.innerHTML = '<p>' + m + '</p>';
+        message.innerHTML = "<p>" + m + "</p>";
 
-        var date = document.createElement('div');
-        date.className = 'news-item__date';
+        var date = document.createElement("div");
+        date.className = "news-item__date";
 
-        var date2 = document.createElement('span');
-        date2.className = 'date';
+        var date2 = document.createElement("span");
+        date2.className = "date";
 
         // created_time: 2015-02-26T13:33:25+0000
         var d = data[j].created_time.split("T");
@@ -66,8 +67,8 @@ var news = function(containerID) {
       }
     }
 
-    return (news === 3);
+    return news === 3;
   }
-}
+};
 
-news('.news .news__body');
+//news('.news .news__body');
