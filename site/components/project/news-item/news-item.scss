@@ -5,7 +5,7 @@
   padding: $lem / 2;
   padding-bottom: $lem;
 
-  background: url('/assets/images/news-background.png');
+  background: url('http://www.somlyo.ro/assets/images/news-background.png');
 
   &__date {
     @include news-item__date;
