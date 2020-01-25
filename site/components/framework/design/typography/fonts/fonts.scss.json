@@ -5,7 +5,21 @@
       "description": "The default typeface",
       "family": "sans-serif",
       "character_set": "Full character set, with OpenType Features",
-      "served_from": "Typekit",
+      "served_from": "local",
+      "face": [
+        {
+          "url": "nimbussanl-reg-webfont.ttf",
+          "format": "truetype"
+        },
+        {
+          "url": "nimbussanl-reg-webfont.woff",
+          "format": "woff"
+        },
+        {
+          "url": "nimbussanl-reg-webfont.woff2",
+          "format": "woff2"
+        }
+      ],
       "styles": [
         {
           "name": "Regular",

@@ -18,8 +18,6 @@
 
     <link href="{{ site.url }}assets/styles/site.css" media="screen, projection" rel="stylesheet" type="text/css" />
 
-    <script src="https://use.typekit.net/nvy7idl.js"></script>
-    <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
     {{ scripts | safe }}
 

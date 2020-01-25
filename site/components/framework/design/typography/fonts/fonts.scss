@@ -8,13 +8,36 @@
 // Styleguide fonts
 
 
+
+
 // Nimbus Sans
 // - The default typeface, sans-serif
 // - character set: Full character set, with OpenType Features
-// - served from Typekit
+// - served from local
 // - styles and weights: Regular, Bold, Black, 
 
 
+
+// Font faces
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: 'nimbus-sans';
+  src: url(/assets/fonts/nimbussanl-reg-webfont.ttf) format("truetype"), url(/assets/fonts/nimbussanl-reg-webfont.woff) format("woff"), url(/assets/fonts/nimbussanl-reg-webfont.woff2) format("woff2");
+}
 
 
 // The font mixin
