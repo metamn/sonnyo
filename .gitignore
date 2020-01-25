@@ -5,3 +5,4 @@ time.csv
 node_modules
 site/assets/images/resized
 site/assets/images/to-resize
+firebase-debug.log
