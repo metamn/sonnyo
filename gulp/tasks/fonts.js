@@ -24,5 +24,5 @@ var fonts = function(source, dest) {
 
 // Task for concatenating external .js files to destination
 gulp.task("fonts", function() {
-  fonts(paths.fonts_src, paths.fonts_dest);
+  fonts(paths.font_move_src, paths.font_move_dest);
 });
