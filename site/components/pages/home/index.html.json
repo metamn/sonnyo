@@ -44,72 +44,63 @@
       "messages": [
         "Please call us for the program",
         "Va rugam sa ne sunati pentru program",
-        "A működési információkért kérjük hivjanak",
-        "Tel: 0749 995 187"
+        "A működési információkért kérjük hivjanak telefonon"
       ]
     },
     {
       "name": "closed",
-      "messages": [
-        "Closed",
-        "Partia nu functioneaza",
-        "Nem működik a sípálya"
-      ]
+      "messages": ["Closed", "Partia nu functioneaza", "Nem működik a sípálya"]
     },
     {
       "name": "open",
-      "messages": [
-        "We are open",
-        "Partia este deschisa",
-        "Működik a sípálya"
-      ]
+      "messages": ["We are open", "Partia este deschisa", "Működik a sípálya"]
     }
   ],
   "snow": "N/A",
   "snow": "20",
-	"status": "open",
+  "status": "open",
   "program": {
     "start": "10:00",
     "end": "21:00"
   },
-	"tickets": [
+  "tickets": [
     {
-			"title": "Laps / Urcari / Felvonás",
-			"items": [
+      "title": "Laps / Urcari / Felvonás",
+      "items": [
         {
-					"quantity": "1",
-					"prices": ["2.5", "3.5"]
-				},
-				{
-					"quantity": "10",
-					"prices": ["20", "30"]
-				},
-				{
-					"quantity": "20",
-					"prices": ["35", "50"]
-				},
-				{
-					"quantity": "60",
-					"prices": ["90", "120"]
-				}
-			]
-		},
-		{
-			"title": "Pass / Abonament / Bérlet",
-			"items": [
+          "quantity": "1",
+          "prices": ["2.5", "3.5"]
+        },
         {
-					"quantity": "4",
-					"text": ["hours", "ore", "óra"],
-					"prices": ["25", "35"]
-				},
-				{
-					"quantity": "8",
-					"text": ["hours", "ore", "óra"],
-					"prices": ["40", "55"]
-				}
-			]
-		}
-	],
+          "quantity": "10",
+          "prices": ["20", "30"]
+        },
+        {
+          "quantity": "20",
+          "prices": ["35", "50"]
+        },
+        {
+          "quantity": "60",
+          "prices": ["90", "120"]
+        }
+      ]
+    },
+    {
+      "title": "Pass / Abonament / Bérlet",
+      "items": [
+        {
+          "quantity": "4",
+          "text": ["hours", "ore", "óra"],
+          "prices": ["25", "35"]
+        },
+        {
+          "quantity": "8",
+          "text": ["hours", "ore", "óra"],
+          "prices": ["40", "55"]
+        }
+      ]
+    }
+  ],
   "nofbnews": [
     "Cannot get the Facebook news feed. Please read the news live at ",
     "Stirile de pe Facebook nu sunt accesibile momentan. Va rugam cititi stirile direct pe ",
